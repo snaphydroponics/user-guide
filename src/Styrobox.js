@@ -1,8 +1,9 @@
 import React from 'react';
 import styroboxArragement from './images/styrobox-arrangement.jpg';
 
-function Styrobox(props) {
-  if (props.lang === 'fil') {
+function Styrobox({match}) {
+  const lang = match.params.lang || 'fil';
+  if (lang === 'fil') {
     return (
       <div className="container">
         <header className="my-5">

@@ -9,8 +9,9 @@ import enlargedHole from './images/enlarged-hole.jpg';
 import bambooToolCentered from './images/bamboo-tool-centered.jpg';
 import puncherInterior from './images/styrofoam-puncher-interior-view.jpg';
 
-function StyrofoamPuncher(props) {
-  if (props.lang === 'fil') {
+function StyrofoamPuncher({match}) {
+  const lang = match.params.lang || 'fil';
+  if (lang === 'fil') {
     return (
       <div className="container">
         <header className="my-5">

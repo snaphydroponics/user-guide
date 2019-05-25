@@ -14,8 +14,8 @@ import hardeningOff from './images/hardening-off.jpg';
 import addingWater from './images/adding-water.jpg';
 import workingSolution from './images/working-solution.jpg';
 
-function Manual(props) {
-  const lang = props.lang || 'fil';
+function Manual({match}) {
+  const lang = match.params.lang || 'fil';
   if (lang === 'fil') {
     return (
       <div className="container">

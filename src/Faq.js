@@ -1,8 +1,9 @@
 import React from 'react';
 import snapAandB from './images/snap-a-and-b.jpg';
 
-function Faq(props) {
-  if (props.lang === 'fil') {
+function Faq({match}) {
+  const lang = match.params.lang || 'fil';
+  if (lang === 'fil') {
     return (
       <div className="container">
         <header className="my-5">

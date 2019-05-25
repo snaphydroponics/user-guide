@@ -7,8 +7,9 @@ import diseases from './images/seed-borne-diseases.jpg';
 import sowingTray from './images/sowing-tray.jpg';
 import lettuce from './images/lettuce-seedlings-and-seeds.jpg';
 
-function SeedlingProduction(props) {
-  if (props.lang === 'fil') {
+function SeedlingProduction({match}) {
+  const lang = match.params.lang || 'fil';
+  if (lang === 'fil') {
     return (
       <div className="container">
         <header className="my-5">

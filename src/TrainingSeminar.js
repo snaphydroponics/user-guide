@@ -1,8 +1,9 @@
 import React from 'react';
 
-function TrainingSeminar(props)
+function TrainingSeminar({match})
 {
-  if (props.lang === 'fil') {
+  const lang = match.params.lang || 'fil';
+  if (lang === 'fil') {
     return (
       <div className="container">
         <header className="my-5">

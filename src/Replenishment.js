@@ -5,8 +5,9 @@ import replenish3 from './images/replenishment-3.png';
 import replenish4 from './images/replenishment-4.png';
 import replenish5 from './images/replenishment-5.png';
 
-function Replenishment(props) {
-  if (props.lang === 'fil') {
+function Replenishment({match}) {
+  const lang = match.params.lang || 'fil';
+  if (lang === 'fil') {
     return (
       <div className="container">
         <header className="my-5">

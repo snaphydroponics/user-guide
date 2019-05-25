@@ -1,7 +1,7 @@
 import React from 'react';
 
-function AuthorizedResellers(props) {
-  const lang = props.lang || 'fil';
+function AuthorizedResellers({match}) {
+  const lang = match.params.lang || 'fil';
   if (lang === 'fil') {
     return (
       <div className="container">

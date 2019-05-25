@@ -66,49 +66,28 @@ class App extends React.Component {
           </Navbar>
 
           <main role="main" className="flex-shrink-0">
-            <Route exact path="/" render={() => (
-              <Manual lang={this.state.lang} />
-            )} />
 
-            <Route exact path="/authorized-resellers" render={() => (
-              <AuthorizedResellers lang={this.state.lang} />
-            )} />
+            <Route exact path="/:lang?/authorized-resellers" component={AuthorizedResellers} />
 
-            <Route exact path="/coco-peat" render={() => (
-              <CocoPeat lang={this.state.lang} />
-            )} />
+            <Route exact path="/:lang?/coco-peat" component={CocoPeat} />
 
-            <Route exact path="/faq" render={() => (
-              <Faq lang={this.state.lang} />
-            )} />
+            <Route exact path="/:lang?/faq" component={Faq} />
 
-            <Route exact path="/grow-box" render={() => (
-              <GrowBox lang={this.state.lang} />
-            )} />
+            <Route exact path="/:lang?/grow-box" component={GrowBox} />
 
-            <Route exact path="/replenishment" render={() => (
-              <Replenishment lang={this.state.lang} />
-            )} />
+            <Route exact path="/:lang?/replenishment" component={Replenishment} />
 
-            <Route exact path="/seedling-production" render={() => (
-              <SeedlingProduction lang={this.state.lang} />
-            )} />
+            <Route exact path="/:lang?/seedling-production" component={SeedlingProduction} />
 
-            <Route exact path="/styrobox" render={() => (
-              <Styrobox lang={this.state.lang} />
-            )} />
+            <Route exact path="/:lang?/styrobox" component={Styrobox} />
 
-            <Route exact path="/styrofoam-puncher" render={() => (
-              <Styrobox lang={this.state.lang} />
-            )} />
+            <Route exact path="/:lang?/styrofoam-puncher" component={StyrofoamPuncher} />
 
-            <Route exact path="/training-seminar" render={() => (
-              <TrainingSeminar lang={this.state.lang} />
-            )} />
+            <Route exact path="/:lang?/training-seminar" component={TrainingSeminar} />
 
-            <Route exact path="/working-solution" render={() => (
-              <WorkingSolution lang={this.state.lang} />
-            )} />
+            <Route exact path="/:lang?/working-solution" component={WorkingSolution} />
+
+            <Route exact path="/:lang?" component={Manual} />
 
           </main>
             <Footer lang={this.state.lang} />

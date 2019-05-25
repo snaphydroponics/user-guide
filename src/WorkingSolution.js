@@ -2,8 +2,9 @@ import React from 'react';
 import workSol from './images/working-solution.jpg';
 import measuringCup from './images/measuring-cup.jpg';
 
-function WorkingSolution(props) {
-  if (props.lang === 'fil') {
+function WorkingSolution({match}) {
+  const lang = match.params.lang || 'fil';
+  if (lang === 'fil') {
     return (
       <div className="container">
         <header className="my-5">
