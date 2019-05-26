@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import snapAandB from './images/snap-a-and-b.jpg';
 
 function Faq({match}) {
   const lang = match.params.lang || 'fil';
@@ -35,7 +36,7 @@ function Faq({match}) {
       B naman ay malinaw at medyo madilaw.</i></p>
 
   <figure className="figure">
-    <img src="/images/snap-a-and-b.jpg" width="1280" height="1280" className="figure-img img-fluid" alt="Pares ng 500mL PET bottles na naglalaman ng SNAP at SNAP B." />
+    <img src={snapAandB} width="1280" height="1280" className="figure-img img-fluid" alt="Pares ng 500mL PET bottles na naglalaman ng SNAP at SNAP B." />
 
     <figcaption className="figure-caption">Ang <abbr title="Simple Nutrient Addition Program">SNAP</abbr> A ay puti ang malabo at ang <abbr title="Simple Nutrient Addition Program">SNAP</abbr> B ay malinaw at may pagkadilaw.</figcaption>
 
@@ -124,7 +125,7 @@ function Faq({match}) {
         cloudy and <abbr title="Simple Nutrient Addition Program">SNAP</abbr> B is clear and yellowish.</p>
 
       <figure className="figure">
-        <img src="/images/snap-a-and-b.jpg" width="1280" height="1280" className="figure-img img-fluid" alt="A pair of 500mL PET bottles containing SNAP A and SNAP B." />
+        <img src={snapAandB} width="1280" height="1280" className="figure-img img-fluid" alt="A pair of 500mL PET bottles containing SNAP A and SNAP B." />
 
         <figcaption className="figure-caption"><abbr title="Simple Nutrient Addition Program">SNAP</abbr> A is white and cloudy and <abbr title="Simple Nutrient Addition Program">SNAP</abbr> B is clear and yellowish.</figcaption>
 
