@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function AuthorizedResellers({match}) {
   const lang = match.params.lang || 'fil';
@@ -14,7 +15,7 @@ function AuthorizedResellers({match}) {
         <p>Ang SNAP Nutrient Solution for Hydroponics ay dini-<i lang="en">distribute</i>
           ng mga <i lang="en">SNAP Hydroponics Authorized Resellers</i>. Ang mga
           <i lang="en">authorized resellers</i> ay nakilahok at nakumpleto ang 
-          <a href="/training-seminar"><i lang="en">short training course on SNAP Hydroponics</i></a>.
+          <Link to="/training-seminar"><i lang="en">short training course on SNAP Hydroponics</i></Link>.
           Sila ay awtorisadong bumili ng SNAP Hydroponics nutrient solutions mula sa IPB-<abbr title="University of the Philippines Los Baños">UPLB</abbr>
           at muli itong ipagbili. Sila ay nagsanay sa <i lang="en">theoretical</i> at
           praktikal na mga aspeto ng <i lang="en">hydroponics</i> na may pagdiin sa pag-
@@ -51,7 +52,7 @@ function AuthorizedResellers({match}) {
 
         <p>SNAP Nutrient Solution for Hydroponics is distributed by SNAP Hydroponics
           Authorized Resellers. Authorized resellers have participated and completed
-          the <a href="/en/training-seminar">short training course on SNAP Hydroponics</a>.
+          the <Link to="/en/training-seminar">short training course on SNAP Hydroponics</Link>.
           They are authorized to acquire SNAP Hydroponics nutrient solutions from IPB-<abbr title="University of the Philippines Los Baños">UPLB</abbr>
           for resell purposes. They are trained in the theoretical and practical aspects
           of hydroponics with emphasis on setting-up and running a SNAP Hydroponics system;

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import suitableSNAPLocation from './images/suitable-snap-location.jpg';
 import sowingTray from './images/sowing-tray.jpg';
 import cocoPeat from './images/coco-peat.jpg';
@@ -115,7 +116,7 @@ function Manual({match}) {
 
         </figure>
 
-        <p><a href="/coco-peat" className="btn btn-primary btn-block">Gabay sa <i lang="en">Coco Peat</i></a></p>
+        <p><Link to="/coco-peat" className="btn btn-primary btn-block">Gabay sa <i lang="en">Coco Peat</i></Link></p>
 
         <h3 id="mga-buto">Mga Buto</h3>
 
@@ -170,7 +171,7 @@ function Manual({match}) {
 
         </ol>
 
-        <p><a href="/seedling-production" className="btn btn-primary btn-block">Gabay sa Pagpapatubo ng Binhi</a></p>
+        <p><Link to="/seedling-production" className="btn btn-primary btn-block">Gabay sa Pagpapatubo ng Binhi</Link></p>
 
         <h1 id="ihanda-ang-mga-grow-boxes">Ihanda ang mga <i lang="en">Grow Boxes</i></h1>
 
@@ -187,7 +188,7 @@ function Manual({match}) {
           <i lang="en">styroboxes</i> na may ganitong laki ay pangkaraniwang makikita sa mga
           buwan ng Setyembre hanggang Enero.</p>
 
-        <p><a href="/en/styrobox" className="btn btn-primary btn-block">Styrofoam Boxes Guide</a></p>
+        <p><Link to="/en/styrobox" className="btn btn-primary btn-block">Styrofoam Boxes Guide</Link></p>
 
         <h3 id="lining-material"><i lang="en">Lining Material</i></h3>
 
@@ -211,7 +212,7 @@ function Manual({match}) {
               plugs</a></i>. Ang lata na may tamang laki ay maaaring gawing
           ganito.</p>
 
-        <p><a href="/styrofoam-puncher" className="btn btn-primary btn-block">Gabay sa Pambutas</a></p>
+        <p><Link to="/styrofoam-puncher" className="btn btn-primary btn-block">Gabay sa Pambutas</Link></p>
 
         <h3 id="packaging-tape"><i lang="en">Packaging Tape</i></h3>
 
@@ -299,7 +300,7 @@ function Manual({match}) {
           </li>
         </ol>
 
-        <p><a href="/grow-box" className="btn btn-primary btn-block">Gabay sa <i lang="en">Grow Boxes</i></a></p>
+        <p><Link to="/grow-box" className="btn btn-primary btn-block">Gabay sa <i lang="en">Grow Boxes</i></Link></p>
 
         <h1 id="ihanda-ang-mga-seedling-plugs">Ihanda ang mga <i lang="en">Seedling Plugs</i></h1>
 
@@ -374,7 +375,7 @@ function Manual({match}) {
           <li>
             <p>Kung nanaisin, ng mga binhi sa nasa <i lang="en">seedling plugs</i> ay maaring
               <em>patibayin</em> bago sila ilipat sa <i lang="en">growing boxes</i>. Hayaang nakatubog
-              sa mababaw na matabang na <a href="/working-solution"><i lang="en">working solution</i></a>
+              sa mababaw na matabang na <Link to="/working-solution"><i lang="en">working solution</i></Link>
               ang mga inihandang <i lang="en">seedling plugs</i> ng mga ilang araw.</p>
 
             <figure className="figure">
@@ -387,7 +388,7 @@ function Manual({match}) {
           </li>
 
         </ol>
-        <p><a href="/working-solution" className="btn btn-primary btn-block">Gabay sa <i lang="en">Working Solution</i></a></p>
+        <p><Link to="/working-solution" className="btn btn-primary btn-block">Gabay sa <i lang="en">Working Solution</i></Link></p>
 
         <h1 id="pag-setup-ng-snap-hydroponics-system">Pag-setup ng <i lang="en"><abbr title="Simple Nutrient Addition Program">SNAP</abbr> Hydroponics System</i></h1>
 
@@ -400,7 +401,7 @@ function Manual({match}) {
           sinaliksik, ginagawa, at ipinagbibili sa <abbr title="Institute of Plant Breeding-UPLB">IPB-UPLB</abbr>. Ang mga ito rin ay ipinagbibili
           ng mga <i lang="en"><abbr title="Simple Nutrient Addition Program">SNAP</abbr> Authorized Resellers</i></p>
 
-        <p><a href="/authorized-resellers" className="btn btn-primary btn-block">Gabay sa <i lang="en">Authorized Resellers</i></a></p>
+        <p><Link to="/authorized-resellers" className="btn btn-primary btn-block">Gabay sa <i lang="en">Authorized Resellers</i></Link></p>
 
         <h3 id="seedling-plugs"><i lang="en">Seedling Plugs</i></h3>
 
@@ -526,9 +527,9 @@ function Manual({match}) {
           </li>
         </ul>
 
-        <p><a href="/replenishment" className="btn btn-primary btn-block">Gabay sa <i lang="en">Replenishment</i></a></p>
+        <p><Link to="/replenishment" className="btn btn-primary btn-block">Gabay sa <i lang="en">Replenishment</i></Link></p>
 
-        <p>Para sa mga karagdagang katanungan mangyaring sumangguni sa <a href="/faq">mga madalas na tanong</a>.</p>
+        <p>Para sa mga karagdagang katanungan mangyaring sumangguni sa <Link to="/faq">mga madalas na tanong</Link>.</p>
 
 
 
@@ -632,7 +633,7 @@ function Manual({match}) {
 
         </figure>
 
-        <p><a href="/en/coco-peat" className="btn btn-primary btn-block">Coco Peat Guide</a></p>
+        <p><Link to="/en/coco-peat" className="btn btn-primary btn-block">Coco Peat Guide</Link></p>
 
         <h3 id="seeds">Seeds</h3>
 
@@ -683,7 +684,7 @@ function Manual({match}) {
           </li>
         </ol>
 
-        <p><a href="/en/seedling-production" className="btn btn-primary btn-block">Seedling Production Guide</a></p>
+        <p><Link to="/en/seedling-production" className="btn btn-primary btn-block">Seedling Production Guide</Link></p>
 
         <h1 id="prepare-grow-boxes">Prepare Grow Boxes</h1>
 
@@ -699,7 +700,7 @@ function Manual({match}) {
           Styroboxes of this size are used to transport US imported grapes and are
           typically common during the months of September to January.</p>
 
-        <p><a href="/en/styrobox" className="btn btn-primary btn-block">Styrofoam Boxes Guide</a></p>
+        <p><Link to="/en/styrobox" className="btn btn-primary btn-block">Styrofoam Boxes Guide</Link></p>
 
         <h3 id="lining-material">Lining Material</h3>
 
@@ -720,7 +721,7 @@ function Manual({match}) {
           for the <a href="#prepare-seedling-plugs">seedling plugs</a>. A tin can of the appropriate diameter
           for the seedling plug can be made into such a tool.</p>
 
-        <p><a href="/en/styrofoam-puncher" className="btn btn-primary btn-block">Styroam Puncher Guide</a></p>
+        <p><Link to="/en/styrofoam-puncher" className="btn btn-primary btn-block">Styroam Puncher Guide</Link></p>
 
         <h3 id="packaging-tape">Packaging Tape</h3>
 
@@ -795,7 +796,7 @@ function Manual({match}) {
           </li>
         </ol>
 
-        <p><a href="/en/grow-box" className="btn btn-primary btn-block">Grow Boxes Guide</a></p>
+        <p><Link to="/en/grow-box" className="btn btn-primary btn-block">Grow Boxes Guide</Link></p>
 
         <h1 id="prepare-seedling-plugs">Prepare Seedling Plugs</h1>
 
@@ -875,7 +876,7 @@ function Manual({match}) {
           </li>
         </ol>
 
-        <p><a href="/en/working-solution" className="btn btn-primary btn-block">Working Solution Guide</a></p>
+        <p><Link to="/en/working-solution" className="btn btn-primary btn-block">Working Solution Guide</Link></p>
 
         <h1 id="setting-up-the-snap-hydroponics-system">Setting Up the <abbr title="Simple Nutrient Addition Program">SNAP</abbr> Hydroponics System</h1>
 
@@ -887,7 +888,7 @@ function Manual({match}) {
           They are developed, manufactured and sold in <abbr title="Institute of Plant Breeding-UPLB">IPB-UPLB</abbr>. They are also distributed
           by <abbr title="Simple Nutrient Addition Program">SNAP</abbr> Authorized Resellers.</p>
 
-        <p><a href="/en/authorized-resellers" className="btn btn-primary btn-block">Authorized Resellers Guide</a></p>
+        <p><Link to="/en/authorized-resellers" className="btn btn-primary btn-block">Authorized Resellers Guide</Link></p>
 
         <h3 id="seedling-plugs">Seedling Plugs</h3>
 
@@ -1001,9 +1002,9 @@ function Manual({match}) {
           </li>
         </ul>
 
-        <p><a href="/en/replenishment" className="btn btn-primary btn-block">Replenishment Guide</a></p>
+        <p><Link to="/en/replenishment" className="btn btn-primary btn-block">Replenishment Guide</Link></p>
 
-        <p>For any additional questions please refer to the <a href="/en/faq">frequently asked questions</a>
+        <p>For any additional questions please refer to the <Link to="/en/faq">frequently asked questions</Link>
           page.</p>
 
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import snapAandB from './images/snap-a-and-b.jpg';
+import { Link } from 'react-router-dom';
 
 function Faq({match}) {
   const lang = match.params.lang || 'fil';
@@ -35,7 +35,7 @@ function Faq({match}) {
       B naman ay malinaw at medyo madilaw.</i></p>
 
   <figure className="figure">
-    <img src={snapAandB} width="1280" height="1280" className="figure-img img-fluid" alt="Pares ng 500mL PET bottles na naglalaman ng SNAP at SNAP B." />
+    <img src="/images/snap-a-and-b.jpg" width="1280" height="1280" className="figure-img img-fluid" alt="Pares ng 500mL PET bottles na naglalaman ng SNAP at SNAP B." />
 
     <figcaption className="figure-caption">Ang <abbr title="Simple Nutrient Addition Program">SNAP</abbr> A ay puti ang malabo at ang <abbr title="Simple Nutrient Addition Program">SNAP</abbr> B ay malinaw at may pagkadilaw.</figcaption>
 
@@ -44,7 +44,7 @@ function Faq({match}) {
       <h2 id="saan-mabibi-ang-snap-nutrient-solution-for-hydroponics">Saan mabibi ang <i lang="en"><abbr title="Simple Nutrient Addition Program">SNAP</abbr> Nutrient Solution for Hydroponics</i>?</h2>
 
       <p>Ang mga ito ay mabibili sa Institute of Plant Breding (<abbr title="Institute of Plant Breeding">IPB</abbr>) at sa mga
-      <a href="/authorized-resellers"><i lang="en"><abbr title="Simple Nutrient Addition Program">SNAP</abbr> Authorized Resellers</i></a>.
+      <Link to="/authorized-resellers"><i lang="en"><abbr title="Simple Nutrient Addition Program">SNAP</abbr> Authorized Resellers</i></Link>.
       Dahil ito ay popular, ang ibang hydroponic nutrient solutions ay tinatawag din
       na <abbr title="Simple Nutrient Addition Program">SNAP</abbr>. Upang makatiyak na tunay ang binibiling <abbr title="Simple Nutrient Addition Program">SNAP</abbr> nutrient solution, bilhin
       lamang sila sa mga <i lang="en"><abbr title="Simple Nutrient Addition Program">SNAP</abbr> Authorized Resellers</i> o sa <abbr title="Institute of Plant Breeding">IPB</abbr>.</p>
@@ -58,8 +58,8 @@ function Faq({match}) {
     <h2 id="saan-mabibili-ang-mga-styrofoam-boxes">Saan mabibili ang mga styrofoam boxes?</h2>
 
     <p>Ang mga ito ay mabibili sa mga nagtitinda ng prutas na nagtitinda ng <i lang="en">
-        imported</i> na ubas. May mga <a href="/styrobox">karagdang impormasyon tungkol sa mga
-      <i lang="en">styroboxes</i> dito</a>.</p>
+        imported</i> na ubas. May mga <Link to="/styrobox">karagdang impormasyon tungkol sa mga
+      <i lang="en">styroboxes</i> dito</Link>.</p>
 
   <h2 id="ano-ang-maari-kong-gawin-sa-natitirang-solution-matapos-anihin">Ano ang maari kong gawin sa natitirang <i lang="en">solution</i> matapos anihin</h2>
   <p>ang mga pananim?</p>
@@ -69,7 +69,7 @@ function Faq({match}) {
 
   <h2 id="ano-ang-nilalaman-ng-snap-nutrient-solution-for-hydroponics-a-at-b">Ano ang nilalaman ng <i lang="en"><abbr title="Simple Nutrient Addition Program">SNAP</abbr> Nutrient Solution for Hydroponics</i> A at B?</h2>
 
-  <p>Mangyaring sumanguni sa <a href="/files/combined-msds-for-snap-a-and-b.pdf"><i lang="en">materials safety data sheet</i></a>
+  <p>Mangyaring sumanguni sa <Link to="/files/combined-msds-for-snap-a-and-b.pdf"><i lang="en">materials safety data sheet</i></Link>
     (<abbr title="Materials Safety Data Sheet">MSDS</abbr>) ng <i lang="en"><abbr title="Simple Nutrient Addition Program">SNAP</abbr> Nutrient Solution for Hydroponics</i> A at B.</p>
 
   <h2 id="ano-ang-ipinahihiwatig-ng-mga-petsa-na-nasa-mga-bote-ng-snap">Ano ang ipinahihiwatig ng mga petsa na nasa mga bote ng <abbr title="Simple Nutrient Addition Program">SNAP</abbr>?</h2>
@@ -124,7 +124,7 @@ function Faq({match}) {
         cloudy and <abbr title="Simple Nutrient Addition Program">SNAP</abbr> B is clear and yellowish.</p>
 
       <figure className="figure">
-        <img src={snapAandB} width="1280" height="1280" className="figure-img img-fluid" alt="A pair of 500mL PET bottles containing SNAP A and SNAP B." />
+        <img src="/images/snap-a-and-b.jpg" width="1280" height="1280" className="figure-img img-fluid" alt="A pair of 500mL PET bottles containing SNAP A and SNAP B." />
 
         <figcaption className="figure-caption"><abbr title="Simple Nutrient Addition Program">SNAP</abbr> A is white and cloudy and <abbr title="Simple Nutrient Addition Program">SNAP</abbr> B is clear and yellowish.</figcaption>
 
@@ -132,8 +132,8 @@ function Faq({match}) {
 
       <h2 id="where-can-i-buy-snap-nutrient-solution-for-hydroponics">Where can I buy <abbr title="Simple Nutrient Addition Program">SNAP</abbr> Nutrient Solution for Hydroponics?</h2>
 
-      <p>They are available in the Institute of Plant Breeding (<abbr title="Institute of Plant Breeding">IPB</abbr>) and <a href="/en/authorized-resellers"><abbr title="Simple Nutrient Addition Program">SNAP</abbr> Authorized
-          Resellers</a>. Due to its popularity other
+      <p>They are available in the Institute of Plant Breeding (<abbr title="Institute of Plant Breeding">IPB</abbr>) and <Link to="/en/authorized-resellers"><abbr title="Simple Nutrient Addition Program">SNAP</abbr> Authorized
+          Resellers</Link>. Due to its popularity other
         hydroponic nutrient solutions are being referred to as <abbr title="Simple Nutrient Addition Program">SNAP</abbr>. To make sure you
         are buying authentic <abbr title="Simple Nutrient Addition Program">SNAP</abbr> nutrient solution, buy them only from <abbr title="Simple Nutrient Addition Program">SNAP</abbr> Authorized
         Resellers or from <abbr title="Institute of Plant Breeding">IPB</abbr>.</p>
@@ -146,7 +146,7 @@ function Faq({match}) {
       <h2 id="where-can-i-buy-styrofoam-boxes">Where can I buy styrofoam boxes?</h2>
 
       <p>You can buy them from fruit vendors that sell imported grapes. You can
-        find <a href="/en/styrobox">more information about styroboxes here</a>.</p>
+        find <Link to="/en/styrobox">more information about styroboxes here</Link>.</p>
 
       <h2 id="what-can-i-do-with-the-spent-solution-left-in-the-grow-box-after-i-harvest-my-crops">What can I do with the spent solution left in the grow box after I harvest my crops?</h2>
 
