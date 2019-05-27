@@ -1,6 +1,7 @@
 import React from 'react';
 import cocoPeat from './images/coco-peat.jpg';
 import cocoCoirDust from './images/coco-coir-dust.jpg';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function CocoPeat({match}) {
   const lang = match.params.lang || 'fil';
@@ -21,7 +22,7 @@ function CocoPeat({match}) {
           medium</i>.</p>
 
       <figure className="figure">
-        <img src={cocoPeat} width="1280" height="853" className="figure-img img-fluid" alt="Tuyo at siksik na brick ng coco peat." />
+        <LazyLoadImage src={cocoPeat} width="1280" height="853" className="figure-img img-fluid" alt="Tuyo at siksik na brick ng coco peat." />
 
         <figcaption className="figure-caption">Karaniwang tatak ng coco peat na tipikal na makikita sa mga gardening sections ng hardware stores.</figcaption>
 
@@ -35,7 +36,7 @@ function CocoPeat({match}) {
       <i lang="en">sterile</i>.</p>
 
     <figure className="figure">
-      <img src={cocoCoirDust} width="853" height="1280" className="figure-img img-fluid" alt="Nakasupot na coco coir dust." />
+      <LazyLoadImage src={cocoCoirDust} width="853" height="1280" className="figure-img img-fluid" alt="Nakasupot na coco coir dust." />
 
       <figcaption className="figure-caption">Pangkaraniwang tatak ng nakasupot na coco coir dust na tipikal na makikita sa gardening section ng hardware stores.</figcaption>
 
@@ -78,7 +79,7 @@ function CocoPeat({match}) {
         or as a soilless growing medium.</p>
 
       <figure className="figure">
-        <img src={cocoPeat} width="1280" height="853" className="figure-img img-fluid" alt="Compressed and dehydrated bricks of coco peat." />
+        <LazyLoadImage src={cocoPeat} width="1280" height="853" className="figure-img img-fluid" alt="Compressed and dehydrated bricks of coco peat." />
 
         <figcaption className="figure-caption">A common brand of coco peat typically found in gardening sections of hardware stores.</figcaption>
 
@@ -90,7 +91,7 @@ function CocoPeat({match}) {
         generally sterile.</p>
 
       <figure className="figure">
-        <img src={cocoCoirDust} width="853" height="1280" className="figure-img img-fluid" alt="Bagged coco coir dust." />
+        <LazyLoadImage src={cocoCoirDust} width="853" height="1280" className="figure-img img-fluid" alt="Bagged coco coir dust." />
 
         <figcaption className="figure-caption">A common brand of bagged coco coir dust typically found in gardening sections of hardware stores.</figcaption>
 

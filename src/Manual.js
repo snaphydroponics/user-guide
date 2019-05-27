@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import suitableSNAPLocation from './images/suitable-snap-location.jpg';
 import sowingTray from './images/sowing-tray.jpg';
 import cocoPeat from './images/coco-peat.jpg';
@@ -64,7 +65,7 @@ function Manual({match}) {
         </ul>
 
         <figure className="figure">
-          <img src={suitableSNAPLocation} width="1280" height="427" className="figure-img img-fluid" alt="Mga grow boxes na may lumalaking halaman, nakalagay sa mga patungan, at nasa maaraw na lugar." />
+          <LazyLoadImage src={suitableSNAPLocation} width="1280" height="427" className="figure-img img-fluid" alt="Mga grow boxes na may lumalaking halaman, nakalagay sa mga patungan, at nasa maaraw na lugar." />
 
           <figcaption className="figure-caption">Isang angkop na lugar para sa pagpapatubo gamit ang <abbr title="Simple Nutrient Addition Program">SNAP</abbr> Hydroponics</figcaption>
 
@@ -93,7 +94,7 @@ function Manual({match}) {
           itong umikot.</p>
 
         <figure className="figure">
-          <img src={sowingTray} width="1280" height="853" className="figure-img img-fluid" alt="Micorwavable na tub na may mga butas sa ilalim." />
+          <LazyLoadImage src={sowingTray} width="1280" height="853" className="figure-img img-fluid" alt="Micorwavable na tub na may mga butas sa ilalim." />
 
           <figcaption className="figure-caption">Punlaan: ginamit ang mababaw na microwavable tub na maraming butas na lugusan na dinagdag sa ilalim.</figcaption>
 
@@ -110,7 +111,7 @@ function Manual({match}) {
           mga sanhi ng sakit.</p>
 
         <figure className="figure">
-          <img src={cocoPeat} width="1280" height="853" className="figure-img img-fluid" alt="Isang balde ng pinaalsang coco peat." />
+          <LazyLoadImage src={cocoPeat} width="1280" height="853" className="figure-img img-fluid" alt="Isang balde ng pinaalsang coco peat." />
 
           <figcaption className="figure-caption">Coco peat na nagmula mula sa coco peat bricks.</figcaption>
 
@@ -141,7 +142,7 @@ function Manual({match}) {
               buto na malimit ay nakasulat sa pakete ng buto.</p>
 
             <figure className="figure">
-              <img src={seedPacketLabel} width="1280" height="853" className="figure-img img-fluid" alt="Micorwavable na tub na may mga butas sa ilalim." />
+              <LazyLoadImage src={seedPacketLabel} width="1280" height="853" className="figure-img img-fluid" alt="Micorwavable na tub na may mga butas sa ilalim." />
 
               <figcaption className="figure-caption">Punlaan: ginamit ang mababaw na microwavable tub na maraming butas na lugusan na dinagdag sa ilalim.</figcaption>
 
@@ -161,7 +162,7 @@ function Manual({match}) {
               kanya-kanyang <i lang="en"><a href="#ihanda-ang-mga-seedling-plugs">seedling plugs</a></i>.</p>
 
             <figure className="figure">
-              <img src={germinatedSeeds} width="1280" height="853" className="figure-img img-fluid" alt="Napa-usbong na mga buto ng letsugas na nagpapakita ng kanilang unang totoong dahon." />
+              <LazyLoadImage src={germinatedSeeds} width="1280" height="853" className="figure-img img-fluid" alt="Napa-usbong na mga buto ng letsugas na nagpapakita ng kanilang unang totoong dahon." />
 
               <figcaption className="figure-caption">Mga punla ng lettuce na nagpapakita ng unang totoong mga dahon.</figcaption>
 
@@ -199,7 +200,7 @@ function Manual({match}) {
             plastic bags</i>.</p>
 
         <figure className="figure">
-          <img src={pePlasticBag} width="1280" height="427" className="figure-img img-fluid" alt="Isang bag ng polyethylene plastic (PE) bag kung saan ang sukat at bilang ng laman ay nakatala." />
+          <LazyLoadImage src={pePlasticBag} width="1280" height="427" className="figure-img img-fluid" alt="Isang bag ng polyethylene plastic (PE) bag kung saan ang sukat at bilang ng laman ay nakatala." />
 
           <figcaption className="figure-caption">Isang pangkariwang tatak ng 20 ✕ 30 pulgadang <abbr title="Polyethylene">PE</abbr> plastic bags.</figcaption>
 
@@ -244,7 +245,7 @@ function Manual({match}) {
 
 
             <figure className="figure">
-              <img src={guideLines} width="1280" height="853" className="figure-img img-fluid" alt="Itaas na hati ng grow box na pinapakita ang mga ginuhit na linyang gabay." />
+              <LazyLoadImage src={guideLines} width="1280" height="853" className="figure-img img-fluid" alt="Itaas na hati ng grow box na pinapakita ang mga ginuhit na linyang gabay." />
 
               <figcaption className="figure-caption">Mga linyang pinagdudugsong ang mga ventilation holes sa mga magkasalungat na panig. Gagawa ng butas kung saan sila nagtatagpo.</figcaption>
 
@@ -272,7 +273,7 @@ function Manual({match}) {
 
 
             <figure className="figure">
-              <img src={growboxTopBottomView} width="1280" height="853" className="figure-img img-fluid" alt="Itaas na hat ng grow box na pinapakita kung paano nakasentro ang mga butas gamit ang mga linyang gabay bilang gabay." />
+              <LazyLoadImage src={growboxTopBottomView} width="1280" height="853" className="figure-img img-fluid" alt="Itaas na hat ng grow box na pinapakita kung paano nakasentro ang mga butas gamit ang mga linyang gabay bilang gabay." />
 
               <figcaption className="figure-caption">Ginawa ang butas kung saan nagtatagpo ang mga linyang gabay.</figcaption>
 
@@ -292,7 +293,7 @@ function Manual({match}) {
 
 
             <figure className="figure">
-              <img src={linedGrowBoxLowerHalf} width="1280" height="853" className="figure-img img-fluid" alt="Ibabang bahagi ng styrofoam box na sinapinan ng PE plastic sheet." />
+              <LazyLoadImage src={linedGrowBoxLowerHalf} width="1280" height="853" className="figure-img img-fluid" alt="Ibabang bahagi ng styrofoam box na sinapinan ng PE plastic sheet." />
 
               <figcaption className="figure-caption">Ibabang bahagi ng styrofoam box na sinapinan ng <abbr title="Polyethylene">PE</abbr> plastic sheet.</figcaption>
 
@@ -312,7 +313,7 @@ function Manual({match}) {
           na nakalarawan sa baba.</p>
 
         <figure className="figure">
-          <img src={styroCup} width="1280" height="853" className="figure-img img-fluid" alt="Styro cups na nakataob at nakatikhaya." />
+          <LazyLoadImage src={styroCup} width="1280" height="853" className="figure-img img-fluid" alt="Styro cups na nakataob at nakatikhaya." />
 
           <figcaption className="figure-caption">Isang tipikal na 8 oz. na basong yari sa styrofoam.</figcaption>
 
@@ -349,7 +350,7 @@ function Manual({match}) {
 
 
             <figure className="figure">
-              <img src={seedlingPlugBottom} width="853" height="1280" className="figure-img img-fluid" alt="Ilalim ng seedling plug na nagpapakita ng mga hiwa sa tagiliran at ilalim." />
+              <LazyLoadImage src={seedlingPlugBottom} width="853" height="1280" className="figure-img img-fluid" alt="Ilalim ng seedling plug na nagpapakita ng mga hiwa sa tagiliran at ilalim." />
 
               <figcaption className="figure-caption">Ilalim ng seedling plug na may mga hiwa sa tagiliran at ilalim.</figcaption>
 
@@ -379,7 +380,7 @@ function Manual({match}) {
               ang mga inihandang <i lang="en">seedling plugs</i> ng mga ilang araw.</p>
 
             <figure className="figure">
-              <img src={hardeningOff} width="1280" height="853" className="figure-img img-fluid" alt="Seedling plugs na nakatubog sa mababaw na matabang na SNAP working solution." />
+              <LazyLoadImage src={hardeningOff} width="1280" height="853" className="figure-img img-fluid" alt="Seedling plugs na nakatubog sa mababaw na matabang na SNAP working solution." />
 
               <figcaption className="figure-caption">Mga binhing pinapatibay.</figcaption>
 
@@ -447,7 +448,7 @@ function Manual({match}) {
 
 
             <figure className="figure">
-              <img src={addingWater} width="1280" height="960" className="figure-img img-fluid" alt="Nagbubuhos ng tubig sa ibabang hati ng grow box." />
+              <LazyLoadImage src={addingWater} width="1280" height="960" className="figure-img img-fluid" alt="Nagbubuhos ng tubig sa ibabang hati ng grow box." />
 
               <figcaption className="figure-caption">Nagdadagdag ng sampung litro (10L) ng tubig sa ibabang hati ng grow box.</figcaption>
 
@@ -462,7 +463,7 @@ function Manual({match}) {
               <i lang="en">mixture</i> ay ang <i lang="en">working solution</i>.</p>
 
             <figure className="figure">
-              <img src={workingSolution} width="1280" height="853" className="figure-img img-fluid" alt="SNAP working solution na nagpapakita ng malabo at medyo madilaw na hitsura." />
+              <LazyLoadImage src={workingSolution} width="1280" height="853" className="figure-img img-fluid" alt="SNAP working solution na nagpapakita ng malabo at medyo madilaw na hitsura." />
 
               <figcaption className="figure-caption">Ang tamang timpla ng <abbr title="Simple Nutrient Addition Program">SNAP</abbr> working solution ay may malabo at medyo madilaw na hitsura.</figcaption>
 
@@ -583,7 +584,7 @@ function Manual({match}) {
         </ul>
 
         <figure className="figure">
-          <img src={suitableSNAPLocation} width="1280" height="427" className="figure-img img-fluid" alt="Grow boxes with plants growing, sitting on benches and located in a sunny area." />
+          <LazyLoadImage src={suitableSNAPLocation} width="1280" height="427" className="figure-img img-fluid" alt="Grow boxes with plants growing, sitting on benches and located in a sunny area." />
 
           <figcaption className="figure-caption">A suitable <abbr title="Simple Nutrient Addition Program">SNAP</abbr> Hydroponics growing location.</figcaption>
 
@@ -611,7 +612,7 @@ function Manual({match}) {
           aeration holes on them to allow some air to escape and circulate.</p>
 
         <figure className="figure">
-          <img src={sowingTray} width="1280" height="853" className="figure-img img-fluid" alt="A microwavable tub with holes at the bottom and on the lid." />
+          <LazyLoadImage src={sowingTray} width="1280" height="853" className="figure-img img-fluid" alt="A microwavable tub with holes at the bottom and on the lid." />
 
           <figcaption className="figure-caption">A microwavable tub fashioned into a sowing tray.</figcaption>
 
@@ -627,7 +628,7 @@ function Manual({match}) {
           it could be contaminated with pests and pathogens.</p>
 
         <figure className="figure">
-          <img src={cocoPeat} width="1280" height="853" className="figure-img img-fluid" alt="A tub of hydrated coco peat." />
+          <LazyLoadImage src={cocoPeat} width="1280" height="853" className="figure-img img-fluid" alt="A tub of hydrated coco peat." />
 
           <figcaption className="figure-caption">Coco peat prepared from coco peat bricks.</figcaption>
 
@@ -657,7 +658,7 @@ function Manual({match}) {
 
 
             <figure className="figure">
-              <img src={seedPacketLabel} width="1280" height="427" className="figure-img img-fluid" alt="Close up of a seed packet label showing details such as purity, germination rate, moisture content, net weight and sow by date." />
+              <LazyLoadImage src={seedPacketLabel} width="1280" height="427" className="figure-img img-fluid" alt="Close up of a seed packet label showing details such as purity, germination rate, moisture content, net weight and sow by date." />
 
               <figcaption className="figure-caption">Seed packet label.</figcaption>
 
@@ -676,7 +677,7 @@ function Manual({match}) {
               individual <a href="#prepare-seedling-plugs">seedling plugs</a>.</p>
 
             <figure className="figure">
-              <img src={germinatedSeeds} width="1280" height="853" className="figure-img img-fluid" alt="Germinated lettuce seeds showing their first true leaves." />
+              <LazyLoadImage src={germinatedSeeds} width="1280" height="853" className="figure-img img-fluid" alt="Germinated lettuce seeds showing their first true leaves." />
 
               <figcaption className="figure-caption">Lettuce seedlings with first true leaves visible.</figcaption>
 
@@ -710,7 +711,7 @@ function Manual({match}) {
           plastic bags.</p>
 
         <figure className="figure">
-          <img src={pePlasticBag} width="1280" height="427" className="figure-img img-fluid" alt="A typical brand of 20 ✕ 30 inch PE plastic bags." />
+          <LazyLoadImage src={pePlasticBag} width="1280" height="427" className="figure-img img-fluid" alt="A typical brand of 20 ✕ 30 inch PE plastic bags." />
 
           <figcaption className="figure-caption">A typical brand of 20 ✕ 30 inch PE plastic bags.</figcaption>
         </figure>
@@ -746,7 +747,7 @@ function Manual({match}) {
             box as illustrated below. A hole should be made centered where the lines cross.
 
             <figure className="figure">
-              <img src={guideLines} width="1280" height="853" className="figure-img img-fluid" alt="Upper half of the grow box showing how the guidelines are drawn." />
+              <LazyLoadImage src={guideLines} width="1280" height="853" className="figure-img img-fluid" alt="Upper half of the grow box showing how the guidelines are drawn." />
 
               <figcaption className="figure-caption">Lines connecting ventilation holes in opposite sides. A hole is made where they intersect.</figcaption>
 
@@ -770,7 +771,7 @@ function Manual({match}) {
 
 
             <figure className="figure">
-              <img src={growboxTopBottomView} width="1280" height="853" className="figure-img img-fluid" alt="Upper half of the grow box showing how the punched holes are positioned with respect to the guide lines." />
+              <LazyLoadImage src={growboxTopBottomView} width="1280" height="853" className="figure-img img-fluid" alt="Upper half of the grow box showing how the punched holes are positioned with respect to the guide lines." />
 
               <figcaption className="figure-caption">Holes are punched where the guide lines intersect.</figcaption>
 
@@ -788,7 +789,7 @@ function Manual({match}) {
 
 
             <figure className="figure">
-              <img src={linedGrowBoxLowerHalf} width="1280" height="853" className="figure-img img-fluid" alt="Lower half of a styrofoam box lined with PE plastic sheet." />
+              <LazyLoadImage src={linedGrowBoxLowerHalf} width="1280" height="853" className="figure-img img-fluid" alt="Lower half of a styrofoam box lined with PE plastic sheet." />
 
               <figcaption className="figure-caption">Lower half of a styrofoam box lined with <abbr title="Polyethylene">PE</abbr> plastic sheet.</figcaption>
 
@@ -807,7 +808,7 @@ function Manual({match}) {
         <p>This guide uses eight ounce (8oz.) styrofoam cups pictured below.</p>
 
         <figure className="figure">
-          <img src={styroCup} width="1280" height="853" className="figure-img img-fluid" alt="Styro cups: upside down and rightside up." />
+          <LazyLoadImage src={styroCup} width="1280" height="853" className="figure-img img-fluid" alt="Styro cups: upside down and rightside up." />
 
           <figcaption className="figure-caption">A typical 8 oz. styrofoam cup.</figcaption>
 
@@ -842,7 +843,7 @@ function Manual({match}) {
 
 
             <figure className="figure">
-              <img src={seedlingPlugBottom} width="853" height="1280" className="figure-img img-fluid" alt="Bottom of seedling plug showing slits running along the side and bottom." />
+              <LazyLoadImage src={seedlingPlugBottom} width="853" height="1280" className="figure-img img-fluid" alt="Bottom of seedling plug showing slits running along the side and bottom." />
 
               <figcaption className="figure-caption">Bottom of seedling plug with slits running along the side and bottom.</figcaption>
 
@@ -868,7 +869,7 @@ function Manual({match}) {
               seedling plug sit in a shallow pool of diluted working solution for a few days.</p>
 
             <figure className="figure">
-              <img src={hardeningOff} width="1280" height="853" className="figure-img img-fluid" alt="Seedling plugs sitting on a shallow pool of diluted SNAP working solution." />
+              <LazyLoadImage src={hardeningOff} width="1280" height="853" className="figure-img img-fluid" alt="Seedling plugs sitting on a shallow pool of diluted SNAP working solution." />
 
               <figcaption className="figure-caption">Hardening seedlings off.</figcaption>
 
@@ -927,7 +928,7 @@ function Manual({match}) {
 
 
             <figure className="figure">
-              <img src={addingWater} width="1280" height="960" className="figure-img img-fluid" alt="Water being poured on the bottom half of a grow box." />
+              <LazyLoadImage src={addingWater} width="1280" height="960" className="figure-img img-fluid" alt="Water being poured on the bottom half of a grow box." />
 
               <figcaption className="figure-caption">Adding 10L of clean water to the bottom half of the grow box.</figcaption>
 
@@ -944,7 +945,7 @@ function Manual({match}) {
 
 
             <figure className="figure">
-              <img src={workingSolution} width="1280" height="853" className="figure-img img-fluid" alt="SNAP working solution displaying its cloudy and slightly yellow appearance." />
+              <LazyLoadImage src={workingSolution} width="1280" height="853" className="figure-img img-fluid" alt="SNAP working solution displaying its cloudy and slightly yellow appearance." />
 
               <figcaption className="figure-caption">Properly prepared <abbr title="Simple Nutrient Addition Program">SNAP</abbr> working solution has a cloudy and slightly yellow appearance.</figcaption>
 

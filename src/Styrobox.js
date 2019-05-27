@@ -1,5 +1,6 @@
 import React from 'react';
-//import styroboxArragement from './images/styrobox-arrangement.jpg';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import styroboxArragement from './images/styrobox-arrangement.jpg';
 
 function Styrobox({match}) {
   const lang = match.params.lang || 'fil';
@@ -36,7 +37,7 @@ function Styrobox({match}) {
         ng husto ang kapasidad ng <i lang="en">growing area</i></p>
 
       <figure className="figure">
-        <img src="/images/styrobox-arrangement.jpg" width="1280" height="1280" className="figure-img img-fluid" alt="Limang styroboxes na isinaayos upang magkasya sa 1m by 1.2m na area." />
+        <LazyLoadImage src={styroboxArragement} width="1280" height="1280" className="figure-img img-fluid" alt="Limang styroboxes na isinaayos upang magkasya sa 1m by 1.2m na area." />
 
         <figcaption className="figure-caption">Masinsin na pagkakaayos ng styroboxes.</figcaption>
 
@@ -72,7 +73,7 @@ function Styrobox({match}) {
         maximize the growing capacity of an area.</p>
 
       <figure className="figure">
-        <img src="/images/styrobox-arrangement.jpg" width="1280" height="1280" className="figure-img img-fluid" alt="Five styroboxes arranged so that they fit in a 1m by 1.2m area." />
+        <LazyLoadImage src={styroboxArragement} width="1280" height="1280" className="figure-img img-fluid" alt="Five styroboxes arranged so that they fit in a 1m by 1.2m area." />
 
         <figcaption className="figure-caption">A compact arrangement of styroboxes.</figcaption>
 

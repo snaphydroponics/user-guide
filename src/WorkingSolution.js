@@ -1,6 +1,7 @@
 import React from 'react';
 import workSol from './images/working-solution.jpg';
 import measuringCup from './images/measuring-cup.jpg';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function WorkingSolution({match}) {
   const lang = match.params.lang || 'fil';
@@ -15,7 +16,7 @@ function WorkingSolution({match}) {
 
 
 <figure className="figure">
-  <img src={workSol} width="1280" height="853" className="figure-img img-fluid" alt="SNAP working solution na nagpapakita ng malabo at medyo madilaw na hitsura." />
+  <LazyLoadImage src={workSol} width="1280" height="853" className="figure-img img-fluid" alt="SNAP working solution na nagpapakita ng malabo at medyo madilaw na hitsura." />
   
   <figcaption className="figure-caption">Ang tamang timpla ng SNAP working solution ay may malabo at medyo madilaw na hitsura.</figcaption>
   
@@ -50,7 +51,7 @@ SNAP A at SNAP B, mag-re<i lang="en">react</i> sila sa isa’t-isa at mawawalan
 ng bisa ang resultang <i lang="en">solution</i>.</p>
 
 <figure className="figure">
-  <img src={measuringCup} width="1280" height="853" className="figure-img img-fluid" alt="Puting 30mL na plastic cup na may nakapatong na palatandaan ng level." />
+  <LazyLoadImage src={measuringCup} width="1280" height="853" className="figure-img img-fluid" alt="Puting 30mL na plastic cup na may nakapatong na palatandaan ng level." />
   
   <figcaption className="figure-caption">Punuin ang ganitong klaseng cup sa lebel na may tanda para sa 25mL.</figcaption>
   
@@ -68,7 +69,7 @@ ng bisa ang resultang <i lang="en">solution</i>.</p>
 
 
 <figure className="figure">
-  <img src={workSol} width="1280" height="853" className="figure-img img-fluid" alt="SNAP working solution displaying its cloudy and slightly yellow appearance." />
+  <LazyLoadImage src={workSol} width="1280" height="853" className="figure-img img-fluid" alt="SNAP working solution displaying its cloudy and slightly yellow appearance." />
   
   <figcaption className="figure-caption">Properly prepared SNAP working solution has a cloudy and slightly yellow appearance.</figcaption>
   
@@ -100,7 +101,7 @@ and SNAP B will cause them to react with each other which will render the soluti
 ineffective.</p>
 
 <figure className="figure">
-  <img src={measuringCup} width="1280" height="853" className="figure-img img-fluid" alt="White 30mL plastic cup with a superimposed level indicator" />
+  <LazyLoadImage src={measuringCup} width="1280" height="853" className="figure-img img-fluid" alt="White 30mL plastic cup with a superimposed level indicator" />
   
   <figcaption className="figure-caption">Filling up this cup to the level indicated is 25mL.</figcaption>
   

@@ -8,6 +8,7 @@ import tCut from './images/t-shaped-cut.jpg';
 import enlargedHole from './images/enlarged-hole.jpg';
 import bambooToolCentered from './images/bamboo-tool-centered.jpg';
 import puncherInterior from './images/styrofoam-puncher-interior-view.jpg';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function StyrofoamPuncher({match}) {
   const lang = match.params.lang || 'fil';
@@ -22,7 +23,7 @@ function StyrofoamPuncher({match}) {
 
 
 <figure className="figure">
-  <img src={styrofoamPunchers} width="1280" height="427" className="figure-img img-fluid" alt="Pares ng pambutas ng styrofoam na gawa sa lata at kawayang patpat." />
+  <LazyLoadImage src={styrofoamPunchers} width="1280" height="427" className="figure-img img-fluid" alt="Pares ng pambutas ng styrofoam na gawa sa lata at kawayang patpat." />
   
   <figcaption className="figure-caption">Pares ng buong sariling gawang pambutas ng styrofoam.</figcaption>
   
@@ -46,7 +47,7 @@ butas na magagawa ng lata ay mapagkakasya ang <i lang="en">styro cup</i>, isukso
 sila sa lata mismo gaya ng makikita sa baba.</p>
 
 <figure className="figure">
-  <img src={tinCan} width="853" height="1280" className="figure-img img-fluid" alt="Ang walong onsang styrofoam na baso ay nakasuksok sa lata na may tatlong puldadang diameter." />
+  <LazyLoadImage src={tinCan} width="853" height="1280" className="figure-img img-fluid" alt="Ang walong onsang styrofoam na baso ay nakasuksok sa lata na may tatlong puldadang diameter." />
   
   <figcaption className="figure-caption">Ang walang onsang styrofoam na baso ay kasyang-kasya sa latang may tatlong pulgadang diameter.</figcaption>
   
@@ -79,7 +80,7 @@ Ang pag-ipit ng takip ng lata sa dalawang pirasong kawayan na pinagtagni ay
 maglilipat ng pwersa sa takip na mas kayang indahin ang mga pwersang ito.</p>
 
 <figure className="figure">
-  <img src={bambooSticks} width="1280" height="1280" className="figure-img img-fluid" alt="Pares ng kalahating pulgadang lapad na patpat na kawayan." />
+  <LazyLoadImage src={bambooSticks} width="1280" height="1280" className="figure-img img-fluid" alt="Pares ng kalahating pulgadang lapad na patpat na kawayan." />
   
   <figcaption className="figure-caption">Pares ng patpat na kawayan na magsisilbing hawakan para sa pambutas.</figcaption>
   
@@ -97,7 +98,7 @@ na gilid na pang putol. Ang isang pares ng <i lang="en">tin snips</i> ay kailang
 upang magawa ito.</p>
 
 <figure className="figure">
-  <img src={tinSnips} width="1280" height="853" className="figure-img img-fluid" alt="Pares ng tin snips." />
+  <LazyLoadImage src={tinSnips} width="1280" height="853" className="figure-img img-fluid" alt="Pares ng tin snips." />
   
   <figcaption className="figure-caption">Ang tin snips ay kailangan upang makagawa ng matalas na gilid para sa pambutas.</figcaption>
   
@@ -109,7 +110,7 @@ Ito ay dapat tatlo hanggang limang pulgada ang haba at may kaparehong <i lang="e
 cross section</i> ng materyales na gagamitin bilang hawakan.</p>
 
 <figure className="figure">
-  <img src={pointedBamboo} width="1280" height="1280" className="figure-img img-fluid" alt="Maliit na kawayang patpat na may matulis na dulo." />
+  <LazyLoadImage src={pointedBamboo} width="1280" height="1280" className="figure-img img-fluid" alt="Maliit na kawayang patpat na may matulis na dulo." />
   
   <figcaption className="figure-caption">Gamit upang gumawa ng butas para sa mga hawakan.</figcaption>
   
@@ -129,7 +130,7 @@ butas ay mananatiling nakagitna kahit na ito ay palakihin ng gamit ang maliit na
 patpat na may matulis na dulo.</p>
 
 <figure className="figure">
-  <img src={tCut} width="1280" height="853" className="figure-img img-fluid" alt="Hugis “T” na hiwa malapit sa saradong dulo ng lata." />
+  <LazyLoadImage src={tCut} width="1280" height="853" className="figure-img img-fluid" alt="Hugis “T” na hiwa malapit sa saradong dulo ng lata." />
   
   <figcaption className="figure-caption">Hugis “T” na hiwa malapit sa saradong dulo ng lata.</figcaption>
   
@@ -140,7 +141,7 @@ makagawa ng mas malaking butas. Maaring gumamit ng kahit anong kasangkapan na ma
 tamang laki upang pukpukin ang gamit patagos sa lata.</p>
 
 <figure className="figure">
-  <img src={enlargedHole} width="1280" height="853" className="figure-img img-fluid" alt="Maikling kawayang patpat na may matulis na dulo na pinatags sa hugis “T” na hiwa upang mapalaki ito." />
+  <LazyLoadImage src={enlargedHole} width="1280" height="853" className="figure-img img-fluid" alt="Maikling kawayang patpat na may matulis na dulo na pinatags sa hugis “T” na hiwa upang mapalaki ito." />
   
   <figcaption className="figure-caption">Palakihin ang butas sa pamamagitan ng pagpukpok ng kagamitang yari sa kawayan patagos sa hiwa.</figcaption>
   
@@ -151,7 +152,7 @@ mananatiling nakagitna kagaya ng nakalarawan sa baba. Ulitin ang prosesong ito
 sa kabilang panig ng lata.</p>
 
 <figure className="figure">
-  <img src={bambooToolCentered} width="1280" height="853" className="figure-img img-fluid" alt="Lata na tinitingnan mula sa bukas na dulo, pinapakita ang patpat na gamit na yari sa kawayan na tumatagos mula sa hugis “T” na hiwa." />
+  <LazyLoadImage src={bambooToolCentered} width="1280" height="853" className="figure-img img-fluid" alt="Lata na tinitingnan mula sa bukas na dulo, pinapakita ang patpat na gamit na yari sa kawayan na tumatagos mula sa hugis “T” na hiwa." />
   
   <figcaption className="figure-caption">Ang gamit na kawayan na nakagitna ng mahusay.</figcaption>
   
@@ -163,7 +164,7 @@ ang takip ng lata sa pagitan ng piraso ng kawayan. Itali mga itong mabuti gamit
 ang tali o lastiko.</p>
 
 <figure className="figure">
-  <img src={puncherInterior} width="1280" height="853" className="figure-img img-fluid" alt="Kuha sa loob ng pambutas ng styrofoam na nagpapakita ng mga hawakan na dumadaan sa mga butas sa gilid at tinatawid ang loob ng lata." />
+  <LazyLoadImage src={puncherInterior} width="1280" height="853" className="figure-img img-fluid" alt="Kuha sa loob ng pambutas ng styrofoam na nagpapakita ng mga hawakan na dumadaan sa mga butas sa gilid at tinatawid ang loob ng lata." />
   
   <figcaption className="figure-caption">Mga hawakan na pumapasok sa butas sa tagiliran ng lata, dumadaan sa loob ng lata at binabaybay ang diameter nito.</figcaption>
   
@@ -189,7 +190,7 @@ naalis na labi ng lata at mayroon nag matalas na gilid.</p>
 
 
 <figure className="figure">
-  <img src={styrofoamPunchers} width="1280" height="427" className="figure-img img-fluid" alt="A couple of styrofoam punchers made of tin can and bamboo sticks." />
+  <LazyLoadImage src={styrofoamPunchers} width="1280" height="427" className="figure-img img-fluid" alt="A couple of styrofoam punchers made of tin can and bamboo sticks." />
   
   <figcaption className="figure-caption">A couple of completed DIY styrofoam punchers.</figcaption>
   
@@ -210,7 +211,7 @@ follows standard sizes. To verify if the holes made with a tin can will fit
 the styro cup, fit them to the can itself as demonstrated in the picture below.</p>
 
 <figure className="figure">
-  <img src={tinCan} width="853" height="1280" className="figure-img img-fluid" alt="An 8oz styrofoam cup fit into a tin can with a 3in diameter." />
+  <LazyLoadImage src={tinCan} width="853" height="1280" className="figure-img img-fluid" alt="An 8oz styrofoam cup fit into a tin can with a 3in diameter." />
   
   <figcaption className="figure-caption">Eight-ounce styrofoam cups fits well in 3in diameter tin cans</figcaption>
   
@@ -239,7 +240,7 @@ Sandwiching the lid with two pieces of bamboo lashed together will transfer the
 force to the lid which will be able to handle these forces.</p>
 
 <figure className="figure">
-  <img src={bambooSticks} width="1280" height="1280" className="figure-img img-fluid" alt="A pair of one-half inch wide bamboo stick." />
+  <LazyLoadImage src={bambooSticks} width="1280" height="1280" className="figure-img img-fluid" alt="A pair of one-half inch wide bamboo stick." />
   
   <figcaption className="figure-caption">A pair of bamboo sticks that will serve as handles for the puncher.</figcaption>
   
@@ -256,7 +257,7 @@ sturdy length of string or fishing line works too.</p>
 a sharp cutting edge. A pair of tin snips is required in order to do this.</p>
 
 <figure className="figure">
-  <img src={tinSnips} width="1280" height="853" className="figure-img img-fluid" alt="A pair of tin snips." />
+  <LazyLoadImage src={tinSnips} width="1280" height="853" className="figure-img img-fluid" alt="A pair of tin snips." />
   
   <figcaption className="figure-caption">Tin snips are required to make a sharp cutting edge for the puncher.</figcaption>
   
@@ -268,7 +269,7 @@ be around 3–5 inches long with the same cross section as the material that wil
 be used as handles.</p>
 
 <figure className="figure">
-  <img src={pointedBamboo} width="1280" height="1280" className="figure-img img-fluid" alt="A short bamboo stick with a pointy end." />
+  <LazyLoadImage src={pointedBamboo} width="1280" height="1280" className="figure-img img-fluid" alt="A short bamboo stick with a pointy end." />
   
   <figcaption className="figure-caption">Tool used to make holes for the handle.</figcaption>
   
@@ -286,7 +287,7 @@ closed end. This “T” shaped cut will make sure that the hole will be centere
 and even when enlarged using the pointed bamboo stick implement.</p>
 
 <figure className="figure">
-  <img src={tCut} width="1280" height="853" className="figure-img img-fluid" alt="A “T” shaped cut near the closed end of the tin can." />
+  <LazyLoadImage src={tCut} width="1280" height="853" className="figure-img img-fluid" alt="A “T” shaped cut near the closed end of the tin can." />
   
   <figcaption className="figure-caption">A “T” shaped cut near the closed end of the tin can.</figcaption>
   
@@ -296,7 +297,7 @@ and even when enlarged using the pointed bamboo stick implement.</p>
 appropriately sized tool to hammer it through the can.</p>
 
 <figure className="figure">
-  <img src={enlargedHole} width="1280" height="853" className="figure-img img-fluid" alt="A short bamboo stick with a pointy end driven through the “T” shaped cut to enlarge it." />
+  <LazyLoadImage src={enlargedHole} width="1280" height="853" className="figure-img img-fluid" alt="A short bamboo stick with a pointy end driven through the “T” shaped cut to enlarge it." />
   
   <figcaption className="figure-caption">Enlarge the hole by hammering the bamboo tool through the cut.</figcaption>
   
@@ -307,7 +308,7 @@ as shown in the picture below.&nbsp;Repeat this process on the opposite side of 
 can.</p>
 
 <figure className="figure">
-  <img src={bambooToolCentered} width="1280" height="853" className="figure-img img-fluid" alt="Tin can viewed from the open end showing bamboo tool through one of the “T” shaped cut." />
+  <LazyLoadImage src={bambooToolCentered} width="1280" height="853" className="figure-img img-fluid" alt="Tin can viewed from the open end showing bamboo tool through one of the “T” shaped cut." />
   
   <figcaption className="figure-caption">Bamboo tool centered well.</figcaption>
   
@@ -319,7 +320,7 @@ and so that the lid of the can is sandwiched between the pieces of bamboo.
 Then lash them together tightly with a rubber band or string.</p>
 
 <figure className="figure">
-  <img src={puncherInterior} width="1280" height="853" className="figure-img img-fluid" alt="Interior view of the styrofoam puncher showing handles going through the side holes and across the interior of the can." />
+  <LazyLoadImage src={puncherInterior} width="1280" height="853" className="figure-img img-fluid" alt="Interior view of the styrofoam puncher showing handles going through the side holes and across the interior of the can." />
   
   <figcaption className="figure-caption">Handles going through the side holes and along a diameter of the can.</figcaption>
   

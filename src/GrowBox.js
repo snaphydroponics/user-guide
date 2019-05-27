@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import growBox from './images/grow-box.jpg';
 import plasticBag from './images/pe-plastic-bag-20-by-30.jpg';
 import styrofoamPunchers from './images/styrofoam-punchers.jpg';
@@ -30,7 +31,7 @@ function GrowBox({match}) {
 
 
       <figure className="figure">
-        <img src={growBox} width="1280" height="853" className="figure-img img-fluid" alt="Isang 20 by 16 by 6 na styrofoam box na may walong butas sa ibabaw at plastic liner sa ilalim. Ang ventilation holes ay tinakpang ng packing tape." />
+        <LazyLoadImage src={growBox} width="1280" height="853" className="figure-img img-fluid" alt="Isang 20 by 16 by 6 na styrofoam box na may walong butas sa ibabaw at plastic liner sa ilalim. Ang ventilation holes ay tinakpang ng packing tape." />
 
         <figcaption className="figure-caption">Isang SNAP Hydroponics grow box.</figcaption>
 
@@ -69,7 +70,7 @@ function GrowBox({match}) {
       ang gagamitin.</p>
 
     <figure className="figure">
-      <img src={plasticBag} width="1280" height="427" className="figure-img img-fluid" alt="Isang bag ng polyethylene plastic (PE) bag kung saan ang sukat at bilang ng laman ay nakatala." />
+      <LazyLoadImage src={plasticBag} width="1280" height="427" className="figure-img img-fluid" alt="Isang bag ng polyethylene plastic (PE) bag kung saan ang sukat at bilang ng laman ay nakatala." />
 
       <figcaption className="figure-caption">Isang pangkariwang tatak ng 20 ✕ 30 pulgadang <abbr title="Polyethylene">PE</abbr> plastic bags.</figcaption>
 
@@ -84,7 +85,7 @@ function GrowBox({match}) {
           sa paggawa ng pambutas ng styrofoam</Link>.</p>
 
       <figure className="figure">
-        <img src={styrofoamPunchers} width="1280" height="427" className="figure-img img-fluid" alt="Pares ng pambutas ng styrofoam na gawa sa lata at kawayang patpat." />
+        <LazyLoadImage src={styrofoamPunchers} width="1280" height="427" className="figure-img img-fluid" alt="Pares ng pambutas ng styrofoam na gawa sa lata at kawayang patpat." />
 
         <figcaption className="figure-caption">Pares ng buong sariling gawang pambutas ng styrofoam.</figcaption>
 
@@ -96,7 +97,7 @@ function GrowBox({match}) {
         opsyonal na takpan ang mga <i lang="en">ventilation holes</i>.</p>
 
       <figure className="figure">
-        <img src={packingTape} width="1280" height="1280" className="figure-img img-fluid" alt="Rolyo ng kulay brown na packing tape na may lapad na dalawang pulgada." />
+        <LazyLoadImage src={packingTape} width="1280" height="1280" className="figure-img img-fluid" alt="Rolyo ng kulay brown na packing tape na may lapad na dalawang pulgada." />
 
         <figcaption className="figure-caption">Tipikal na rolyo ng dawalang pulgadang lapad na packing tape.</figcaption>
 
@@ -140,7 +141,7 @@ function GrowBox({match}) {
       saan nagkukrus ang mga linya.</p>
 
     <figure className="figure">
-      <img src={guideLines} width="1280" height="853" className="figure-img img-fluid" alt="Itaas na hati ng grow box na pinapakita ang mga ginuhit na linyang gabay." />
+      <LazyLoadImage src={guideLines} width="1280" height="853" className="figure-img img-fluid" alt="Itaas na hati ng grow box na pinapakita ang mga ginuhit na linyang gabay." />
 
       <figcaption className="figure-caption">Mga linyang pinagdudugsong ang mga ventilation holes sa mga magkasalungat na panig. Gagawa ng butas kung saan sila nagtatagpo.</figcaption>
 
@@ -161,7 +162,7 @@ function GrowBox({match}) {
       <p>Ulitin ang prosesong ito upang gawin ang natitira pang mga butas.</p>
 
       <figure className="figure">
-        <img src={upperGrowBox} width="1280" height="853" className="figure-img img-fluid" alt="Itaas na bahagi ng grow box na may mga butas na tama ang pagkakalinya." />
+        <LazyLoadImage src={upperGrowBox} width="1280" height="853" className="figure-img img-fluid" alt="Itaas na bahagi ng grow box na may mga butas na tama ang pagkakalinya." />
 
         <figcaption className="figure-caption">Itaas na bahagi ng grow box.</figcaption>
 
@@ -174,7 +175,7 @@ function GrowBox({match}) {
       <i lang="en">working solution</i>.</p>
 
     <figure className="figure">
-      <img src={upperGrowBoxSealed} width="1280" height="853" className="figure-img img-fluid" alt="Grow box kung saan ang pang-itaas na ventilation holes ay tinakpan ng packing tape." />
+      <LazyLoadImage src={upperGrowBoxSealed} width="1280" height="853" className="figure-img img-fluid" alt="Grow box kung saan ang pang-itaas na ventilation holes ay tinakpan ng packing tape." />
 
       <figcaption className="figure-caption">Proteksiyon sa mga lamok.</figcaption>
 
@@ -191,7 +192,7 @@ function GrowBox({match}) {
         sa gitna ng ibabang bahagi ng <i lang="en">grow box</i>.</p>
 
       <figure className="figure">
-        <img src={linerOverGrowBox} width="1280" height="853" className="figure-img img-fluid" alt="Plastic liner na nakalatag sa ibabang bahagi ng grow box." />
+        <LazyLoadImage src={linerOverGrowBox} width="1280" height="853" className="figure-img img-fluid" alt="Plastic liner na nakalatag sa ibabang bahagi ng grow box." />
 
         <figcaption className="figure-caption">Tamang pagkaposisyon ng plastic liner sa ibabaw ng ibabang bahagi ng grow box.</figcaption>
 
@@ -200,7 +201,7 @@ function GrowBox({match}) {
       <p>Itiklop ang tigkabilang dulo ng plastic liner gaya ng pinakikita sa baba.</p>
 
       <figure className="figure">
-        <img src={linerEndsFolded} width="1280" height="853" className="figure-img img-fluid" alt="Plastic liner na nakalatag sa ibabaw ng ibabang bahagi ng growbox na nakatiklop ang tigkabilang dulo." />
+        <LazyLoadImage src={linerEndsFolded} width="1280" height="853" className="figure-img img-fluid" alt="Plastic liner na nakalatag sa ibabaw ng ibabang bahagi ng growbox na nakatiklop ang tigkabilang dulo." />
 
         <figcaption className="figure-caption">Plastic liner na tama ang pagkakatiklop ng mga dulo.</figcaption>
 
@@ -210,7 +211,7 @@ function GrowBox({match}) {
         magkasya at “mahulog sa loob.”</p>
 
       <figure className="figure">
-        <img src={linerSidesFolded} width="1280" height="853" className="figure-img img-fluid" alt="Plastic liner kung saan ang mga dulo at mga gilid ay nakatiklop at nagkakasya sa ibabang bahagi ng grow box." />
+        <LazyLoadImage src={linerSidesFolded} width="1280" height="853" className="figure-img img-fluid" alt="Plastic liner kung saan ang mga dulo at mga gilid ay nakatiklop at nagkakasya sa ibabang bahagi ng grow box." />
 
         <figcaption className="figure-caption">Plastic liner na nagkasya sa ibabang bahagi ng grow box.</figcaption>
 
@@ -221,7 +222,7 @@ function GrowBox({match}) {
         pinapakita sa baba.</p>
 
       <figure className="figure">
-        <img src={linerSidesTaped} width="1280" height="853" className="figure-img img-fluid" alt="Plastic liner na nakatape sa gitna nag haba ng grow box." />
+        <LazyLoadImage src={linerSidesTaped} width="1280" height="853" className="figure-img img-fluid" alt="Plastic liner na nakatape sa gitna nag haba ng grow box." />
 
         <figcaption className="figure-caption">Tabi ng plastic liner na idinikit ng tape sa gitna.</figcaption>
 
@@ -233,7 +234,7 @@ function GrowBox({match}) {
         gilid.</p>
 
       <figure className="figure">
-        <img src={linerCornerTaped} width="1280" height="853" className="figure-img img-fluid" alt="Plastic liner na may tape sa may kanto." />
+        <LazyLoadImage src={linerCornerTaped} width="1280" height="853" className="figure-img img-fluid" alt="Plastic liner na may tape sa may kanto." />
 
         <figcaption className="figure-caption">Tamang paglagay ng tape sa kanto.</figcaption>
 
@@ -242,7 +243,7 @@ function GrowBox({match}) {
       <p>Ulitin para na natitirang mga kanto.</p>
 
       <figure className="figure">
-        <img src={linerAllCornersTaped} width="1280" height="853" className="figure-img img-fluid" alt="Plastic liner na nakalatag sa ibabaw ng ibabang bahagi ng grow box na naka-tape lahat ng mga kanto." />
+        <LazyLoadImage src={linerAllCornersTaped} width="1280" height="853" className="figure-img img-fluid" alt="Plastic liner na nakalatag sa ibabaw ng ibabang bahagi ng grow box na naka-tape lahat ng mga kanto." />
 
         <figcaption className="figure-caption">Nakatape ng ng maayos ang mga kanto ng plastic liner.</figcaption>
 
@@ -254,7 +255,7 @@ function GrowBox({match}) {
       tatsulok na tiklop sa mga kanto.</p>
 
     <figure className="figure">
-      <img src={linerEndPositioned} width="1280" height="853" className="figure-img img-fluid" alt="Ang mga nakatiklop na dulo ng plastic liner ay nakaposisyon sa tabi ng grow box." />
+      <LazyLoadImage src={linerEndPositioned} width="1280" height="853" className="figure-img img-fluid" alt="Ang mga nakatiklop na dulo ng plastic liner ay nakaposisyon sa tabi ng grow box." />
 
       <figcaption className="figure-caption">Kung tama ang pagkakagawa, ang mga kanto ay titiklop ng maayos sa pwesto.</figcaption>
 
@@ -267,7 +268,7 @@ function GrowBox({match}) {
         Ulitin ang prosesong ito sa kabilang panig.</p>
 
       <figure className="figure">
-        <img src={linedGrowBox} width="1280" height="853" className="figure-img img-fluid" alt="Ibabang bahagi ng styrofoam box na sinapinan ng PE plastic sheet." />
+        <LazyLoadImage src={linedGrowBox} width="1280" height="853" className="figure-img img-fluid" alt="Ibabang bahagi ng styrofoam box na sinapinan ng PE plastic sheet." />
 
         <figcaption className="figure-caption">Ibabang bahagi ng styrofoam box na sinapinan ng <abbr title="Polyethylene">PE</abbr> plastic sheet.</figcaption>
 
@@ -289,7 +290,7 @@ function GrowBox({match}) {
         Maari silang opsyonal na alisin sa pagputol sa kanila gamit ang <i lang="en">box cutter</i>.</p>
 
       <figure className="figure">
-        <img src={lockingTabs} width="1280" height="853" className="figure-img img-fluid" alt="Locking tabs ng styrobox na matatagpuan sa gilid ng styrobox" />
+        <LazyLoadImage src={lockingTabs} width="1280" height="853" className="figure-img img-fluid" alt="Locking tabs ng styrobox na matatagpuan sa gilid ng styrobox" />
 
         <figcaption className="figure-caption">Locking tabs ng styrobox na maaring alisin.</figcaption>
 
@@ -307,7 +308,7 @@ function GrowBox({match}) {
 
 
       <figure className="figure">
-        <img src={growBox} width="1280" height="853" className="figure-img img-fluid" alt="A 20 by 16 by 6 styrofoam box with 8 holes on top and a plastic liner at the bottom. The ventilation holes are covered with packing tape." />
+        <LazyLoadImage src={growBox} width="1280" height="853" className="figure-img img-fluid" alt="A 20 by 16 by 6 styrofoam box with 8 holes on top and a plastic liner at the bottom. The ventilation holes are covered with packing tape." />
 
         <figcaption className="figure-caption">A SNAP Hydroponics grow box.</figcaption>
 
@@ -340,7 +341,7 @@ function GrowBox({match}) {
       (<abbr title="Polyethylene">PE</abbr>) plastic bags.</p>
 
     <figure className="figure">
-      <img src={plasticBag} width="1280" height="427" className="figure-img img-fluid" alt="A bag of polyethylene (PE) plastic bag with dimensions and number of contents indicated." />
+      <LazyLoadImage src={plasticBag} width="1280" height="427" className="figure-img img-fluid" alt="A bag of polyethylene (PE) plastic bag with dimensions and number of contents indicated." />
 
       <figcaption className="figure-caption">A typical brand of 20 ✕ 30 inch <abbr title="Polyethylene">PE</abbr> plastic bags.</figcaption>
 
@@ -354,7 +355,7 @@ function GrowBox({match}) {
       <Link to="/en/styrofoam-puncher">guide on making DIY styrofoam puncher</Link>.</p>
 
     <figure className="figure">
-      <img src={styrofoamPunchers} width="1280" height="427" className="figure-img img-fluid" alt="A couple of styrofoam punchers made of tin can and bamboo sticks." />
+      <LazyLoadImage src={styrofoamPunchers} width="1280" height="427" className="figure-img img-fluid" alt="A couple of styrofoam punchers made of tin can and bamboo sticks." />
 
       <figcaption className="figure-caption">A couple of completed DIY styrofoam punchers.</figcaption>
 
@@ -366,7 +367,7 @@ function GrowBox({match}) {
         ventilation holes.</p>
 
       <figure className="figure">
-        <img src={packingTape} width="1280" height="1280" className="figure-img img-fluid" alt="A roll of brown 2in wide packing tape." />
+        <LazyLoadImage src={packingTape} width="1280" height="1280" className="figure-img img-fluid" alt="A roll of brown 2in wide packing tape." />
 
         <figcaption className="figure-caption">A typical roll of 2in wide packing tape.</figcaption>
 
@@ -404,7 +405,7 @@ function GrowBox({match}) {
         box as illustrated below. A hole should be made where the lines cross.</p>
 
       <figure className="figure">
-        <img src={guideLines} width="1280" height="853" className="figure-img img-fluid" alt="Upper half of the grow box showing how the guidelines are drawn." />
+        <LazyLoadImage src={guideLines} width="1280" height="853" className="figure-img img-fluid" alt="Upper half of the grow box showing how the guidelines are drawn." />
 
         <figcaption className="figure-caption">Lines connecting ventilation holes in opposite sides. A hole is made where they intersect.</figcaption>
 
@@ -424,7 +425,7 @@ function GrowBox({match}) {
       <p>Repeat this process to create the rest of the holes.</p>
 
       <figure className="figure">
-        <img src={upperGrowBox} width="1280" height="853" className="figure-img img-fluid" alt="Upper half of grow box with holes properly aligned." />
+        <LazyLoadImage src={upperGrowBox} width="1280" height="853" className="figure-img img-fluid" alt="Upper half of grow box with holes properly aligned." />
 
         <figcaption className="figure-caption">Upper half of grow box.</figcaption>
 
@@ -436,7 +437,7 @@ function GrowBox({match}) {
         them from breeding in the grow box.</p>
 
       <figure className="figure">
-        <img src={upperGrowBoxSealed} width="1280" height="853" className="figure-img img-fluid" alt="Grow box with upper ventilation holes covered with packing tape." />
+        <LazyLoadImage src={upperGrowBoxSealed} width="1280" height="853" className="figure-img img-fluid" alt="Grow box with upper ventilation holes covered with packing tape." />
 
         <figcaption className="figure-caption">Protection from mosquitoes.</figcaption>
 
@@ -451,7 +452,7 @@ function GrowBox({match}) {
         it easy to center the plastic liner on the lower half of the grow box.</p>
 
       <figure className="figure">
-        <img src={linerOverGrowBox} width="1280" height="853" className="figure-img img-fluid" alt="Plastic liner laid over the lower half of the grow box." />
+        <LazyLoadImage src={linerOverGrowBox} width="1280" height="853" className="figure-img img-fluid" alt="Plastic liner laid over the lower half of the grow box." />
 
         <figcaption className="figure-caption">Proper positioning of the plastic liner over the lower half of the grow box.</figcaption>
 
@@ -460,7 +461,7 @@ function GrowBox({match}) {
       <p>Fold both ends of the plastic liner as shown below.</p>
 
       <figure className="figure">
-        <img src={linerEndsFolded} width="1280" height="853" className="figure-img img-fluid" alt="Plastic liner over lower half of grow box with both ends folded." />
+        <LazyLoadImage src={linerEndsFolded} width="1280" height="853" className="figure-img img-fluid" alt="Plastic liner over lower half of grow box with both ends folded." />
 
         <figcaption className="figure-caption">Plastic liner with both ends properly folded.</figcaption>
 
@@ -470,7 +471,7 @@ function GrowBox({match}) {
         through.”</p>
 
       <figure className="figure">
-        <img src={linerSidesFolded} width="1280" height="853" className="figure-img img-fluid" alt="Plastic liner with ends and sides folded fitting into the lower half of the grow box." />
+        <LazyLoadImage src={linerSidesFolded} width="1280" height="853" className="figure-img img-fluid" alt="Plastic liner with ends and sides folded fitting into the lower half of the grow box." />
 
         <figcaption className="figure-caption">Plastic liner fitting through the lower half of the grow box.</figcaption>
 
@@ -481,7 +482,7 @@ function GrowBox({match}) {
         shown below.</p>
 
       <figure className="figure">
-        <img src={linerSidesTaped} width="1280" height="853" className="figure-img img-fluid" alt="Plastic liner taped at the center of the length of the grow box." />
+        <LazyLoadImage src={linerSidesTaped} width="1280" height="853" className="figure-img img-fluid" alt="Plastic liner taped at the center of the length of the grow box." />
 
         <figcaption className="figure-caption">Sides of the plastic liner taped in place at the center.</figcaption>
 
@@ -492,7 +493,7 @@ function GrowBox({match}) {
         folded part of the adjacent side.</p>
 
       <figure className="figure">
-        <img src={linerCornerTaped} width="1280" height="853" className="figure-img img-fluid" alt="Plastic liner taped at a corner." />
+        <LazyLoadImage src={linerCornerTaped} width="1280" height="853" className="figure-img img-fluid" alt="Plastic liner taped at a corner." />
 
         <figcaption className="figure-caption">Proper way of taping the corner.</figcaption>
 
@@ -501,7 +502,7 @@ function GrowBox({match}) {
       <p>Repeat for the rest of the corners.</p>
 
       <figure className="figure">
-        <img src={linerAllCornersTaped} width="1280" height="853" className="figure-img img-fluid" alt="Plastic liner over lower half of grow box with all corners taped." />
+        <LazyLoadImage src={linerAllCornersTaped} width="1280" height="853" className="figure-img img-fluid" alt="Plastic liner over lower half of grow box with all corners taped." />
 
         <figcaption className="figure-caption">Plastic liner with all corners properly taped.</figcaption>
 
@@ -512,7 +513,7 @@ function GrowBox({match}) {
         will make a triangular shaped fold at the corners.</p>
 
       <figure className="figure">
-        <img src={linerEndPositioned} width="1280" height="853" className="figure-img img-fluid" alt="Folded ends of plastic liner positioned on the side of the grow box." />
+        <LazyLoadImage src={linerEndPositioned} width="1280" height="853" className="figure-img img-fluid" alt="Folded ends of plastic liner positioned on the side of the grow box." />
 
         <figcaption className="figure-caption">If done correctly, the corners will be folded neatly in place.</figcaption>
 
@@ -525,7 +526,7 @@ function GrowBox({match}) {
         as you tape it in place. Repeat this process on the opposite side.</p>
 
       <figure className="figure">
-        <img src={linedGrowBox} width="1280" height="853" className="figure-img img-fluid" alt="Lower half of a styrofoam box lined with PE plastic sheet." />
+        <LazyLoadImage src={linedGrowBox} width="1280" height="853" className="figure-img img-fluid" alt="Lower half of a styrofoam box lined with PE plastic sheet." />
 
         <figcaption className="figure-caption">Lower half of a styrofoam box lined with <abbr title="Polyethylene">PE</abbr> plastic sheet.</figcaption>
 
@@ -541,7 +542,7 @@ function GrowBox({match}) {
         They can optionally be removed by cutting them off with a box cutter.</p>
 
       <figure className="figure">
-        <img src={lockingTabs} width="1280" height="853" className="figure-img img-fluid" alt="Styrobox locking tabs found along the width of the styrobox." />
+        <LazyLoadImage src={lockingTabs} width="1280" height="853" className="figure-img img-fluid" alt="Styrobox locking tabs found along the width of the styrobox." />
 
         <figcaption className="figure-caption">Styrobox locking tabs that can be optionally removed.</figcaption>
 

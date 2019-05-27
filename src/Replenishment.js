@@ -4,6 +4,7 @@ import replenish2 from './images/replenishment-2.png';
 import replenish3 from './images/replenishment-3.png';
 import replenish4 from './images/replenishment-4.png';
 import replenish5 from './images/replenishment-5.png';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function Replenishment({match}) {
   const lang = match.params.lang || 'fil';
@@ -31,7 +32,7 @@ function Replenishment({match}) {
           growing medium</i>. Dahil dito, ang mga binhi ay lalaki ng nakababad sa tubig.</p>
 
       <figure className="figure">
-        <img src={replenish1} width="1280" height="720" className="figure-img img-fluid" alt="Ilustrasyon: ang mga ibabang bahagi ng seedling plugs ay nakatubog sa working solution. Wala pang ugat na nalabas" />
+        <LazyLoadImage src={replenish1} width="1280" height="720" className="figure-img img-fluid" alt="Ilustrasyon: ang mga ibabang bahagi ng seedling plugs ay nakatubog sa working solution. Wala pang ugat na nalabas" />
 
         <figcaption className="figure-caption">Sa simula, ang ibabang bahagi ng seeling plugs ay nakatubog sa working solution na may lalim na 1-2cm.</figcaption>
 
@@ -42,7 +43,7 @@ function Replenishment({match}) {
       sa tubig at nakalantad sa basang hangin na nasa loob ng <i lang="en">grow box</i>.</p>
 
     <figure className="figure">
-      <img src={replenish2} width="1280" height="720" className="figure-img img-fluid" alt="Ilustrasyon: tumubo na palabas ng seedling plugs ang mga ugat at bumaba na ang lebel ng working solution." />
+      <LazyLoadImage src={replenish2} width="1280" height="720" className="figure-img img-fluid" alt="Ilustrasyon: tumubo na palabas ng seedling plugs ang mga ugat at bumaba na ang lebel ng working solution." />
 
       <figcaption className="figure-caption">Tumubo na ang mga aerial roots at bumaba na ang lebel ng working solution.</figcaption>
 
@@ -59,7 +60,7 @@ function Replenishment({match}) {
       ng <i lang="en">working solution</i> habang lalong lumalaki ang mga halaman.</p>
 
     <figure className="figure">
-      <img src={replenish3} width="1280" height="720" className="figure-img img-fluid" alt="Ilustrasyon: mas marami pang mga ugat ang tumubo papalabas ng seedling plug at papunta sa working solution." />
+      <LazyLoadImage src={replenish3} width="1280" height="720" className="figure-img img-fluid" alt="Ilustrasyon: mas marami pang mga ugat ang tumubo papalabas ng seedling plug at papunta sa working solution." />
 
       <figcaption className="figure-caption">Mas marami pang mga ugat ang tumubo at kapansin-pansin ang paglaki ng mga halaman.</figcaption>
 
@@ -70,7 +71,7 @@ function Replenishment({match}) {
           working solution</i> at <strong>huwag itong hayaang tuluyang maubos</strong>.</p>
 
       <figure className="figure">
-        <img src={replenish4} width="1280" height="720" className="figure-img img-fluid" alt="Ilustrasyon: mas marami pang ugat ang tubugo papalabas ng seeling plug at ang lebel ng working solution a napakababa na ngayon." />
+        <LazyLoadImage src={replenish4} width="1280" height="720" className="figure-img img-fluid" alt="Ilustrasyon: mas marami pang ugat ang tubugo papalabas ng seeling plug at ang lebel ng working solution a napakababa na ngayon." />
 
         <figcaption className="figure-caption">Ang lebel nag working solution ay mababa na at kailangan ng dagdagan.</figcaption>
 
@@ -86,7 +87,7 @@ function Replenishment({match}) {
       mga ito.</p>
 
     <figure className="figure">
-      <img src={replenish5} width="1280" height="720" className="figure-img img-fluid" alt="Ilustrasyon: naitas na ang lebel ng working solution pero hindi nito na rating ang ibabang bahagi ng mga baso at hindi inilubog ang lahat ng mga ugat." />
+      <LazyLoadImage src={replenish5} width="1280" height="720" className="figure-img img-fluid" alt="Ilustrasyon: naitas na ang lebel ng working solution pero hindi nito na rating ang ibabang bahagi ng mga baso at hindi inilubog ang lahat ng mga ugat." />
 
       <figcaption className="figure-caption">Nadagdagan na ang lebel ng working solution  at ito ay nasa ibaba lamang ng ibabang bahagi ng mga seedling plugs.</figcaption>
 
@@ -134,7 +135,7 @@ function Replenishment({match}) {
         grow in water logged condition.</p>
 
       <figure className="figure">
-        <img src={replenish1} width="1280" height="720" className="figure-img img-fluid" alt="An illustration: the bottom of the seedling plugs is immersed in the working solution. Roots are yet to come out." />
+        <LazyLoadImage src={replenish1} width="1280" height="720" className="figure-img img-fluid" alt="An illustration: the bottom of the seedling plugs is immersed in the working solution. Roots are yet to come out." />
 
         <figcaption className="figure-caption">Initially, the bottom of the seedling plugs is immersed in the working solution by about 1–2 cm.</figcaption>
 
@@ -145,7 +146,7 @@ function Replenishment({match}) {
         the grow box.</p>
 
       <figure className="figure">
-        <img src={replenish2} width="1280" height="720" className="figure-img img-fluid" alt="An illustration: roots have grown out of the seedling plugs and the working solution level has gone down." />
+        <LazyLoadImage src={replenish2} width="1280" height="720" className="figure-img img-fluid" alt="An illustration: roots have grown out of the seedling plugs and the working solution level has gone down." />
 
         <figcaption className="figure-caption">Aerial roots has grown and the working solution level has gone down.</figcaption>
 
@@ -160,7 +161,7 @@ function Replenishment({match}) {
         The rate at which the working solution level decreases will increase as the plants grow larger.</p>
 
       <figure className="figure">
-        <img src={replenish3} width="1280" height="720" className="figure-img img-fluid" alt="An illustration: more roots have grown out of the seedling plug and into the working solution." />
+        <LazyLoadImage src={replenish3} width="1280" height="720" className="figure-img img-fluid" alt="An illustration: more roots have grown out of the seedling plug and into the working solution." />
 
         <figcaption className="figure-caption">More roots have developed and the plants have grown significantly.</figcaption>
 
@@ -170,7 +171,7 @@ function Replenishment({match}) {
         important to regularly check the working solution level and <strong>never let it dry up</strong>.</p>
 
       <figure className="figure">
-        <img src={replenish4} width="1280" height="720" className="figure-img img-fluid" alt="An illustration: more roots have grown out of the seedling plug and the working solution level is now very low." />
+        <LazyLoadImage src={replenish4} width="1280" height="720" className="figure-img img-fluid" alt="An illustration: more roots have grown out of the seedling plug and the working solution level is now very low." />
 
         <figcaption className="figure-caption">The working level is low and needs replenishment.</figcaption>
 
@@ -183,7 +184,7 @@ function Replenishment({match}) {
         aerial roots and cause the plants to wilt and eventually kill them.</p>
 
       <figure className="figure">
-        <img src={replenish5} width="1280" height="720" className="figure-img img-fluid" alt="An illustration: the working solution level has been raised but it is not reaching the bottom of the cup submersing all of the roots." />
+        <LazyLoadImage src={replenish5} width="1280" height="720" className="figure-img img-fluid" alt="An illustration: the working solution level has been raised but it is not reaching the bottom of the cup submersing all of the roots." />
 
         <figcaption className="figure-caption">Working solution level replenished and is sitting just below the bottoms of the seedling plugs.</figcaption>
 

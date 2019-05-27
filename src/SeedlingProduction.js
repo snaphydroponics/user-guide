@@ -6,6 +6,7 @@ import seedPacketLabel from './images/seed-packet-label.jpg';
 import diseases from './images/seed-borne-diseases.jpg';
 import sowingTray from './images/sowing-tray.jpg';
 import lettuce from './images/lettuce-seedlings-and-seeds.jpg';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function SeedlingProduction({match}) {
   const lang = match.params.lang || 'fil';
@@ -20,7 +21,7 @@ function SeedlingProduction({match}) {
 
 
 <figure className="figure">
-  <img src={lettuceSeedlings} width="1280" height="853" className="figure-img img-fluid" alt="Mga batang binhi ng letsugas na may kitang cotyledons at unang totoong dahon." />
+  <LazyLoadImage src={lettuceSeedlings} width="1280" height="853" className="figure-img img-fluid" alt="Mga batang binhi ng letsugas na may kitang cotyledons at unang totoong dahon." />
   
   <figcaption className="figure-caption">Malulusog na mga binhi ng letsugas.</figcaption>
   
@@ -58,7 +59,7 @@ nagsisilbing paraan upang paghiwalayin ang mga butong sisibol at mga butong
 mababa ang kalidad.</p>
 
 <figure className="figure">
-  <img src={seedFloatationTest} width="1280" height="960" className="figure-img img-fluid" alt="Lagagyan ng tubig na may mga buto. May ilan na lumulutang sa tubig. May ilan din na lumulobog." />
+  <LazyLoadImage src={seedFloatationTest} width="1280" height="960" className="figure-img img-fluid" alt="Lagagyan ng tubig na may mga buto. May ilan na lumulutang sa tubig. May ilan din na lumulobog." />
   
   <figcaption className="figure-caption">Pagpapalitaw. Ang mga butong sisibol ang lumulobog at ang mga butong patay ay lumulutang.</figcaption>
   
@@ -71,7 +72,7 @@ matatag na tangkay, at malusog na <i lang="en">cotydedon</i>.
 Seedlings that sprout from good seeds have healthy radicle, strong stem, healthy cotyledons and vigorous growth.</p>
 
 <figure className="figure">
-  <img src={mustasaSeedlings} width="1280" height="853" className="figure-img img-fluid" alt="Mga batang binhi ng mustasa na nagpapakita ng malatag na tangkay at mga cotyledons" />
+  <LazyLoadImage src={mustasaSeedlings} width="1280" height="853" className="figure-img img-fluid" alt="Mga batang binhi ng mustasa na nagpapakita ng malatag na tangkay at mga cotyledons" />
   
   <figcaption className="figure-caption">Mga malusog na binhi ng mustasa.</figcaption>
   
@@ -97,7 +98,7 @@ ang mga katangiang ito.</p>
 nawawalan ng <i lang="en">viability</i> habang nakaimbak.</p>
 
 <figure className="figure">
-  <img src={seedPacketLabel} width="1280" height="427" className="figure-img img-fluid" alt="Malapitang larawan ng etiketa ng pakete ng buto na nagpapakita ng mga detalye gaya ng purity, germination rate, moisture content, net weight at sow by date." />
+  <LazyLoadImage src={seedPacketLabel} width="1280" height="427" className="figure-img img-fluid" alt="Malapitang larawan ng etiketa ng pakete ng buto na nagpapakita ng mga detalye gaya ng purity, germination rate, moisture content, net weight at sow by date." />
   
   <figcaption className="figure-caption">Itiketa ng pakete ng buto.</figcaption>
   
@@ -108,7 +109,7 @@ nawawalan ng <i lang="en">viability</i> habang nakaimbak.</p>
 <p>Ang mga buto na walang mga sakit at mga peste ang simula ng masaganang ani.</p>
 
 <figure className="figure">
-  <img src={diseases} width="1280" height="853" className="figure-img img-fluid" alt="Brochure na may impormasyon tungkol sa mga sakit na namumula sa mga buto." />
+  <LazyLoadImage src={diseases} width="1280" height="853" className="figure-img img-fluid" alt="Brochure na may impormasyon tungkol sa mga sakit na namumula sa mga buto." />
   
   <figcaption className="figure-caption">Information sheet tungkol sa mga sakit na nagmumula sa mga buto.</figcaption>
   
@@ -130,7 +131,7 @@ ay angkop dito.</p>
 </ul>
 
 <figure className="figure">
-  <img src={sowingTray} width="1280" height="853" className="figure-img img-fluid" alt="Isang microvable tub na may mga butas sa ilalim at sa takip." />
+  <LazyLoadImage src={sowingTray} width="1280" height="853" className="figure-img img-fluid" alt="Isang microvable tub na may mga butas sa ilalim at sa takip." />
   
   <figcaption className="figure-caption">Isang microwavable tub na giwawang punlaan ng buto.</figcaption>
   
@@ -158,7 +159,7 @@ pag-usbong ng mga buto sa loob ng tatlo hanggang limang araw.</li>
 
 
 <figure className="figure">
-  <img src={lettuce} width="1280" height="853" className="figure-img img-fluid" alt="Lalagyan na may lumaking binhi at isapang lalagyan na may kakapunla lang na buto ng letsugas." />
+  <LazyLoadImage src={lettuce} width="1280" height="853" className="figure-img img-fluid" alt="Lalagyan na may lumaking binhi at isapang lalagyan na may kakapunla lang na buto ng letsugas." />
   
   <figcaption className="figure-caption">Kaliwa: Mga binhi na handa ng ipunla; Kanan: Mga butong kakapunla lamang.</figcaption>
   
@@ -194,7 +195,7 @@ mga ito.</p>
 
 
 <figure className="figure">
-  <img src={lettuceSeedlings} width="1280" height="853" className="figure-img img-fluid" alt="Young lettuce seedlings with cotyledons and first true leaves visible." />
+  <LazyLoadImage src={lettuceSeedlings} width="1280" height="853" className="figure-img img-fluid" alt="Young lettuce seedlings with cotyledons and first true leaves visible." />
   
   <figcaption className="figure-caption">Healthy lettuce seedings.</figcaption>
   
@@ -225,7 +226,7 @@ from a lot of seed and determining the percentage of seeds that actually germina
 viable seeds from seeds of poor quality.</p>
 
 <figure className="figure">
-  <img src={seedFloatationTest} width="1280" height="960" className="figure-img img-fluid" alt="A tub of water with seeds in it. Some are seeds float. Some seeds sink." />
+  <LazyLoadImage src={seedFloatationTest} width="1280" height="960" className="figure-img img-fluid" alt="A tub of water with seeds in it. Some are seeds float. Some seeds sink." />
   
   <figcaption className="figure-caption">Seed flotation test. Viable seeds sink and bad seeds float.</figcaption>
   
@@ -236,7 +237,7 @@ viable seeds from seeds of poor quality.</p>
 <p>Seedlings that sprout from good seeds have healthy radicle, strong stem, healthy cotyledons and vigorous growth.</p>
 
 <figure className="figure">
-  <img src={mustasaSeedlings} width="1280" height="853" className="figure-img img-fluid" alt="Young mustasa seedlings displaying healthy stalk and cotyledons." />
+  <LazyLoadImage src={mustasaSeedlings} width="1280" height="853" className="figure-img img-fluid" alt="Young mustasa seedlings displaying healthy stalk and cotyledons." />
   
   <figcaption className="figure-caption">Healtlhy mustasa seedlings.</figcaption>
   
@@ -260,7 +261,7 @@ with high genetic purity consistently displays these traits.</p>
 too dry that seeds lose viability during storage.</p>
 
 <figure className="figure">
-  <img src={seedPacketLabel} width="1280" height="427" className="figure-img img-fluid" alt="Close up of a seed packet label showing details such as purity, germination rate, moisture content, net weight and sow by date." />
+  <LazyLoadImage src={seedPacketLabel} width="1280" height="427" className="figure-img img-fluid" alt="Close up of a seed packet label showing details such as purity, germination rate, moisture content, net weight and sow by date." />
   
   <figcaption className="figure-caption">Seed packet label.</figcaption>
   
@@ -271,7 +272,7 @@ too dry that seeds lose viability during storage.</p>
 <p>Seeds that are free of diseases and pests is the start of a good harvest.</p>
 
 <figure className="figure">
-  <img src={diseases} width="1280" height="853" className="figure-img img-fluid" alt="A brochure with information about seed borne diseases." />
+  <LazyLoadImage src={diseases} width="1280" height="853" className="figure-img img-fluid" alt="A brochure with information about seed borne diseases." />
   
   <figcaption className="figure-caption">Seeds information sheet about seed-borne disease.</figcaption>
   
@@ -292,7 +293,7 @@ Water</p>
 </ul>
 
 <figure className="figure">
-  <img src={sowingTray} width="1280" height="853" className="figure-img img-fluid" alt="A microwavable tub with holes at the bottom and on the lid." />
+  <LazyLoadImage src={sowingTray} width="1280" height="853" className="figure-img img-fluid" alt="A microwavable tub with holes at the bottom and on the lid." />
   
   <figcaption className="figure-caption">A microwavable tub fashioned into a sowing tray.</figcaption>
   
@@ -317,7 +318,7 @@ Pack and level the growing medium.</li>
 
 
 <figure className="figure">
-  <img src={lettuce} width="1280" height="853" className="figure-img img-fluid" alt="A tub with grown lettuce seedlings and another tub with recently sown lettuce seedlings." />
+  <LazyLoadImage src={lettuce} width="1280" height="853" className="figure-img img-fluid" alt="A tub with grown lettuce seedlings and another tub with recently sown lettuce seedlings." />
   
   <figcaption className="figure-caption">Left: Seedlings ready for prickling; Right: Seeds recently sown.</figcaption>
   

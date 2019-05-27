@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Switch, BrowserRouter, Route }  from "react-router-dom";
+import { Switch, BrowserRouter, Route } from "react-router-dom";
 import AppNavbar from './AppNavbar';
 import TrainingSeminar from './TrainingSeminar';
 import AuthorizedResellers from './AuthorizedResellers';
@@ -14,6 +14,7 @@ import StyrofoamPuncher from './StyrofoamPuncher';
 import WorkingSolution from './WorkingSolution';
 import Manual from './Manual';
 import Footer from './Footer';
+import ScrollToTop from './ScrollToTop';
 
 class App extends React.Component {
   constructor(props) {
@@ -36,7 +37,8 @@ class App extends React.Component {
   render() {
     return (
       <BrowserRouter>
-        <div className="App">
+
+        <ScrollToTop>
 
           <AppNavbar />
 
@@ -68,8 +70,8 @@ class App extends React.Component {
             </Switch>
 
           </main>
-            <Footer />
-        </div>
+          <Footer />
+        </ScrollToTop>
       </BrowserRouter>
     );
   }
