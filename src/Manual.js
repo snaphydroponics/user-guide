@@ -542,7 +542,7 @@ function Manual({match}) {
     return (
       <div className="container">
         <header className="my-5">
-          <h1 id="content">SNAP Hydroponics Users’ Guide</h1>
+          <h1 id="content">SNAP Hydroponics User Guide</h1>
           <p className="lead">Comprehensive guide on how to grow plants using SNAP Hydroponics.
           </p>
         </header>
