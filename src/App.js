@@ -67,6 +67,8 @@ class App extends React.Component {
 
               <Route exact path="/:lang(en)?/working-solution" component={WorkingSolution} />
 
+              <Route component={Manual} />
+
             </Switch>
 
           </main>
