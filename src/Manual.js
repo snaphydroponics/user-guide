@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import snapAandB from './images/snap-a-and-b.jpg';
 import suitableSNAPLocation from './images/suitable-snap-location.jpg';
 import sowingTray from './images/sowing-tray.jpg';
 import cocoPeat from './images/coco-peat.jpg';
@@ -26,6 +27,13 @@ function Manual({match}) {
           <p className="lead">Komprehensibong gabay kung paano magpalaki ng halaman gamit ang SNAP Hydroponics.
           </p>
         </header>
+
+        <figure className="figure">
+          <img src={snapAandB} width="1280" height="1280" className="figure-img img-fluid" alt="Pares ng 500mL PET bottles na naglalaman ng SNAP at SNAP B." />
+
+          <figcaption className="figure-caption">Ang <abbr title="Simple Nutrient Addition Program">SNAP</abbr> A ay puti ang malabo at ang <abbr title="Simple Nutrient Addition Program">SNAP</abbr> B ay malinaw at may pagkadilaw.</figcaption>
+
+        </figure>
 
         <h1 id="mahalagang-paalala">Mahalagang Paalala</h1>
 
@@ -546,6 +554,12 @@ function Manual({match}) {
           <p className="lead">Comprehensive guide on how to grow plants using SNAP Hydroponics.
           </p>
         </header>
+        <figure className="figure">
+          <img src={snapAandB} width="1280" height="1280" className="figure-img img-fluid" alt="A pair of 500mL PET bottles containing SNAP A and SNAP B." />
+
+          <figcaption className="figure-caption"><abbr title="Simple Nutrient Addition Program">SNAP</abbr> A is white and cloudy and <abbr title="Simple Nutrient Addition Program">SNAP</abbr> B is clear and yellowish.</figcaption>
+
+        </figure>
 
         <h1 id="important-reminder">Important Reminder</h1>
 
