@@ -38,8 +38,8 @@ function GrowBox({match}) {
       </figure>
 
       <p>Ang mga <i lang="en">grow boxes</i> o <i lang="en">growing boxes</i> mahalagang
-        bahagi ng sistema ng SNAP <i lang="en">Hydroponics</i>. Ang <i lang="en">grow box</i>
-        ay nagsisilbing lalagyan para sa SNAP
+        bahagi ng sistema ng SNAP <i lang="en">Hydroponics</i>. Ang <i lang="en">grow box</i>{' '}
+        ay nagsisilbing lalagyan para sa SNAP{' '}
       <Link to="/working-solution"><i lang="en">working solution</i></Link>.
       Ang <i lang="en">grow box</i> din ang nagbibigay suporta sa mga <i lang="en">seedling plugs</i>.
       Ito ay isang madaling sundang gabay kung paano bumuo ng mga <i lang="en">grow box</i>
@@ -53,7 +53,7 @@ function GrowBox({match}) {
       tawag na <i lang="en">“styrofoam box”</i> o <i lang="en">“styrobox”</i> ay
       magandang materyales para sa <i lang="en">grow box</i>. Ang laki na nirerekomenda
       para sa SNAP <i lang="en">Hydroponics</i> ay 20”×16”×6”. Ang mga kahon na ito
-      ay kayang maglaman ng sampung litro (10L) hanggang labingdawalang litro (12L) ng
+      ay kayang maglaman ng sampung litro (10L) hanggang labingdawalang litro (12L) ng{' '}
       <i lang="en">nutrient solution</i> at may sapat na espasyo upang magpalaki ng 
       hanggang walang (8) madahong gulay at hanggang (5) namumungang gulay. Ang mga
       ganitong uri ng <i lang="en">styrobox</i> ay ginagamit bilang sisidlan ng mga
@@ -63,10 +63,10 @@ function GrowBox({match}) {
 
     <h3 id="lining-material"><i lang="en">Lining Material</i></h3>
 
-    <p>Ang mga <i lang="en">styrofoam</i> boxes ay may mga <i lang="en">ventilation holes</i>
-      sa gilid. Upang kapapaglaman ng <i lang="en">nutrient solution</i> ang ibabang
+    <p>Ang mga <i lang="en">styrofoam</i> boxes ay may mga <i lang="en">ventilation holes</i>{' '}
+      sa gilid. Upang makapapaglaman ng <i lang="en">nutrient solution</i> ang ibabang
       bahagi ng kahon, kailangan itong sapinan ng matibay na <i lang="en">waterproofing
-        sheet</i>. Sa gabay na ito <i lang="en">20 ✕ 30 inch polyethylene (<abbr title="Polyethylene">PE</abbr>) plastic bags</i>
+        sheet</i>. Sa gabay na ito <i lang="en">20 ✕ 30 inch polyethylene (<abbr title="Polyethylene">PE</abbr>) plastic bags</i>{' '}
       ang gagamitin.</p>
 
     <figure className="figure">
@@ -107,7 +107,7 @@ function GrowBox({match}) {
 
       <p>Patpat na kawayan o katulad na kagamitan. Ito ay gagamitin upang gumuhit ng mga
         linyang gabay sa <i lang="en">styrofoam</i>. Ito rin ay gagamitin upang maingat
-        na alisin ang piraso ng <i lang="en">styrofoam</i> mula sa pambutas ng
+        na alisin ang piraso ng <i lang="en">styrofoam</i> mula sa pambutas ng{' '}
       <i lang="en">styrofoam</i> matapos ang pagbutas.</p>
 
     <h2 id="ihanda-ang-styrobox">Ihanda ang <i lang="en">Styrobox</i></h2>
@@ -124,9 +124,9 @@ function GrowBox({match}) {
       hilahin ang itaas na bahagi papataas.</p>
 
     <p>Nirerekomenda na punasan ang <i lang="en">styrobox</i> ng malinis na basahan
-      upang alisin ang alikabo, grasa o basa, dahil maaring maging dahilan ito ng
+      upang alisin ang alikabok, grasa o basa, dahil maaring maging dahilan ito ng
       pagpalya ng <i lang="en">tape</i> na gagamitin upang ikabit ang <i lang="en">
-        plastic liner</i></p>
+        plastic liner</i>.</p>
 
     <h2 id="gawin-ang-itaas-na-bahagi-ng-grow-box">Gawin ang Itaas na Bahagi ng <i lang="en">Grow Box</i></h2>
 
@@ -136,22 +136,22 @@ function GrowBox({match}) {
       magkasira ang patungan habang nagbubutas ng <i lang="en">styrofoam</i> gamit ang
       pambutas.</p>
 
-    <p>Gumuhit ng linyang gabay na nagdudugsong sa mga <i lang="en">ventilation holes</i>
+    <p>Gumuhit ng linyang gabay na nagdudugsong sa mga <i lang="en">ventilation holes</i>{' '}
       sa magkatapat na gilid ng kahon kaya na pinapakita sa baba. Gagawa ng butas kung
       saan nagkukrus ang mga linya.</p>
 
     <figure className="figure">
-      <LazyLoadImage src={guideLines} width="1280" height="853" className="figure-img img-fluid" alt="Itaas na hati ng grow box na pinapakita ang mga ginuhit na linyang gabay." />
+      <LazyLoadImage src={guideLines} width="1280" height="853" className="figure-img img-fluid" alt="Itaas na bahagi ng grow box na pinapakita ang mga ginuhit na linyang gabay." />
 
       <figcaption className="figure-caption">Mga linyang pinagdudugsong ang mga ventilation holes sa mga magkasalungat na panig. Gagawa ng butas kung saan sila nagtatagpo.</figcaption>
 
       </figure>
 
-      <p>Para gumawa ng butas, ipatong ang matalas na dulo ng pambutas sa <i lang="en">styrofoam</i>
+      <p>Para gumawa ng butas, ipatong ang matalas na dulo ng pambutas sa <i lang="en">styrofoam</i>{' '}
         at idiin ito upang markahan ang ibabaw nito. Hawakan ang pambutas sa hawakan at
         ipihit ito ng pakanan at pakaliwa habang dinidiinan ito upang tuluyan itong bumaon
         sa <i lang="en">foam</i>. Ituloy ang prosesong ito hanggang tuluyan itong tumagos
-        sa <i lang="en">foam</i></p>
+        sa <i lang="en">foam</i>.</p>
 
       <p>Marahang hilahin ang pambutas ng <i lang="en">styrofoam</i>. May maiiwang bilog
         na piraso ng styrofoam sa dulo ng pambutas. Gamitin ang kawayang patpat upang
@@ -171,7 +171,7 @@ function GrowBox({match}) {
       <p>Mariing minumungkahi na gamitin ang <i lang="en">packing tape</i> upang takpan
         ang mga <i lang="en">ventilation holes</i> sa bahaging ito ng grow box kung ang
         lugar na paglalagyan nito ay walang protkesiyon sa mga lamok. Mapipigilan nitong
-        makapasok ang mga lamok sa <i lang="en">grow box</i> at makapagngitlog sa
+        makapasok ang mga lamok sa <i lang="en">grow box</i> at makapagngitlog sa{' '}
       <i lang="en">working solution</i>.</p>
 
     <figure className="figure">
@@ -188,7 +188,7 @@ function GrowBox({match}) {
         pinapakita sa baba. Dahil ang box ay may sukat na 20” ✕ 16”, ang <i lang="en">
           plastic liner</i> ay lalampas sa haba ng kahon ng limang pulgada sa tigkabilang
         dulo at lalampas sa lapad ng kahon ng apat na pugada sa tigkabilang panig. Ang
-        mga sukat na ito ang pagpapadali ng pagposisyon ng <i lang="en">plastic liner</i>
+        mga sukat na ito ang pagpapadali ng pagposisyon ng <i lang="en">plastic liner</i>{' '}
         sa gitna ng ibabang bahagi ng <i lang="en">grow box</i>.</p>
 
       <figure className="figure">
@@ -222,7 +222,7 @@ function GrowBox({match}) {
         pinapakita sa baba.</p>
 
       <figure className="figure">
-        <LazyLoadImage src={linerSidesTaped} width="1280" height="853" className="figure-img img-fluid" alt="Plastic liner na nakatape sa gitna nag haba ng grow box." />
+        <LazyLoadImage src={linerSidesTaped} width="1280" height="853" className="figure-img img-fluid" alt="Plastic liner na nakatape sa gitna ng haba ng grow box." />
 
         <figcaption className="figure-caption">Tabi ng plastic liner na idinikit ng tape sa gitna.</figcaption>
 
@@ -245,12 +245,12 @@ function GrowBox({match}) {
       <figure className="figure">
         <LazyLoadImage src={linerAllCornersTaped} width="1280" height="853" className="figure-img img-fluid" alt="Plastic liner na nakalatag sa ibabaw ng ibabang bahagi ng grow box na naka-tape lahat ng mga kanto." />
 
-        <figcaption className="figure-caption">Nakatape ng ng maayos ang mga kanto ng plastic liner.</figcaption>
+        <figcaption className="figure-caption">Nakatape na ng maayos ang mga kanto ng plastic liner.</figcaption>
 
       </figure>
 
       <p>Ngayong naka-<i lang="en">tape</i> na sa posisyon ang <i lang="en">plastic liner</i>,
-        hawakan ang tigkabilang dulo ng plastic liner at hilahin ito papunta sa gilid ng
+        hawakan ang tigkabilang dulo ng plastic liner at hilahin ito papunta sa gilid ng{' '}
       <i lang="en">grow box</i>. Ang <i lang="en">plastic liner</i> ay gagawa ng hugis
       tatsulok na tiklop sa mga kanto.</p>
 
@@ -275,8 +275,6 @@ function GrowBox({match}) {
       </figure>
 
       <p>Buo na ang <i lang="en">grow box</i>.</p>
-
-      <h2 id="remove-the-locking-tabs-optional">Remove the Locking Tabs (Optional)</h2>
 
       <h2 id="alisin-ang-mga-locking-tabs-opsyonal">Alisin ang mga <i lang="en">Locking Tabs</i> (Opsyonal)</h2>
 
@@ -315,7 +313,7 @@ function GrowBox({match}) {
       </figure>
 
       <p>Grow boxes or growing boxes are an essential part of the SNAP Hydroponics
-        system. The grow box acts as a reservoir for the SNAP
+        system. The grow box acts as a reservoir for the SNAP {' '}
       <Link to="/en/working-solution">working solution</Link>. The grow box also holds
       the seedling plugs in place. This is an easy to follow step-by-step guide
       on how to properly construct grow boxes from used styrofoam boxes (styrobox).</p>
@@ -330,7 +328,7 @@ function GrowBox({match}) {
       to twelve (12) liters of nutrient solution and has enough room to grow up to
       eight (8) leafy vegetables and up to five (5) fruiting vegetables. Styroboxes
       of this size are used to transport US-imported grapes and are typically common
-      during the months of September to January. For details please see
+      during the months of September to January. For details please see{' '}
       <Link to="/en/styrobox">the styrobox guide</Link>.</p>
 
     <h3 id="lining-material">Lining Material</h3>
@@ -351,7 +349,7 @@ function GrowBox({match}) {
 
       <p>A styrofoam puncher is required to make holes on the upper half of the grow box
         for the&nbsp;seedling plugs. A tin can of the appropriate diameter for the seedling
-        plug can be made into such a tool. For details please see this
+        plug can be made into such a tool. For details please see this{' '}
       <Link to="/en/styrofoam-puncher">guide on making DIY styrofoam puncher</Link>.</p>
 
     <figure className="figure">
@@ -386,7 +384,7 @@ function GrowBox({match}) {
         manufacturer and the manufacturer’s type designation. This means the upper and
         lower halves of the styrobox won’t fit properly if they are not of the same type.</p>
 
-      <p>The styrobox has a locking tabs to keep it shut. To open the box press on the
+      <p>The styrobox has locking tabs to keep it shut. To open the box press on the
         lower half at the middle of one of the shorter side to release the lock then
         pull the upper half away.</p>
 

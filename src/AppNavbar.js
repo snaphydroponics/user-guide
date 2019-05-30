@@ -44,6 +44,7 @@ class AppNavbar extends React.Component {
                         <LinkContainer exact to="/en/replenishment"><NavDropdown.Item>Replenishment</NavDropdown.Item></LinkContainer>
                         <LinkContainer exact to="/en/seedling-production"><NavDropdown.Item>Seedling Production</NavDropdown.Item></LinkContainer>
                         <LinkContainer exact to="/en/styrobox"><NavDropdown.Item>Styrobox</NavDropdown.Item></LinkContainer>
+                        <LinkContainer exact to="/en/styrofoam-puncher"><NavDropdown.Item>Styrofoam Puncher</NavDropdown.Item></LinkContainer>
                         <LinkContainer exact to="/en/training-seminar"><NavDropdown.Item>Training Seminar</NavDropdown.Item></LinkContainer>
                         <LinkContainer exact to="/en/working-solution"><NavDropdown.Item>Working Solution</NavDropdown.Item></LinkContainer>
                       </NavDropdown>
@@ -57,6 +58,7 @@ class AppNavbar extends React.Component {
                           <LinkContainer exact to="/replenishment"><NavDropdown.Item><i lang="en">Replenishment</i></NavDropdown.Item></LinkContainer>
                           <LinkContainer exact to="/seedling-production"><NavDropdown.Item><i lang="en">Seedling Production</i></NavDropdown.Item></LinkContainer>
                           <LinkContainer exact to="/styrobox"><NavDropdown.Item><i lang="en">Styrobox</i></NavDropdown.Item></LinkContainer>
+                          <LinkContainer exact to="/styrofoam-puncher"><NavDropdown.Item>Pambutas ng <i lang="en">Styrofoam</i></NavDropdown.Item></LinkContainer>
                           <LinkContainer exact to="/training-seminar"><NavDropdown.Item><i lang="en">Training Seminar</i></NavDropdown.Item></LinkContainer>
                           <LinkContainer exact to="/working-solution"><NavDropdown.Item><i lang="en">Working Solution</i></NavDropdown.Item></LinkContainer>
                         </NavDropdown>

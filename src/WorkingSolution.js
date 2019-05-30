@@ -22,7 +22,7 @@ function WorkingSolution({match}) {
   
 </figure>
 
-<p>Ang pinaglalong tubig at <i lang="en">SNAP Hydroponics Nutrient Solution for
+<p>Ang pinaghalong tubig at <i lang="en">SNAP Hydroponics Nutrient Solution for
 Hydroponics A</i> at <i lang="en">SNAP Hydroponics Nutrient Solution for
 Hydroponics B</i> ay tinatawag na <i lang="en">working solution</i>. Nasa baba
 ang mga hakbang kung paano ito gawin.</p>
@@ -31,10 +31,10 @@ ang mga hakbang kung paano ito gawin.</p>
 
 <p>Magsimula sa sampung litro (10L) ng malinis na tubig. Ang mga tubig sa mga 
 regular na pinagkukunan gaya ng tubig sa gripo balon ay maaring gamitin. Ang
-paggamit ng purong tubig ulan o purong <i lang="en">distilled water (reverse osmosis)</i>
+paggamit ng purong tubig ulan o purong <i lang="en">distilled water (reverse osmosis)</i>{' '}
 ay hindi nirerekomenda dahil ang purong tubig ulan at ang purong <i lang="en">
 distilled water</i> ay may <i lang="en">neutral pH</i> at ang pagtimpla ng 
-working solution sa tubig na may <i lang="en">neutral pH</i> ay magreresulta sa
+working solution sa tubig na may <i lang="en">neutral pH</i> ay magreresulta sa{' '}
 <i lang="en">solution</i> na may <i lang="en">pH</i> na masyadong mababa para
 suportahan ang paglaki ng halaman.</p>
 
@@ -43,15 +43,15 @@ na dapat alalahanin ang <i lang="en">pH</i>.</strong></p>
 
 <h2 id="dagdagan-ng-snap-nutrient-solution">Dagdagan ng <i lang="en">SNAP Nutrient Solution</i></h2>
 
-<p>Dagdagan ng 25mL ng SNAP A at <strong>haluing mabuti</strong>. Dagdagan ng 25mL ng SNAP B at
+<p>Dagdagan ng 25mL ng SNAP A at <strong>haluing mabuti</strong>. Dagdagan ng 25mL ng SNAP B at{' '}
 <strong>haluing mabuti.</strong> Hindi mahalaga kung alin sa SNAP A o B ang mauuna. Ngunit
-mahalagang ihalong mabuti ang SNAP sa tubig bago idagdag ang kasunod. <strong>Huwag</strong>
+mahalagang ihalong mabuti ang SNAP <i lang="en">solution</i> sa tubig bago idagdag ang kasunod. <strong>Huwag</strong>{' '}
 paghaluin ang SNAP A at SNAP B bago sila ihalo sa tubig. Kapag pinaghalo ang
 SNAP A at SNAP B, mag-re<i lang="en">react</i> sila sa isa’t-isa at mawawalan
 ng bisa ang resultang <i lang="en">solution</i>.</p>
 
 <figure className="figure">
-  <LazyLoadImage src={measuringCup} width="1280" height="853" className="figure-img img-fluid" alt="Puting 30mL na plastic cup na may nakapatong na palatandaan ng level." />
+  <LazyLoadImage src={measuringCup} width="1280" height="853" className="figure-img img-fluid" alt="Puting 30mL na plastic cup na may nakapatong na palatandaan ng lebel." />
   
   <figcaption className="figure-caption">Punuin ang ganitong klaseng cup sa lebel na may tanda para sa 25mL.</figcaption>
   
@@ -95,7 +95,7 @@ the pH.</strong></p>
 
 <p>Add 25mL of SNAP A and <strong>mix well</strong>. Add 25mL of SNAP B <strong>mix well</strong>.
 The order by which SNAP A and SNAP B is added does not matter. However, it is
-important to mix the solution well before adding the next SNAP solution. <strong>Do not</strong>
+important to mix the solution well before adding the next SNAP solution. <strong>Do not</strong>{' '}
 not to mix SNAP A and SNAP B together before adding them to water. Mixing SNAP A
 and SNAP B will cause them to react with each other which will render the solution
 ineffective.</p>

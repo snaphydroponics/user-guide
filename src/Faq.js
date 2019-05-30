@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import snapAandB from './images/snap-a-and-b.jpg';
+import IPBAddress from './IPBAddress';
 
 function Faq({match}) {
   const lang = match.params.lang || 'fil';
@@ -20,10 +21,10 @@ function Faq({match}) {
 
       <h2 id="ano-ang-snap-hydroponics">Ano ang <i lang="en"><abbr title="Simple Nutrient Addition Program">SNAP</abbr> Hydroponics</i>?</h2>
 
-      <p>Ang <abbr title="Simple Nutrient Addition Program">SNAP</abbr> Hydroponics ay isang sistemang haydroponiko na gumagamit ng  <abbr title="Simple Nutrient Addition Program">SNAP</abbr>
+      <p>Ang <abbr title="Simple Nutrient Addition Program">SNAP</abbr> Hydroponics ay isang sistemang haydroponiko na gumagamit ng  <abbr title="Simple Nutrient Addition Program">SNAP</abbr>{' '}
         Nutrient Solution for Hydroponics. Ang ibig sabihin ng <abbr title="Simple Nutrient Addition Program">SNAP</abbr> ay <i lang="en">
-          Simple Nutrient Addition Program</i>. Ito ay isang mababang halaga, at 
-      <i lang="en">low-maintenance na hydroponics system na dinesenyo para sa
+          Simple Nutrient Addition Program</i>. Ito ay isang mababang halaga, at{' '}
+      <i lang="en">low-maintenance na hydroponics system na dinesenyo para sa{' '}
       <i lang="en">household</i> at <i lang="en">small-scale</i> na produksiyon ng
       gulay.</i></p>
 
@@ -32,7 +33,7 @@ function Faq({match}) {
   <p>Ang <i lang="en"><abbr title="Simple Nutrient Addition Program">SNAP</abbr> Nutrient Solution for Hydroponics</i> ay isang <i lang="en">
       hydroponic nutrient solution. Ito ay sinaliksik at ginagawa sa Institute of Plant
       Breeding ng UPLB. Ang mga ito ay nasa <i lang="en">set</i> ng 500mL na PET bottles
-      na may tatak na <abbr title="Simple Nutrient Addition Program">SNAP</abbr> A at <abbr title="Simple Nutrient Addition Program">SNAP</abbr> B. Ang <abbr title="Simple Nutrient Addition Program">SNAP</abbr> A ay puti ay medyo malabo at ang <abbr title="Simple Nutrient Addition Program">SNAP</abbr>
+      na may tatak na <abbr title="Simple Nutrient Addition Program">SNAP</abbr> A at <abbr title="Simple Nutrient Addition Program">SNAP</abbr> B. Ang <abbr title="Simple Nutrient Addition Program">SNAP</abbr> A ay puti at medyo malabo at ang <abbr title="Simple Nutrient Addition Program">SNAP</abbr>{' '}
       B naman ay malinaw at medyo madilaw.</i></p>
 
   <figure className="figure">
@@ -44,7 +45,7 @@ function Faq({match}) {
 
       <h2 id="saan-mabibi-ang-snap-nutrient-solution-for-hydroponics">Saan mabibi ang <i lang="en"><abbr title="Simple Nutrient Addition Program">SNAP</abbr> Nutrient Solution for Hydroponics</i>?</h2>
 
-      <p>Ang mga ito ay mabibili sa Institute of Plant Breding (<abbr title="Institute of Plant Breeding">IPB</abbr>) at sa mga
+      <p>Ang mga ito ay mabibili sa Institute of Plant Breding (<abbr title="Institute of Plant Breeding">IPB</abbr>) at sa mga{' '}
       <Link to="/authorized-resellers"><i lang="en"><abbr title="Simple Nutrient Addition Program">SNAP</abbr> Authorized Resellers</i></Link>.
       Dahil ito ay popular, ang ibang hydroponic nutrient solutions ay tinatawag din
       na <abbr title="Simple Nutrient Addition Program">SNAP</abbr>. Upang makatiyak na tunay ang binibiling <abbr title="Simple Nutrient Addition Program">SNAP</abbr> nutrient solution, bilhin
@@ -53,30 +54,28 @@ function Faq({match}) {
     <h2 id="saan-mabibili-ang-mga-buto-at-coco-peat">Saan mabibili ang mga buto at <i lang="en">coco peat</i>?</h2>
 
     <p>Ang mga ito ay mabibili sa mga lokal na <i lang="en">garden</i> o <i lang="en">
-        agri-vet centers</i>. Mabibili rin sila sa mga <i lang="en">gardening sections</i>
+        agri-vet centers</i>. Mabibili rin sila sa mga <i lang="en">gardening sections</i>{' '}
       ng mga <i lang="en">hardware stores</i>.</p>
 
     <h2 id="saan-mabibili-ang-mga-styrofoam-boxes">Saan mabibili ang mga styrofoam boxes?</h2>
 
     <p>Ang mga ito ay mabibili sa mga nagtitinda ng prutas na nagtitinda ng <i lang="en">
-        imported</i> na ubas. May mga <Link to="/styrobox">karagdang impormasyon tungkol sa mga
+        imported</i> na ubas. May mga <Link to="/styrobox">karagdang impormasyon tungkol sa mga{' '}
       <i lang="en">styroboxes</i> dito</Link>.</p>
 
-  <h2 id="ano-ang-maari-kong-gawin-sa-natitirang-solution-matapos-anihin">Ano ang maari kong gawin sa natitirang <i lang="en">solution</i> matapos anihin</h2>
-  <p>ang mga pananim?</p>
+  <h2 id="ano-ang-maari-kong-gawin-sa-natitirang-solution-matapos-anihin">Ano ang maari kong gawin sa natitirang <i lang="en">solution</i> matapos anihin ang mga pananim?</h2>
 
   <p>Maari itong gamiting pandilig sa mga regular na nakapasong halaman. Ito may naglalaman
     pa ng kaunting sustansiya na makakapagpataba ng mga halaman.</p>
 
   <h2 id="ano-ang-nilalaman-ng-snap-nutrient-solution-for-hydroponics-a-at-b">Ano ang nilalaman ng <i lang="en"><abbr title="Simple Nutrient Addition Program">SNAP</abbr> Nutrient Solution for Hydroponics</i> A at B?</h2>
 
-  <p>Mangyaring sumanguni sa <Link to="/files/combined-msds-for-snap-a-and-b.pdf"><i lang="en">materials safety data sheet</i></Link>
+  <p>Mangyaring sumanguni sa <a href="/files/combined-msds-for-snap-a-and-b.pdf"><i lang="en">materials safety data sheet</i></a>{' '}
     (<abbr title="Materials Safety Data Sheet">MSDS</abbr>) ng <i lang="en"><abbr title="Simple Nutrient Addition Program">SNAP</abbr> Nutrient Solution for Hydroponics</i> A at B.</p>
 
   <h2 id="ano-ang-ipinahihiwatig-ng-mga-petsa-na-nasa-mga-bote-ng-snap">Ano ang ipinahihiwatig ng mga petsa na nasa mga bote ng <abbr title="Simple Nutrient Addition Program">SNAP</abbr>?</h2>
 
-  <p>Ang mga ito ay ang araw ng pagkakagawa ng <i lang="en"><abbr title="Simple Nutrient Addition Program">SNAP</abbr> solution</i> o ang
-      <i lang="en">batch date</i>.</p>
+  <p>Ang mga ito ay ang araw ng pagkakagawa ng <i lang="en"><abbr title="Simple Nutrient Addition Program">SNAP</abbr> solution</i> o ang <i lang="en">batch date</i>.</p>
 
     <h2 id="lumilipas-ba-ang-snap-nutrient-solution-for-hydroponics">Lumilipas ba ang <i lang="en"><abbr title="Simple Nutrient Addition Program">SNAP</abbr> Nutrient Solution for Hydroponics</i>?</h2>
 
@@ -84,16 +83,8 @@ function Faq({match}) {
       tuyong lugar, ang mga ito ay hindi lilipas.</p>
 
     <p>Para sa iba pang mga katanungan mangyaring makipag-ugnayan sa <abbr title="Institute of Plant Breeding">IPB</abbr>:</p>
-    <div className="card">
-      <div className="card-body">
-        <address>
-          Plant Physiology Laboratory-<abbr title="Institute of Plant Breeding">IPB</abbr><br />
-          Telephone: (049) 576-3189<br />
-          Email: pasantos3@up.edu.ph<br/ >
-          </address>
-        </div>
-      </div>
-    </div>
+    <IPBAddress />
+  </div>
 
     );
   } else {
@@ -169,15 +160,7 @@ function Faq({match}) {
       indefinitely.</p>
 
     <p>For other questions please contact <abbr title="Institute of Plant Breeding">IPB</abbr>:</p>
-    <div className="card">
-      <div className="card-body">
-        <address>
-          Plant Physiology Laboratory-<abbr title="Institute of Plant Breeding">IPB</abbr><br />
-          Telephone: (049) 576-3189<br />
-          Email: pasantos3@up.edu.ph<br/ >
-          </address>
-        </div>
-      </div>
+      <IPBAddress />
     </div>
     );
   }

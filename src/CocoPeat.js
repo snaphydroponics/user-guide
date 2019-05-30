@@ -31,8 +31,8 @@ function CocoPeat({match}) {
       <p>Ang mga ito ay karaniwang mabibili sa mga <i lang="en">gardren</i> o <i lang="en">
           agri-vet centers</i> kung saan sila ay itinitinda bilang tuyong pulbos na nasa
         supot o kaya ay tuyo at siksik na bloke o <i lang="en">bricks</i>. Dahil sila ay
-        dumaan sa pagpoproseso ang nakasupot na <i lang="en">coco peat</i> at
-      <i lang="en">coco peat blocks</i> o <i lang="en"> coco peat bricks</i> ay karaniwang
+        dumaan sa pagpoproseso ang nakasupot na <i lang="en">coco peat</i> at {' '}
+      <i lang="en">coco peat blocks</i> o <i lang="en"> coco peat bricks</i> ay karaniwang{' '}
       <i lang="en">sterile</i>.</p>
 
     <figure className="figure">

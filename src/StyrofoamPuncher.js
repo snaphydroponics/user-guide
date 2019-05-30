@@ -29,8 +29,8 @@ function StyrofoamPuncher({match}) {
   
 </figure>
 
-<p>Ang sistema ng SNAP <i lang="en">Hydroponics</i> ay gumagamit ng
-<i lang="en">grow box</i> upang paglamnan ng <i lang="en">nutrient solution</i>
+<p>Ang sistema ng SNAP <i lang="en">Hydroponics</i> ay gumagamit ng{' '}
+<i lang="en">grow box</i> upang paglamnan ng <i lang="en">nutrient solution</i>{' '}
 at ilagay sa lugar ang mga <i lang="en">seedling plugs</i>. Isa sa mga hakbang
 sa paggawa ng mga <i lang="en">grow box</i> ay ang paglalagay ng butas sa itaas
 na parte ng <i lang="en">styrobox</i> kung saan isusoksok ang mga <i lang="en">
@@ -49,14 +49,14 @@ sila sa lata mismo gaya ng makikita sa baba.</p>
 <figure className="figure">
   <LazyLoadImage src={tinCan} width="853" height="1280" className="figure-img img-fluid" alt="Ang walong onsang styrofoam na baso ay nakasuksok sa lata na may tatlong puldadang diameter." />
   
-  <figcaption className="figure-caption">Ang walang onsang styrofoam na baso ay kasyang-kasya sa latang may tatlong pulgadang diameter.</figcaption>
+  <figcaption className="figure-caption">Ang walong onsang styrofoam na baso ay kasyang-kasya sa latang may tatlong pulgadang diameter.</figcaption>
   
 </figure>
 
-<p>Ang paggamit ng lata na may <i lang="en">ribbing</i> ay nirerecomenda. Ang
-<i lang="en">ribbing</i> ay nagpapatibay sa lata at bibibigyang lakas itong
+<p>Ang paggamit ng lata na may <i lang="en">ribbing</i> ay nirerecomenda. Ang{' '}
+<i lang="en">ribbing</i> ay nagpapatibay sa lata at binibigyang lakas itong
 mapanatili ang bilog nitong hugis kahit na ang labi nito ay putulin upang palalasin
-ang dulong pambutas.</p>
+ang dulo ng pambutas.</p>
 
 <h3 id="mga-kawayang-patpat">Mga Kawayang Patpat</h3>
 
@@ -67,10 +67,10 @@ kapal upang gumawa ng isang pares na isang kapat na pulgada ang kapal. Gawin
 ito sa pamamagitan ng paghati sa patpat na nakayon sa himaymay. Dapat ito ay
 may sapat na haba upang tumahak sa <i lang="en">diameter</i> ng lata at may
 tatlong pulgadang nakalampas sa tigkabilang tabi ng lata. Siguraduhing makinis
-ang mga gilid at mga putol na dulo ng mga patpat ka kawayan upang alisin ang 
+ang mga gilid at mga putol na dulo ng mga patpat na kawayan upang alisin ang 
 mga tatal at matalas na gilid.</p>
 
-<p>Ang paggamit ng isang pirasong kawayan ang makakatipid ng oras at pagod. Ngunit
+<p>Ang paggamit ng isang pirasong kawayan ay makakatipid ng oras at pagod. Ngunit
 ang paugoy-ugoy na paggalaw na mararanasan ng gamit na ito ay maagang ikakasira
 nito. Ang mga hawakan ay maglalagay ng pwersa sa mga butas kung saan nakalusot
 ang mga ito sa lata. Ang mga tabi ng lata ay manipis at malambot. Ang pwersang
@@ -89,7 +89,7 @@ maglilipat ng pwersa sa takip na mas kayang indahin ang mga pwersang ito.</p>
 <h3 id="lastiko">Lastiko</h3>
 
 <p>Lastiko o ibang materyales na maaring gamitin upang italing magkasama ang mga
-pat na kawayan. Maari ring gumamit ng matibay na tali o tamsi.</p>
+patpat na kawayan. Maari ring gumamit ng matibay na tali o tamsi.</p>
 
 <h2 id="mga-kagamitan">Mga Kagamitan</h2>
 
@@ -116,7 +116,7 @@ cross section</i> ng materyales na gagamitin bilang hawakan.</p>
   
 </figure>
 
-<p>Kutsilyo o itak na gagamtin para sa kawayan at lata; pambukas ng lata upang 
+<p>Kutsilyo o itak na gagamitin para sa kawayan at lata; pambukas ng lata upang 
 kumpletong buksan ang isang dulo ng lata ay kailangan din.</p>
 
 <h2 id="mga-hakbang">Mga Hakbang</h2>
@@ -126,7 +126,7 @@ lata.</p>
 
 <p>Gamit nag kutsilyo o itak, gumawa ng hugis “T” na hiwa sa isang tabi ng lata
 malapit sa saradong dulo ng lata. Ang hugis “T” na ito ay maggagarantiya na ang
-butas ay mananatiling nakagitna kahit na ito ay palakihin ng gamit ang maliit na
+butas ay mananatiling nakagitna kahit na ito ay palakihin gamit ang maliit na
 patpat na may matulis na dulo.</p>
 
 <figure className="figure">
@@ -141,7 +141,7 @@ makagawa ng mas malaking butas. Maaring gumamit ng kahit anong kasangkapan na ma
 tamang laki upang pukpukin ang gamit patagos sa lata.</p>
 
 <figure className="figure">
-  <LazyLoadImage src={enlargedHole} width="1280" height="853" className="figure-img img-fluid" alt="Maikling kawayang patpat na may matulis na dulo na pinatags sa hugis “T” na hiwa upang mapalaki ito." />
+  <LazyLoadImage src={enlargedHole} width="1280" height="853" className="figure-img img-fluid" alt="Maikling kawayang patpat na may matulis na dulo na pinatagos sa hugis “T” na hiwa upang mapalaki ito." />
   
   <figcaption className="figure-caption">Palakihin ang butas sa pamamagitan ng pagpukpok ng kagamitang yari sa kawayan patagos sa hiwa.</figcaption>
   
@@ -159,7 +159,7 @@ sa kabilang panig ng lata.</p>
 </figure>
 
 <p>Ilusot ang isa sa mga patpat na kawayan sa butas. Siguraduhing ito ay nakagitna
-upang magpatay ang haba ng mga hawakan. Ipatong ang isa pang patpat upang maitpit
+upang magpantay ang haba ng mga hawakan. Ipatong ang isa pang patpat upang maipit
 ang takip ng lata sa pagitan ng piraso ng kawayan. Itali mga itong mabuti gamit
 ang tali o lastiko.</p>
 

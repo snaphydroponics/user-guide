@@ -17,9 +17,9 @@ function Replenishment({match}) {
           </p>
       </header>
 
-      <p>Ang pag-<i lang="en">replenish</i> ng SNAP working solution sa loob ng <i lang="en">grow box</i>
+      <p>Ang pag-<i lang="en">replenish</i> ng SNAP working solution sa loob ng <i lang="en">grow box</i>{' '}
         ay mahalagang bahagi ng pagpapanatili ng sistemang SNAP <i lang="en">hydroponics</i>.
-        Ang dami ng <i lang="en">working solution</i> sa loob ng <i lang="en">grow box</i>
+        Ang dami ng <i lang="en">working solution</i> sa loob ng <i lang="en">grow box</i>{' '}
         ay bababa sa paglipas ng oras dahil ang <i lang="en">solution</i> ay mababawasan
         sa pamamagitan ng <i lang="en">evaporation</i> at <i lang="en">transpiration</i>.
         Dagdag pa dito, ang konsentrasyon ng sustansiya sa <i lang="en">solution</i> ay
@@ -27,18 +27,18 @@ function Replenishment({match}) {
 
       <p>Sa inisyal na <i lang="en">set up</i>, ang ibabang mahagi ng <i lang="en">
           seedling plugs</i> ay nakatubog sa <i lang="en">working solution</i> sa lalim
-        isa hanggang dalawang sentimentro (1-2cm). The <i lang="en">working solution</i>
+        isa hanggang dalawang sentimentro (1-2cm). The <i lang="en">working solution</i>{' '}
         ay tatagos sa mga hiwa at papasok sa baso at babasain ng lubos ang <i lang="en">
           growing medium</i>. Dahil dito, ang mga binhi ay lalaki ng nakababad sa tubig.</p>
 
       <figure className="figure">
-        <LazyLoadImage src={replenish1} width="1280" height="720" className="figure-img img-fluid" alt="Ilustrasyon: ang mga ibabang bahagi ng seedling plugs ay nakatubog sa working solution. Wala pang ugat na nalabas" />
+        <LazyLoadImage src={replenish1} width="1280" height="720" className="figure-img img-fluid" alt="Ilustrasyon: ang mga ibabang bahagi ng seedling plugs ay nakatubog sa working solution. Wala pang ugat na nalabas." />
 
         <figcaption className="figure-caption">Sa simula, ang ibabang bahagi ng seeling plugs ay nakatubog sa working solution na may lalim na 1-2cm.</figcaption>
 
       </figure>
 
-      <p>Upang mabuhay habang nakababad sa tubig, ang mga halaman ay magpapatubo ng
+      <p>Upang mabuhay habang nakababad sa tubig, ang mga halaman ay magpapatubo ng{' '}
       <i lang="en">aerial roots</i>. Ang mga ugat na ito ay hindi buong na kalubog
       sa tubig at nakalantad sa basang hangin na nasa loob ng <i lang="en">grow box</i>.</p>
 
@@ -49,9 +49,9 @@ function Replenishment({match}) {
 
       </figure>
 
-      <p>Habang lumalaki ang halaman, mas maraming mga ugat ang tutubo at pupunta sa 
-      <i lang="en">working solution</i>. Dahil sa <i lang="en">evaporation</i> at
-      <i lang="en">transpiration</i>, bababa ang lebel ng <i lang="en">working solution</i>
+      <p>Habang lumalaki ang halaman, mas maraming mga ugat ang tutubo at pupunta sa{' '}
+      <i lang="en">working solution</i>. Dahil sa <i lang="en">evaporation</i> at{' '}
+      <i lang="en">transpiration</i>, bababa ang lebel ng <i lang="en">working solution</i>{' '}
       hanggang sa hindi na nito abot ang ibabang habagi ng mga baso. Sa puntong ito,
       kung ang lahat ay maayos, ang <i lang="en">medium</i> ay hindi na naaabot ng
       working solution pero ang mga halaman ay kaya pa ring abutin ang <i lang="en">
@@ -71,23 +71,23 @@ function Replenishment({match}) {
           working solution</i> at <strong>huwag itong hayaang tuluyang maubos</strong>.</p>
 
       <figure className="figure">
-        <LazyLoadImage src={replenish4} width="1280" height="720" className="figure-img img-fluid" alt="Ilustrasyon: mas marami pang ugat ang tubugo papalabas ng seeling plug at ang lebel ng working solution a napakababa na ngayon." />
+        <LazyLoadImage src={replenish4} width="1280" height="720" className="figure-img img-fluid" alt="Ilustrasyon: mas marami pang ugat ang tubugo papalabas ng seeling plug at ang lebel ng working solution ay napakababa na ngayon." />
 
-        <figcaption className="figure-caption">Ang lebel nag working solution ay mababa na at kailangan ng dagdagan.</figcaption>
+        <figcaption className="figure-caption">Ang lebel nag working solution ay mababa na at kailangan nang dagdagan.</figcaption>
 
       </figure>
 
-      <p>Para i-<i lang="en">replenish</i> ang working solution, dagdagan ito ng bagong
+      <p>Para i-<i lang="en">replenish</i> ang working solution, dagdagan ito ng bagong{' '}
       <i lang="en">working solution</i> o malinis na tubig (nasa baba ang mga detalye)
       upang itaas ang lebel ng <i lang="en">working solution</i> hanggang ito ay halos
-      umabot na sa ibabang bahagi ng mga <i lang="en">seedling plugs</i>. <strong>Huwag</strong>
+      umabot na sa ibabang bahagi ng mga <i lang="en">seedling plugs</i>. <strong>Huwag</strong>{' '}
       ibalik ang lebel ng <i lang="en">working solution</i> sa inisyal na lebel dahil
-      malamang na ilulubog nito ang malaking bahagi ng mga <i lang="en">aerial roots</i>
+      malamang na ilulubog nito ang malaking bahagi ng mga <i lang="en">aerial roots</i>{' '}
       na magiging sanhi ng pagkalanta ng mga halaman at sa kinalaunan ay ikakamatay ng
       mga ito.</p>
 
     <figure className="figure">
-      <LazyLoadImage src={replenish5} width="1280" height="720" className="figure-img img-fluid" alt="Ilustrasyon: naitas na ang lebel ng working solution pero hindi nito na rating ang ibabang bahagi ng mga baso at hindi inilubog ang lahat ng mga ugat." />
+      <LazyLoadImage src={replenish5} width="1280" height="720" className="figure-img img-fluid" alt="Ilustrasyon: naitas na ang lebel ng working solution pero hindi nito narating ang ibabang bahagi ng mga baso at hindi inilubog ang lahat ng mga ugat." />
 
       <figcaption className="figure-caption">Nadagdagan na ang lebel ng working solution  at ito ay nasa ibaba lamang ng ibabang bahagi ng mga seedling plugs.</figcaption>
 
@@ -107,8 +107,8 @@ function Replenishment({match}) {
         pagdagdag ng <i lang="en">working solution</i> ay dapat gawin kada buwan. 
         Kalimitan, bumababa ang lebel ng <i lang="en">working solution</i> ng mas maaga
         sa isang buwan, lalong-lalo na sa mga malalaking halaman. Sa mga ganitong
-        pagkakataon, i-<i lang="en">replenish</i> ang <i lang="en">working solution</i>
-        sa gamit ang malinis na tubig.</p>
+        pagkakataon, i-<i lang="en">replenish</i> ang <i lang="en">working solution</i>{' '}
+        gamit ang malinis na tubig.</p>
 
 
 

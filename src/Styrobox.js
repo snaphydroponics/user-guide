@@ -25,16 +25,16 @@ function Styrobox({match}) {
       <p>May panahon din ang pagpasok ang mga kahong <i lang="en">styrofoam</i> para sa
         mga ubas na inaangkat. Malimit sila ay karaniwang madaling makita sa mga buwan
         ng Setyembre hanggang Enero dahil sa mga buwang ito inaangkat ng merkado ng
-        Pilipnas para sa panahon ng kapaskuhan. Ang nanilang dami ay pinakamataas sa
+        Pilipinas para sa panahon ng kapaskuhan. Ang kanilang dami ay pinakamataas sa
         mga huling araw ng Disyembre at mga unang araw ng Enero. Sobrang dami ng mga ito,
         na sila ay karaniwang makikitang basurang tinatapon sa ilang lugar. Ito ang
         magandang panahon upang sila ay hanapin at kolektahin. Sa labas ng mga buwan na
         ito tipikal na mas mahirap na ang mga itong makita.</p>
 
-      <p>Ang mga kahong <i lang="en">styrofoam</i> na it ay maaring isaayos para magkasya
+      <p>Ang mga kahong <i lang="en">styrofoam</i> na ito ay maaring isaayos para magkasya
         sa kwadradong may sukat na 1m ✕ 1.2m. Ito ang batayang sukat ng <i lang="en">
           transport pallet</i>. Ang pagkakaayos na ito ay maaring magamit upang mapakinabangan
-        ng husto ang kapasidad ng <i lang="en">growing area</i></p>
+        ng husto ang kapasidad ng <i lang="en">growing area</i>.</p>
 
       <figure className="figure">
         <LazyLoadImage src={styroboxArragement} width="1280" height="1280" className="figure-img img-fluid" alt="Limang styroboxes na isinaayos upang magkasya sa 1m by 1.2m na area." />

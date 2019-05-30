@@ -31,7 +31,7 @@ function Manual({match}) {
         <figure className="figure">
           <img src={snapAandB} width="1280" height="1280" className="figure-img img-fluid" alt="Pares ng 500mL PET bottles na naglalaman ng SNAP at SNAP B." />
 
-          <figcaption className="figure-caption">Ang <abbr title="Simple Nutrient Addition Program">SNAP</abbr> A ay puti ang malabo at ang <abbr title="Simple Nutrient Addition Program">SNAP</abbr> B ay malinaw at may pagkadilaw.</figcaption>
+          <figcaption className="figure-caption">Ang <abbr title="Simple Nutrient Addition Program">SNAP</abbr> A ay puti at medyo malabo at ang <abbr title="Simple Nutrient Addition Program">SNAP</abbr> B ay malinaw at may pagkadilaw.</figcaption>
 
         </figure>
 
@@ -75,7 +75,7 @@ function Manual({match}) {
         <figure className="figure">
           <LazyLoadImage src={suitableSNAPLocation} width="1280" height="427" className="figure-img img-fluid" alt="Mga grow boxes na may lumalaking halaman, nakalagay sa mga patungan, at nasa maaraw na lugar." />
 
-          <figcaption className="figure-caption">Isang angkop na lugar para sa pagpapatubo gamit ang <abbr title="Simple Nutrient Addition Program">SNAP</abbr> Hydroponics</figcaption>
+          <figcaption className="figure-caption">Isang angkop na lugar para sa pagpapatubo gamit ang <abbr title="Simple Nutrient Addition Program">SNAP</abbr> Hydroponics.</figcaption>
 
         </figure>
 
@@ -90,7 +90,7 @@ function Manual({match}) {
 
         <h3 id="punlaan">Punlaan</h3>
 
-        <p>Mababaw na kahon lalagyan na may mga butas sa ilalim. Maari itong gawin mula sa
+        <p>Mababaw na kahong lalagyan na may mga butas sa ilalim. Maari itong gawin mula sa
           mga <i lang="en">microwavable containers</i>. Siguraduhing mayroong butas sa
           ilalim. Mahalaga na nakakalusot ang tubig sa ilalim ng punlaan. Dahil kung hindi,
           mabababad ang mga buto o supling sa tubig na maaring ikabulok ng mga buto at 
@@ -102,9 +102,9 @@ function Manual({match}) {
           itong umikot.</p>
 
         <figure className="figure">
-          <LazyLoadImage src={sowingTray} width="1280" height="853" className="figure-img img-fluid" alt="Micorwavable na tub na may mga butas sa ilalim." />
+          <LazyLoadImage src={sowingTray} width="1280" height="853" className="figure-img img-fluid" alt="Microwavable na tub na may mga butas sa ilalim." />
 
-          <figcaption className="figure-caption">Punlaan: ginamit ang mababaw na microwavable tub na maraming butas na lugusan na dinagdag sa ilalim.</figcaption>
+          <figcaption className="figure-caption">Punlaan: ginamit ang mababaw na microwavable tub na maraming butas na lagusan na dinagdag sa ilalim.</figcaption>
 
         </figure>
 
@@ -191,18 +191,18 @@ function Manual({match}) {
         <p>Ang mga kahong yari sa <i lang="en">Expanded Polystyrene (<abbr title="Expanded Polystyrene">EPS</abbr>)</i> na mas kilala
           sa pangalang <i lang="en">“styrofoam box”</i> o “syrobox” ang angkop na materyales
           para sa <i lang="en">grow box</i> (o <i lang="en">“growing box”</i>). Ang rekomendadong
-          laki para sa <i lang="en"><abbr title="Simple Nutrient Addition Program">SNAP</abbr> Hydroponics</i> ay 20”×16”×6”. Ang nga kahong ito
-          aya kayang maglaman ng sampu (10) hanggang labingdalawang (12) litro ng <i lang="en">
-            nutrient solution</i> at hanggang limang (5) namumungang gulay. Ang mga
+          laki para sa <i lang="en"><abbr title="Simple Nutrient Addition Program">SNAP</abbr> Hydroponics</i> ay 20”×16”×6”. Ang mga kahong ito
+          ay kayang maglaman ng sampu (10) hanggang labingdalawang (12) litro ng <i lang="en">
+            nutrient solution</i> at may sapat na lugar para magpalaki ng hanggang walong (8) madahong gulay at hanggang limang (5) namumungang gulay. Ang mga{' '}
           <i lang="en">styroboxes</i> na may ganitong laki ay pangkaraniwang makikita sa mga
           buwan ng Setyembre hanggang Enero.</p>
 
-        <p><Link to="/en/styrobox" className="btn btn-primary btn-block">Styrofoam Boxes Guide</Link></p>
+        <p><Link to="/en/styrobox" className="btn btn-primary btn-block">Gabay sa mga <i lang="en">Styrofoam Boxes</i></Link></p>
 
         <h3 id="lining-material"><i lang="en">Lining Material</i></h3>
 
-        <p>Ang mga <i lang="en" styrofoam="">boxes</i> ay may mga <i lang="en">ventilation holes</i>
-          na sa kanilang mga gilid. Upang makapanglaman ng <i lang="en">nutrient solution</i>
+        <p>Ang mga <i lang="en" styrofoam="">boxes</i> ay may mga <i lang="en">ventilation holes</i>{' '}
+          na sa kanilang mga gilid. Upang makapanglaman ng <i lang="en">nutrient solution</i>{' '}
           ang ibabang bahagi ng kahon kailangan itong latagan ng matibay na <i lang="en">waterproofing
             sheet</i>. Sa manual na ito, gagamit ng 20 ✕ 30 <i lang="en">inch polyethylene (<abbr title="Polyethylene">PE</abbr>)
             plastic bags</i>.</p>
@@ -245,7 +245,7 @@ function Manual({match}) {
             ng patungan sa pagbubutas.</li>
 
           <li>
-            Gumuhit ng mga linyang gabay na pinagdudugsong ang mga <i lang="en">ventilation holes</i>
+            Gumuhit ng mga linyang gabay na pinagdudugsong ang mga <i lang="en">ventilation holes</i>{' '}
             mula sa magkasalungat na panig ng kahon gaya nakararawan sa ibaba. Gagawa ng butas
             nakagitna kung saan nagtatagpo ang mga linya.
 
@@ -253,14 +253,14 @@ function Manual({match}) {
 
 
             <figure className="figure">
-              <LazyLoadImage src={guideLines} width="1280" height="853" className="figure-img img-fluid" alt="Itaas na hati ng grow box na pinapakita ang mga ginuhit na linyang gabay." />
+              <LazyLoadImage src={guideLines} width="1280" height="853" className="figure-img img-fluid" alt="Itaas na bahagi ng grow box na pinapakita ang mga ginuhit na linyang gabay." />
 
               <figcaption className="figure-caption">Mga linyang pinagdudugsong ang mga ventilation holes sa mga magkasalungat na panig. Gagawa ng butas kung saan sila nagtatagpo.</figcaption>
 
             </figure>
           </li>
 
-          <li>Upang gumawa ng mga butas, ipatong ang matalas na dulog ng pambutas ng <i lang="en">styfoam puncher</i>
+          <li>Upang gumawa ng mga butas, ipatong ang matalas na dulog ng pambutas ng <i lang="en">styfoam puncher</i>{' '}
             sa <i lang="en">styrofoam</i> at idiin ito upang lagyan ng marka ang ibabaw.
             Hawakan ang pambutas sa mga hawakan at idiin ito habang iniiikot ng pakanan at
             pakaliwa. Sa ganitong paraaan, lalong lalalim ang pambutas sa <i lang="en">foam</i>.
@@ -270,7 +270,7 @@ function Manual({match}) {
 
           <li>Maingat na bunutin ang pambutas ng <i lang="en">styrofoam</i>. Isang bilog na 
             piraso ng <i lang="en">foam</i> ang maiiwan sa dulo ng pambutas. Gamitin ang patpat
-            upang maingan na itulak ang isang panig nito. Iikot ang pirasong ito at lalabas
+            upang maingat na itulak ang isang panig nito. Iikot ang pirasong ito at lalabas
             ang kabilang panig palabas ng pambutas at magiging madali ang pag-alis nito sa
             pambutas.
           </li>
@@ -281,7 +281,7 @@ function Manual({match}) {
 
 
             <figure className="figure">
-              <LazyLoadImage src={growboxTopBottomView} width="1280" height="853" className="figure-img img-fluid" alt="Itaas na hat ng grow box na pinapakita kung paano nakasentro ang mga butas gamit ang mga linyang gabay bilang gabay." />
+              <LazyLoadImage src={growboxTopBottomView} width="1280" height="853" className="figure-img img-fluid" alt="Itaas na bahagi ng grow box na pinapakita kung paano nakasentro ang mga butas gamit ang mga linyang gabay bilang gabay." />
 
               <figcaption className="figure-caption">Ginawa ang butas kung saan nagtatagpo ang mga linyang gabay.</figcaption>
 
@@ -289,9 +289,9 @@ function Manual({match}) {
           </li>
 
           <li>Madiing minumungkahing gamitin ang <i lang="en">packing tape</i> upang takpan
-            ang mga <i lang="en">ventilation holes</i> sa bagahing ito ng <i lang="en">styrobox</i>
+            ang mga <i lang="en">ventilation holes</i> sa bagahing ito ng <i lang="en">styrobox</i>{' '}
             kung ang iyong lugar na pagpapatubuan ay walang proteksiyon sa lamok. Sa ganitong
-            paraan, mapipigilang maabot ng mga lamok ang <i lang="en">nutrient solution</i>
+            paraan, mapipigilang maabot ng mga lamok ang <i lang="en">nutrient solution</i>{' '}
             at hindi sila makakapangitlog sa loob ng <i lang="en">grow box</i>.
           </li>
 
@@ -315,9 +315,9 @@ function Manual({match}) {
 
         <h2 id="mga-kailangang-materyales-2">Mga Kailangang Materyales</h2>
 
-        <h3 id="mga-styro-cups">Mga <i lang="en">styro cups</i></h3>
+        <h3 id="mga-styro-cups">Mga <i lang="en">Styro Cups</i></h3>
 
-        <p>Sa gabay na ito, ang gagamitin ay walong onsang (8oz.) <i lang="en">styro cup</i>
+        <p>Sa gabay na ito, ang gagamitin ay walong onsang (8oz.) <i lang="en">styro cup</i>{' '}
           na nakalarawan sa baba.</p>
 
         <figure className="figure">
@@ -340,7 +340,7 @@ function Manual({match}) {
         <p>Maraming materyales ang maaring gamitin bilang <i lang="en">growing media</i>.
           Sa gabay na ito, <i lang="en">coco peat</i> ang gagamitin.</p>
 
-        <h3 id="plastik-na-katsara-bbq-stick-o-mga-katulad-na-gamit">Plastik na Katsara, <i lang="en">BBQ stick</i> o mga Katulad na Gamit</h3>
+        <h3 id="plastik-na-kutsara-bbq-stick-o-mga-katulad-na-gamit">Plastik na Kutsara, <i lang="en">BBQ stick</i> o mga Katulad na Gamit</h3>
 
         <p>Gagamitin ito upang bungkalin ang mga binhi mula sa sowing tray. Gagamitin rin ito
           na pambungkal kapag naglilipat ng mga binhi sa mga <i lang="en">seedling plug</i>.</p>
@@ -351,7 +351,7 @@ function Manual({match}) {
 
           <li>Gamit ang maliit na laghari, gumawa ng lima (5) hanggang walong (8) patayong
             hiwa sa tabi ng baso mula sa ilalim. Ito ay dapat dalawang-katlo (2/3) ng taas
-            ng baso ang haba at sa ilalim naman ay isang-katlo (1/3) ng <i lang="en">radius</i>
+            ng baso ang haba at sa ilalim naman ay isang-katlo (1/3) ng <i lang="en">radius</i>{' '}
             ng ilalim ng baso.
 
 
@@ -376,15 +376,15 @@ function Manual({match}) {
             katulad na gamit nito upang maingat na bungkalin ang mga binhi mula sa punlaan.
             “Maghukay” ng butas sa gitna ng <i lang="en">growing media</i> na nasa loob ng 
             baso gamit ang patpat o katulad na gamit. Isang binhi lang ang ilipat kada baso.
-            Itayo ng maayos ang nilipat na binhi sa pamamagitan ng paglalagay ng <i lang="en">growing media</i>
+            Itayo ng maayos ang nilipat na binhi sa pamamagitan ng paglalagay ng <i lang="en">growing media</i>{' '}
             sa paligid ng puno nito gamit ang patpat.
           </li>
 
 
           <li>
-            <p>Kung nanaisin, ng mga binhi sa nasa <i lang="en">seedling plugs</i> ay maaring
+            <p>Kung nanaisin, ng mga binhi sa nasa <i lang="en">seedling plugs</i> ay maaring{' '}
               <em>patibayin</em> bago sila ilipat sa <i lang="en">growing boxes</i>. Hayaang nakatubog
-              sa mababaw na matabang na <Link to="/working-solution"><i lang="en">working solution</i></Link>
+              sa mababaw na matabang na <Link to="/working-solution"><i lang="en">working solution</i></Link>{' '}
               ang mga inihandang <i lang="en">seedling plugs</i> ng mga ilang araw.</p>
 
             <figure className="figure">
@@ -431,7 +431,7 @@ function Manual({match}) {
 
         <h3 id="patungan">Patungan</h3>
 
-        <p>Opsyonal na mga patungan kung saan ilalagay ang mga <i lang="en">grow boxes</i>
+        <p>Opsyonal na mga patungan kung saan ilalagay ang mga <i lang="en">grow boxes</i>{' '}
           sa ilalim ng silungan.</p>
 
         <h3 id="silungan">Silungan</h3>
@@ -444,8 +444,7 @@ function Manual({match}) {
 
         <ol>
 
-          <li>Isaayos ang mga <i lang="en">grow boxes</i> sa silungan. 
-            Arrange the growing boxes in your shelter. Siguraduhing ang bawat isa ay pantay
+          <li>Isaayos ang mga <i lang="en">grow boxes</i> sa silungan. Siguraduhing ang bawat isa ay pantay
             at ang bawat isa ay nakakatanggap ng sapat na sikat ng araw upang suportahan ang
             paglaki ng mga halaman.
           </li>
@@ -467,7 +466,7 @@ function Manual({match}) {
             <p>Dagdagan ng 25 mL ng <abbr title="Simple Nutrient Addition Program">SNAP</abbr> A. Haluing mabuti. Dagdagan ng 25 mL ng <abbr title="Simple Nutrient Addition Program">SNAP</abbr> B.
               Haluing mabuti. Kahit alin sa <abbr title="Simple Nutrient Addition Program">SNAP</abbr> A o <abbr title="Simple Nutrient Addition Program">SNAP</abbr> ay maaring maunang ihalo sa tubig
               subalit dapat tandaan na dapat <strong>haluing mabuti</strong> ang <i lang="en">mixture</i> sa
-              pagitan ng pagdagdag ng <abbr title="Simple Nutrient Addition Program">SNAP</abbr> A/B <i lang="en">nutrient solution</i>. Ang resultang
+              pagitan ng pagdagdag ng <abbr title="Simple Nutrient Addition Program">SNAP</abbr> A/B <i lang="en">nutrient solution</i>. Ang resultang{' '}
               <i lang="en">mixture</i> ay ang <i lang="en">working solution</i>.</p>
 
             <figure className="figure">
@@ -483,8 +482,8 @@ function Manual({match}) {
             pagkakalapat nila.</li>
 
           <li>
-            <p>Maglagay ng <i lang="en">seedling plug</i> sa bawat butas sa itaas na bahagi ng
-              <i lang="en">grow box</i>. Siguraduhing ang ilalim ng mga baso ay nakalubog sa
+            <p>Maglagay ng <i lang="en">seedling plug</i> sa bawat butas sa itaas na bahagi ng{' '}
+              <i lang="en">grow box</i>. Siguraduhing ang ilalim ng mga baso ay nakalubog sa{' '}
               <i lang="en">solution</i> ng hindi bababa sa isang sentimetro (1 cm) ang sukat.
               Kung hindi pa, dagdagan ng <strong>malinis na tubig</strong> hanggang ang maabot tamang taas
               ng <i lang="en">solution</i>.</p>
@@ -497,8 +496,8 @@ function Manual({match}) {
 
         <ul>
           <li>
-            <p>Bisitahin ang <i lang="en">setup</i> tuwing umaga upang hulihin ang mga
-              <i lang="en">larva</i> ng insekto na maaring kumain sa mga halaman. Ang mga
+            <p>Bisitahin ang <i lang="en">setup</i> tuwing umaga upang hulihin ang mga{' '}
+              <i lang="en">larva</i> ng insekto na maaring kumain sa mga halaman. Ang mga{' '}
               <i lang="en">larva</i> ay aktibo at madaling makita sa umaga. Pagkalipas noon,
               sila ay nagtatago at mas mahirap makita.</p>
           </li>
@@ -519,8 +518,8 @@ function Manual({match}) {
           </li>
           <li>
             <p>Dagdagan (<i lang="en">replenish</i>) ang <i lang="en">solution</i> kapag
-              masyado ng mababa ang lebel ang <i lang="en">working solution</i>. <strong>Huwag</strong> 
-              itong hayaang matuyo ng tuluyan.  Kapag nagdadagdag ng <i lang="en">solution</i>,
+              masyado ng mababa ang lebel ang <i lang="en">working solution</i>. <strong>Huwag</strong>{' '}
+              itong hayaang matuyo ng tuluyan.  Kapag nagdadagdag ng <i lang="en">solution</i>,{' '}
               <strong>huwag</strong> itong hayaang maabot ang ilalim ng mga baso at ilubog ang lahat ng mga
               ugat. Ang itaas na bahagi ng mga ugat ng mga halaman ay dapat laging nakalantad
               sa hangin kaya hindi dapat ito nakalubog sa tubig. Palagian itong tandaan kapag
@@ -532,7 +531,7 @@ function Manual({match}) {
           </li>
           <li>
             <p>Ang mga pananim na kailangang palakihin ng lampas sa isang buwan ay dapat
-              dagdagan ng bagong <i lang="en">working solution</i></p>
+              dagdagan ng bagong <i lang="en">working solution</i>.</p>
           </li>
         </ul>
 
@@ -565,7 +564,7 @@ function Manual({match}) {
 
         <p><abbr title="Simple Nutrient Addition Program">SNAP</abbr> is a low-cost hydroponics system that is easy to setup and easy to maintain.
           Growing plants with <abbr title="Simple Nutrient Addition Program">SNAP</abbr> is a fun and rewarding hobby or business. However,
-          before starting, it is important to remember that a suitable location for the
+          before starting, it is important to remember that a suitable location for the{' '}
           <abbr title="Simple Nutrient Addition Program">SNAP</abbr> Hydroponics system is one of the most important factor to consider when
           growing plants using <abbr title="Simple Nutrient Addition Program">SNAP</abbr> Hydroponics.</p>
 
@@ -606,7 +605,7 @@ function Manual({match}) {
 
         <p>For total beginners, it is strongly recommended to start with lettuce. Loose
           leaf lettuce is recommended during the summer months. Beginners may also start
-          with other leafy vegetables like <i lang="fil">pechay</i>,
+          with other leafy vegetables like <i lang="fil">pechay</i>,{' '}
           <i lang="fil">mustasa</i> or <i lang="fil">kang-kong</i>.</p>
 
         <h1 id="establish-seedlings">Establish Seedlings</h1>
@@ -653,7 +652,7 @@ function Manual({match}) {
         <h3 id="seeds">Seeds</h3>
 
         <p>These can be bought from local garden or agricultural center. For beginners, it
-          is strongly recommended to start with leafy vegetables such as lettuce, <i lang="fil">pechay</i>,
+          is strongly recommended to start with leafy vegetables such as lettuce, <i lang="fil">pechay</i>,{' '}
           <i lang="fil">mustasa</i> or <i lang="fil">kangkong</i>.</p>
 
         <h2 id="procedure">Procedure</h2>
@@ -878,7 +877,7 @@ function Manual({match}) {
             a stick.</li>
 
           <li>
-            <p>If desired, the seedlings in the seedling plugs can be
+            <p>If desired, the seedlings in the seedling plugs can be{' '}
               <em>hardened off</em> before they are transferred to the grow boxes. Let the prepared
               seedling plug sit in a shallow pool of diluted working solution for a few days.</p>
 
@@ -1000,7 +999,7 @@ function Manual({match}) {
               go down faster as the plants grow.</p>
           </li>
           <li>
-            <p>Replenish the solution when the working solution level becomes too low. <strong>Never</strong>
+            <p>Replenish the solution when the working solution level becomes too low. <strong>Never</strong>{' '}
               allow it to totally dry up. When replenishing the solution, <strong>never</strong> allow
               the level of the solution to reach the bottom of the cup and submerge all of the
               roots. The upper half of the plants’ roots must always be exposed to air and
@@ -1019,13 +1018,7 @@ function Manual({match}) {
 
         <p><Link to="/en/replenishment" className="btn btn-primary btn-block">Replenishment Guide</Link></p>
 
-        <p>For any additional questions please refer to the <Link to="/en/faq">frequently asked questions</Link>
-          page.</p>
-
-
-
-
-
+        <p>For any additional questions please refer to the <Link to="/en/faq">frequently asked questions</Link> page.</p>
       </div>
     );
   }

@@ -8,12 +8,13 @@ function TrainingSeminar({match})
       <div className="container">
         <header className="my-5">
           <h1 id="content">Pagsasanay sa SNAP Hydroponics</h1>
-          <p className="lead">Pagsasanay sa Produksiyon ng gulay gamit ang Hydroponics na may diin sa SNAP Hydroponics.
+          <p className="lead">Pagsasanay sa produksiyon ng gulay gamit ang hydroponics na may diin sa SNAP Hydroponics.
           </p>
       </header>
 
       <p>Ang Institute of Plant Breeding (<abbr title="Institute of Plant Breeding">IPB</abbr>) ay may maiksing kursong pagsasanay na may
-        pamagat na “Training on Hydroponics Vegetable Production with Emphasis on <abbr title="Simple Nutrient Addition Program">SNAP</abbr> Hydroponics.” Ang mga kalahok na nakatapos ng making kursong pagsasanay na ito
+        pamagat na <i lang="en">“Training on Hydroponics Vegetable Production with Emphasis on <abbr title="Simple Nutrient Addition Program">SNAP</abbr> Hydroponics.”</i>{' '}
+        Ang mga kalahok na nakatapos ng making kursong pagsasanay na ito
         ay ginagawaran ng sertipiko ng pagkumpleto.</p>
 
       <h2 id="deskripsyon">Deskripsyon</h2>
@@ -22,18 +23,18 @@ function TrainingSeminar({match})
         pag-<i lang="en">setup</i> at pagpapatakbo ng sistemang <abbr title="Simple Nutrient Addition Program">SNAP</abbr> <i lang="en">
           hydroponics</i>; pagkilala sa iba’t-ibang sintomas ng <i lang="en">nutrient
           deficiency</i> at <i lang="en">nutrient toxicity</i>; mga batayang konsepto sa
-        panghalamang kalusugan na may kaugnayan sa produksiyon ng gulay gamit ang
-      <i lang="en">hydroponics</i>; may kasamang <i lang="en">starter kit</i> -
-      <i lang="en">nutrient solution</i>, buhay na mga binhi, at <i lang="en">styrofoam</i>
+        panghalamang kalusugan na may kaugnayan sa produksiyon ng gulay gamit ang{' '}
+      <i lang="en">hydroponics</i>; may kasamang <i lang="en">starter kit</i> -{' '}
+      <i lang="en">nutrient solution</i>, buhay na mga binhi, at <i lang="en">styrofoam</i>{' '}
       na kahon at baso.</p>
 
     <h2 id="iskedyul">Iskedyul</h2>
 
     <p>Ang maiksing kursong pagsasanay sa <abbr title="Simple Nutrient Addition Program">SNAP</abbr> <i lang="en">Hydroponics</i> ay regular
       na isinasagawa tuwing pangalawa at pang-apat na Martes ng bawat buwan. Subalit
-      maaring mabago ang iskedyul depende kung makarating ang <i lang="en">resource
+      maaring mabago ang iskedyul depende kung makakarating ang <i lang="en">resource
         speaker</i>. Tumatagal ng isang araw ang  pagsasanay at tipikal na nagsisimula
-      ng 9:00AM at nagtatapos ng 5:00PM. Ang pagsasanay at ginagawa sa <abbr title="Institute of Plant Breeding">IPB</abbr>.</p>
+      ng 9:00AM at nagtatapos ng 5:00PM. Ang pagsasanay ay ginagawa sa <abbr title="Institute of Plant Breeding">IPB</abbr>.</p>
 
     <h2 id="bayad-sa-kurso">Bayad sa Kurso</h2>
 
@@ -60,7 +61,7 @@ function TrainingSeminar({match})
       </li>
       <li>
         <p>Mga Pananim na nasa <abbr title="Simple Nutrient Addition Program">SNAP</abbr> <i lang="en">Hydroponics</i> - katunayan na kayang 
-          gamitin ang mga natutunad sa maikling kursong pagsasanay.</p>
+          gamitin ang mga natutunan sa maikling kursong pagsasanay.</p>
       </li>
       </ul>
 
@@ -75,7 +76,7 @@ function TrainingSeminar({match})
       <div className="container">
         <header className="my-5">
           <h1 id="content">SNAP Hydroponics Training</h1>
-          <p className="lead">Training on Hydroponics Vegetable Production with Emphasis on SNAP Hydroponics.
+          <p className="lead">Training on hydroponics vegetable production with emphasis on SNAP Hydroponics.
           </p>
       </header>
 

@@ -47,7 +47,7 @@ na <i lang="en">germination rate</i> ay 90%, umasa na 900 na buto mula sa pakete
 ang uusbong.</p>
 
 <p>Bukod pa sa ponsiyentong nakasulat sa pakete ng mga buto, ang <i lang="en">germination
-rates</i> ay maari ring madetermina sa pamamagitan ng <i lang="en">germination test</i>
+rates</i> ay maari ring madetermina sa pamamagitan ng <i lang="en">germination test</i>{' '}
 at ng <i lang="en">floatation test</i>.</p>
 
 <p>Ginagawa ang <i lang="en">germination test</i> sa pamamagitan ng pagpapasibol ng
@@ -67,12 +67,11 @@ mababa ang kalidad.</p>
 
 <h3 id="pinagmumulan-ng-normal-na-binhi">Pinagmumulan ng Normal na Binhi</h3>
 
-<p>Ang mga binhing sumisibol sa mainam na mga buto ay may malusog na <i lang="en">radicle</i>
-matatag na tangkay, at malusog na <i lang="en">cotydedon</i>.
-Seedlings that sprout from good seeds have healthy radicle, strong stem, healthy cotyledons and vigorous growth.</p>
+<p>Ang mga binhing sumisibol sa mainam na mga buto ay may malusog na <i lang="en">radicle</i>,
+  matatag na tangkay, at malusog na <i lang="en">cotydedon</i>.</p>
 
 <figure className="figure">
-  <LazyLoadImage src={mustasaSeedlings} width="1280" height="853" className="figure-img img-fluid" alt="Mga batang binhi ng mustasa na nagpapakita ng malatag na tangkay at mga cotyledons" />
+  <LazyLoadImage src={mustasaSeedlings} width="1280" height="853" className="figure-img img-fluid" alt="Mga batang binhi ng mustasa na nagpapakita ng matatag na tangkay at mga cotyledons" />
   
   <figcaption className="figure-caption">Mga malusog na binhi ng mustasa.</figcaption>
   
@@ -93,7 +92,7 @@ ang mga katangiang ito.</p>
 
 <h3 id="tamang-moisture-content-para-sa-pag-iimbak">Tamang <i lang="en">Moisture Content</i> para sa Pag-Iimbak</h3>
 
-<p>Ang mainam na mga buto ay hindi masyadong basa na maari silang tubuan ng mga
+<p>Ang mainam na mga buto ay hindi masyadong basa na maari silang tubuan ng mga{' '}
 <i lang="en">pathogens</i> at hindi sila masyadong tuyo na ang mga buto ay
 nawawalan ng <i lang="en">viability</i> habang nakaimbak.</p>
 
@@ -121,8 +120,8 @@ nawawalan ng <i lang="en">viability</i> habang nakaimbak.</p>
 
 <ul>
   <li>
-    <p><i lang="en">Sterilized</i> na <i lang="en">growing media</i> - ang
-<i lang="en">sterilized</i> lang na coco peat ay angkop dito</p>
+    <p><i lang="en">Sterilized</i> na <i lang="en">growing media</i> - ang{' '}
+<i lang="en">sterilized</i> na coco peat ay angkop dito</p>
   </li>
   <li>
     <p>Punlaan - ang mababaw na lalagyan na may butas na lagusan ng tubig sa ilalim
@@ -141,12 +140,12 @@ ay angkop dito.</p>
 
 <ol>
 <li>Punuin ang punlaan ng suson ng basang <i lang="en">growing media</i> na may
-dalawa hanggang tatlong sentimetro ang kapal (2-3 cm). Dasikin at pantayin ang
+dalawa hanggang tatlong sentimetro ang kapal (2-3 cm). Dasikin at pantayin ang{' '}
 <i lang="en">growing medium</i></li>
 
 <li>Ibodbod ang mga maliit na buto ng manipis at pantay-pantay. Kung gaano karami
-ay nakadepende kung ilan ang kailanganin. Isaalang-alang na maglaan ng karagdagang
-mga buto na mga labinglimang porsyento (15%) ng dami ng kailanganin upang masagot
+ay nakadepende kung ilan ang kakailanganin. Isaalang-alang na maglaan ng karagdagang
+mga buto na mga labinglimang porsyento (15%) ng dami ng kakailanganin upang masagot
 ang <i lang="en">germination rate</i> at iba pang mga sanhi na maaring ikabawas
 ng mga binhi.</li>
 
@@ -161,7 +160,7 @@ pag-usbong ng mga buto sa loob ng tatlo hanggang limang araw.</li>
 <figure className="figure">
   <LazyLoadImage src={lettuce} width="1280" height="853" className="figure-img img-fluid" alt="Lalagyan na may lumaking binhi at isapang lalagyan na may kakapunla lang na buto ng letsugas." />
   
-  <figcaption className="figure-caption">Kaliwa: Mga binhi na handa ng ipunla; Kanan: Mga butong kakapunla lamang.</figcaption>
+  <figcaption className="figure-caption">Kaliwa: Mga binhi na handa ng ipunla; kanan: Mga butong kakapunla lamang.</figcaption>
   
 </figure>
 </li>
@@ -169,7 +168,7 @@ pag-usbong ng mga buto sa loob ng tatlo hanggang limang araw.</li>
 
 <h3 id="mga-karagdagang-tips">Mga Karagdagang <i lang="en">Tips</i></h3>
 
-<p>Malimit, sa mga pakete ng buto nakasulat ang <i lang="en">batch date</i> or ang
+<p>Malimit, sa mga pakete ng buto nakasulat ang <i lang="en">batch date</i> or ang{' '}
 <i lang="en">sow-by-date</i> ng butong nasa loob ng pakete. Kapag bumibili ng 
 pakete ng buto, piliin ang mga paketeng may kamakailan lamang na <i lang="en">batch
 date</i> o may <i lang="en">sow-by-date</i> na ilang buwan pa sa kinabukasan. Ang
@@ -180,7 +179,7 @@ ang mga buto.</p>
 <p>Upang mapanatili ang mataas na <i lang="en">germination rate</i> ng mga buto na
 nasa bukas na pakete, ilagay ang mga ito sa kanilang orihinal na <i lang="en">foil
 packets</i> na nakatiplop ng sarado ang bukas na dulo. Ilagay ang mga ito sa 
-saradong plastik na lalagyan at panatilihing <i lang="en">refrigirated</i> ang
+saradong plastik na lalagyan at panatilihing <i lang="en">refrigerated</i> ang
 mga ito.</p>
       </div>
     );
@@ -239,7 +238,7 @@ viable seeds from seeds of poor quality.</p>
 <figure className="figure">
   <LazyLoadImage src={mustasaSeedlings} width="1280" height="853" className="figure-img img-fluid" alt="Young mustasa seedlings displaying healthy stalk and cotyledons." />
   
-  <figcaption className="figure-caption">Healtlhy mustasa seedlings.</figcaption>
+  <figcaption className="figure-caption">Healthy mustasa seedlings.</figcaption>
   
 </figure>
 
@@ -274,7 +273,7 @@ too dry that seeds lose viability during storage.</p>
 <figure className="figure">
   <LazyLoadImage src={diseases} width="1280" height="853" className="figure-img img-fluid" alt="A brochure with information about seed borne diseases." />
   
-  <figcaption className="figure-caption">Seeds information sheet about seed-borne disease.</figcaption>
+  <figcaption className="figure-caption">Information sheet about seed-borne disease.</figcaption>
   
 </figure>
 
@@ -287,8 +286,7 @@ too dry that seeds lose viability during storage.</p>
     <p>Sterilized growing media - sterilized coco peat works well</p>
   </li>
   <li>
-    <p>Sowing tray - a shallow plastic tub with drain holes at the bottom works well
-Water</p>
+    <p>Sowing tray - a shallow plastic tub with drain holes at the bottom works well</p>
   </li>
 </ul>
 
@@ -302,7 +300,7 @@ Water</p>
 <h3 id="procedure">Procedure</h3>
 
 <ol>
-<li>Fill the sowing tray with a layer of moist growing medium 2-3 cm&nbsp;thick.
+<li>Fill the sowing tray with a layer of moist growing medium 2-3 cm thick.
 Pack and level the growing medium.</li>
 
 <li>Scatter the small seeds uniformly and thinly. The amount depends on the need.
@@ -320,7 +318,7 @@ Pack and level the growing medium.</li>
 <figure className="figure">
   <LazyLoadImage src={lettuce} width="1280" height="853" className="figure-img img-fluid" alt="A tub with grown lettuce seedlings and another tub with recently sown lettuce seedlings." />
   
-  <figcaption className="figure-caption">Left: Seedlings ready for prickling; Right: Seeds recently sown.</figcaption>
+  <figcaption className="figure-caption">Left: Seedlings ready for prickling; right: Seeds recently sown.</figcaption>
   
 </figure>
 </li>
