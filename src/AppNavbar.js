@@ -14,8 +14,8 @@ class AppNavbar extends React.Component {
       <header>
         <Navbar bg="light" expand="lg">
           <Switch>
-            <Route path="/en" render={() => (
-              <LinkContainer to="/en">
+            <Route path="/en/" render={() => (
+              <LinkContainer to="/en/">
                 <Navbar.Brand>
                   <img src={logo} width="100" alt="Logo: SNAP Hydroponics" />
                 </Navbar.Brand>
@@ -35,7 +35,7 @@ class AppNavbar extends React.Component {
                   <Route component={FilSelector} />
                   <Route component={EnSelector} />
                   <Switch>
-                    <Route path="/en" render={() => (
+                    <Route path="/en/" render={() => (
                       <NavDropdown title="Additional Guides" id="basic-nav-dropdown">
                         <LinkContainer exact to="/en/authorized-resellers"><NavDropdown.Item>Authorized Resellers</NavDropdown.Item></LinkContainer>
                         <LinkContainer exact to="/en/coco-peat"><NavDropdown.Item>Coco Peat</NavDropdown.Item></LinkContainer>

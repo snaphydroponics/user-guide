@@ -45,7 +45,7 @@ class App extends React.Component {
           <main role="main" className="flex-shrink-0">
 
             <Switch>
-              <Route exact path="/:lang(en)?" component={Manual} />
+              <Route strict exact path="/:lang(en)?/" component={Manual} />
 
               <Route exact path="/:lang(en)?/authorized-resellers" component={AuthorizedResellers} />
 
@@ -66,8 +66,6 @@ class App extends React.Component {
               <Route exact path="/:lang(en)?/training-seminar" component={TrainingSeminar} />
 
               <Route exact path="/:lang(en)?/working-solution" component={WorkingSolution} />
-
-              <Route component={Manual} />
 
             </Switch>
 

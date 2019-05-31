@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import IPBAddress from './IPBAddress'; 
 
 function AuthorizedResellers({match}) {
   const lang = match.params.lang || 'fil';
@@ -28,15 +29,7 @@ function AuthorizedResellers({match}) {
           at mabibili sa <abbr title="Institute of Plant Breeding, University of the Philippines Los Baños">IPB-UPLB</abbr>.</p>
 
         <p>Para sa mga katanungan:</p>
-        <div className="card">
-          <div className="card-body">
-            <address>
-              Plant Physiology Laboratory-IPB<br />
-              Telephone: (049) 576-3189<br />
-              Email: pasantos3@up.edu.ph<br />
-            </address>
-          </div>
-      </div>
+        <IPBAddress />
       </div>
     );
   } else {
@@ -60,15 +53,7 @@ function AuthorizedResellers({match}) {
         <p>SNAP Nutrient Solution for Hydroponics is developed, manufactured and sold at <abbr title="Institute of Plant Breeding, University of the Philippines Los Baños">IPB-UPLB</abbr>.</p>
 
         <p>For inquries:</p>
-        <div className="card">
-          <div className="card-body">
-            <address>
-              Plant Physiology Laboratory-IPB<br />
-              Telephone: (049) 576-3189<br />
-              Email: pasantos3@up.edu.ph<br />
-            </address>
-          </div>
-      </div>
+        <IPBAddress />
 
 
 
