@@ -109,6 +109,18 @@ const Pages = [
     url: '/en/working-solution',
     title: 'Working Solution',
   },
+  {
+    lang: 'fil',
+    url: '/feedback',
+    title: 'Mag-iwan ng <i lang="en">Feedback</i>',
+    sep: true
+  },
+  { 
+    lang: 'en',
+    url: '/en/feedback',
+    title: 'Leave Feedback',
+    sep: true
+  },
 ]
 
 export default Pages;

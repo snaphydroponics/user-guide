@@ -12,13 +12,33 @@ import Pages from './Pages';
 
 class AppNavbar extends React.Component {
   render() {
-    const filPages = Pages.filter((page) => page.lang === 'fil').map((page) => (
-      <LinkContainer key={page.url} exact to={page.url}><NavDropdown.Item dangerouslySetInnerHTML={{__html: page.title}} /></LinkContainer>
-    ));
+    const filPages = Pages.filter((page) => page.lang === 'fil').map((page) => {
+      if (page.sep) {
+        return (
+          <React.Fragment key="divider">
+            <NavDropdown.Divider />
+            <LinkContainer key={page.url} exact to={page.url}><NavDropdown.Item dangerouslySetInnerHTML={{__html: page.title}} /></LinkContainer>
+          </React.Fragment>
+        );
+      }
+      return (
+          <LinkContainer key={page.url} exact to={page.url}><NavDropdown.Item dangerouslySetInnerHTML={{__html: page.title}} /></LinkContainer>
+      );
+    });
 
-    const enPages = Pages.filter((page) => page.lang === 'en').map((page) => (
-      <LinkContainer key={page.url} exact to={page.url}><NavDropdown.Item dangerouslySetInnerHTML={{__html: page.title}} /></LinkContainer>
-    ));
+    const enPages = Pages.filter((page) => page.lang === 'en').map((page) => {
+      if (page.sep) {
+        return (
+          <React.Fragment key="divider">
+            <NavDropdown.Divider />
+            <LinkContainer key={page.url} exact to={page.url}><NavDropdown.Item dangerouslySetInnerHTML={{__html: page.title}} /></LinkContainer>
+          </React.Fragment>
+        );
+      }
+      return (
+          <LinkContainer key={page.url} exact to={page.url}><NavDropdown.Item dangerouslySetInnerHTML={{__html: page.title}} /></LinkContainer>
+      );
+    });
 
     return (
       <header>

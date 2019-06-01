@@ -6,6 +6,9 @@ export default class DropdownTitle extends React.Component {
     const pathname = this.props.location.pathname;
     const page = Pages.find((page) => page.url === pathname);
 
-    return <span dangerouslySetInnerHTML={{__html: page.title}}></span>;
+    return (page ?
+      <span dangerouslySetInnerHTML={{__html: page.title}}></span> :
+      'Menu'
+    );
   }
 }

@@ -15,6 +15,7 @@ import WorkingSolution from './WorkingSolution';
 import Manual from './Manual';
 import Footer from './Footer';
 import ScrollToTop from './ScrollToTop';
+import Feedback from './Feedback';
 
 class App extends React.Component {
   constructor(props) {
@@ -66,6 +67,8 @@ class App extends React.Component {
               <Route exact path="/:lang(en)?/training-seminar" component={TrainingSeminar} />
 
               <Route exact path="/:lang(en)?/working-solution" component={WorkingSolution} />
+
+              <Route exact path="/:lang(en)?/feedback" component={Feedback} />
 
             </Switch>
 
