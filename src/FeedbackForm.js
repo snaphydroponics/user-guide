@@ -2,7 +2,13 @@ import {Formik} from 'formik';
 import React from 'react';
 import Form from 'react-bootstrap/Form';
 import FeedbackButton from './FeedbackButton';
-import axios from 'axios';
+//import axios from 'axios';
+
+const encode = (data) => {
+  return Object.keys(data)
+    .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+    .join("&");
+}
 
 export default class FeedbackForm extends React.Component {
   constructor(props) {
@@ -13,29 +19,39 @@ export default class FeedbackForm extends React.Component {
   handleSubmit(values) {
     console.log(values);
 
-    const config = {
-      headers: {
-        'Content-Type': 'application/x-www-form-urlencoded'
-      }
-    };
+    //const config = {
+    //  headers: {
+    //    'Content-Type': 'application/x-www-form-urlencoded'
+    //  }
+    //};
 
     this.setState({
       loading: true
     });
 
-    axios.post('/feedback?=no-cache=1', values, config).then((result) => {
-      this.props.handleRequest(true);
-    }).catch((err) => {
-      this.props.handleRequest(false);
-    }).finally(() => {
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode(values)
+    }).then((resp) => {
+      this.props.handleRequest(resp.status === 200);
+    }).catch((error) => {
+      this.handleRequest(false);
     });
+
+    //axios.post('/feedback?=no-cache=1', values, config).then((result) => {
+    //  this.props.handleRequest(true);
+    //}).catch((err) => {
+    //  this.props.handleRequest(false);
+    //}).finally(() => {
+    //});
   }
 
   render() {
     const {loading, lang} = this.props;
     return (
         <Formik
-          initialValues={{ type: '', details: '', 'bot-field': '', 'form-name': 'feedback' }}
+          initialValues={{ type: '', details: '', 'form-name': 'feedback' }}
           validate={(values) => {
             let errors = {};
             if (!values.type) {
