@@ -29,7 +29,7 @@ export default class FeedbackForm extends React.Component {
       loading: true
     });
 
-    fetch("/", {
+    fetch("/feedback", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode(values)
