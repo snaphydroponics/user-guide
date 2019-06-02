@@ -15,7 +15,6 @@ class Feedback extends React.Component {
   handleRequest(success) {
     this.setState({
       success: success,
-      loading: false
     });
   }
 

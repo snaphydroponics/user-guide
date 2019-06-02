@@ -2,7 +2,6 @@ import {Formik} from 'formik';
 import React from 'react';
 import Form from 'react-bootstrap/Form';
 import FeedbackButton from './FeedbackButton';
-//import axios from 'axios';
 
 const encode = (data) => {
   return Object.keys(data)
@@ -14,16 +13,12 @@ export default class FeedbackForm extends React.Component {
   constructor(props) {
     super(props);
     this.handleSubmit = this.handleSubmit.bind(this);
+    this.state = {
+      loading: false
+    }
   }
 
   handleSubmit(values) {
-    console.log(values);
-
-    //const config = {
-    //  headers: {
-    //    'Content-Type': 'application/x-www-form-urlencoded'
-    //  }
-    //};
 
     this.setState({
       loading: true
@@ -39,16 +34,11 @@ export default class FeedbackForm extends React.Component {
       this.handleRequest(false);
     });
 
-    //axios.post('/feedback?=no-cache=1', values, config).then((result) => {
-    //  this.props.handleRequest(true);
-    //}).catch((err) => {
-    //  this.props.handleRequest(false);
-    //}).finally(() => {
-    //});
   }
 
   render() {
-    const {loading, lang} = this.props;
+    const {lang} = this.props;
+    const {loading} = this.state
     return (
         <Formik
           initialValues={{ type: '', details: '', 'form-name': 'feedback' }}
