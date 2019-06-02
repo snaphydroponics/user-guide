@@ -11,6 +11,7 @@ export default class FeedbackForm extends React.Component {
   }
 
   handleSubmit(values) {
+    console.log(values);
 
     const config = {
       headers: {
@@ -43,7 +44,7 @@ export default class FeedbackForm extends React.Component {
     const {loading, lang} = this.props;
     return (
         <Formik
-          initialValues={{ type: '', details: ''}}
+          initialValues={{ type: '', details: '', 'bot-field': '', 'form-name': 'feedback' }}
           validate={(values) => {
             let errors = {};
             if (!values.type) {
@@ -84,6 +85,9 @@ export default class FeedbackForm extends React.Component {
               <Form.Control.Feedback type="invalid">{ lang === 'en' ? 'Please fill this out.' : 'Mangyaring punan ito.' }</Form.Control.Feedback>
             </Form.Group>
             <FeedbackButton loading={loading} lang={lang} />
+            <p className="d-none">
+            <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+            </p>
             <input type="hidden" name="form-name" value="feedback" />
           </Form>
           )
