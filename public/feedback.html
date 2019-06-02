@@ -6,7 +6,7 @@
 </head>
 <body>
   <!-- A little help for the Netlify post-processing bots -->
-  <form name="feedback" action="/feedback" netlify netlify-honeypot="bot-field">
+  <form name="feedback" action="/feedback?no-cache=1" netlify netlify-honeypot="bot-field">
     <select name="type" required />
       <option value="">Choose…</option>
       <option value="bug-typo">Bug/Typo</option>
