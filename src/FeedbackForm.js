@@ -23,7 +23,7 @@ export default class FeedbackForm extends React.Component {
       loading: true
     });
 
-    axios.post('/?no-cache=1', values, config).then((result) => {
+    axios.post('/feedback', values, config).then((result) => {
       console.log(result);
       this.setState({
         success: true
