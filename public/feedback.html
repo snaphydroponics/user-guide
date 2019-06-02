@@ -6,10 +6,16 @@
 </head>
 <body>
   <!-- A little help for the Netlify post-processing bots -->
-  <form name="feedback" action="/feedback" netlify netlify-honeypot="bot-field" hidden>
-    <select name="type" />
-    <textarea name="details" />
+  <form name="feedback" action="/feedback" netlify netlify-honeypot="bot-field">
+    <select name="type" required />
+      <option value="">Choose…</option>
+      <option value="bug-typo">Bug/Typo</option>
+      <option value="enchancement">Enhancement</option>
+      <option value="kudos">Kudos</option>
+    </select>
+    <textarea required name="details" /></textarea>
     <input type="hidden" name="bot-field" />
+    <button type="submit">Send</option>
   </form>
 </body>
 </html>

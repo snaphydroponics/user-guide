@@ -8,6 +8,15 @@ class Feedback extends React.Component {
       loading: false,
       success: null
     };
+
+    this.handleRequest = this.handleRequest.bind(this);
+  }
+
+  handleRequest(success) {
+    this.setState({
+      success: success,
+      loading: false
+    });
   }
 
 
@@ -15,22 +24,22 @@ class Feedback extends React.Component {
     const lang = this.props.match.url.match(/^\/en/) ? 'en' : 'fil';
     const { loading, success } = this.state;
 
-    let display = (<FeedbackForm loading={loading} lang={lang} />);
+    let display = (<FeedbackForm handleRequest={this.handleRequest} loading={loading} lang={lang} />);
 
     if (success === true) {
       display =  (
-        <div class="alert alert-success my-3" role="alert">
-          <h4 class="alert-heading">Feedback Sent!</h4>
-          <p>Thank you for helping us improve this app.</p>
+        <div className="alert alert-success my-3" role="alert">
+          <h4 className="alert-heading">{ lang === 'en' ? 'Feedback Sent!' : <span>Napadala ang <i lang="en">Feedback</i>!</span>}</h4>
+          { lang === 'en' ? <p>Thank you for helping us improve this app.</p> : <p>Salamat sa pagtulong na mas mapabuti ang <i lang="en">app</i> na ito.</p>}
         </div>
       );
     }
 
     if (success === false) {
       display = (
-        <div class="alert alert-warning my-3" role="alert">
-          <h4 class="alert-heading">Failed to send feed back</h4>
-          <p>Please try again later.</p>
+        <div className="alert alert-warning my-3" role="alert">
+          <h4 className="alert-heading">{ lang === 'en' ? 'Failed to Send Feedback' : <span>Nabigong Ipadala ang <i lang="en">Feedback</i></span>}</h4>
+          <p>{ lang === 'en' ? 'Sorry. Something went wrong. Please try again later.' : 'Paumanhin. May mali kung saan. Pakisubukan ulit mamaya.'}</p>
         </div>
       );
     }

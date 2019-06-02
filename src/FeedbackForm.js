@@ -24,19 +24,10 @@ export default class FeedbackForm extends React.Component {
     });
 
     axios.post('/feedback', values, config).then((result) => {
-      console.log(result);
-      this.setState({
-        success: true
-      });
+      this.props.handleRequest(true);
     }).catch((err) => {
-      console.log(err);
-      this.setState({
-        success: false
-      });
+      this.props.handleRequest(false);
     }).finally(() => {
-      this.setState({
-        loading: false
-      });
     });
   }
 
