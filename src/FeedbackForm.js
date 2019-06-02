@@ -31,7 +31,7 @@ export default class FeedbackForm extends React.Component {
     }).then((resp) => {
       this.props.handleRequest(resp.status === 200);
     }).catch((error) => {
-      this.handleRequest(false);
+      this.props.handleRequest(false);
     });
 
   }

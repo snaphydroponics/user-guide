@@ -5,7 +5,6 @@ class Feedback extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      loading: false,
       success: null
     };
 
@@ -21,9 +20,9 @@ class Feedback extends React.Component {
 
   render() {
     const lang = this.props.match.url.match(/^\/en/) ? 'en' : 'fil';
-    const { loading, success } = this.state;
+    const { success } = this.state;
 
-    let display = (<FeedbackForm handleRequest={this.handleRequest} loading={loading} lang={lang} />);
+    let display = (<FeedbackForm handleRequest={this.handleRequest} lang={lang} />);
 
     if (success === true) {
       display =  (
