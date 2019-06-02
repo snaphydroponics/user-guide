@@ -137,7 +137,7 @@ function Manual({match}) {
 
         <ol>
 
-          <li>Latagan ang punlaan ng basang <i lang="en">coco peat</i> mga isang pulgada
+          <li>Latagan ang punlaan ng basang <i lang="en">coco peat</i>, mga isang pulgada
             ang kapal.</li>
 
           <li>Dasigin at pantayin ang <i lang="en">coco peat</i>.</li>
@@ -152,7 +152,7 @@ function Manual({match}) {
             <figure className="figure">
               <LazyLoadImage src={seedPacketLabel} width="1280" height="853" className="figure-img img-fluid" alt="Micorwavable na tub na may mga butas sa ilalim." />
 
-              <figcaption className="figure-caption">Punlaan: ginamit ang mababaw na microwavable tub na maraming butas na lugusan na dinagdag sa ilalim.</figcaption>
+              <figcaption className="figure-caption">Punlaan: ginamit ang mababaw na microwavable tub na maraming butas na lagusan na dinagdag sa ilalim.</figcaption>
 
             </figure>
 
@@ -160,7 +160,7 @@ function Manual({match}) {
 
 
           <li>Katamtamang diligan. Kung gaaano katagal ang aabutin para sumibol ang mga
-            buto ay malimit nakatala sa pakete ng mga buto. Maraming mga sandhi ang
+            buto ay malimit nakatala sa pakete ng mga buto. Maraming mga sanhi ang
             makaaapketo sa tagal ng panahon na kailangan upang umusbong ang mga buto at ilan
             sa kanila ang uusbong.
           </li>
@@ -189,7 +189,7 @@ function Manual({match}) {
         <h3 id="styrobox"><i lang="en">Styrobox</i></h3>
 
         <p>Ang mga kahong yari sa <i lang="en">Expanded Polystyrene (<abbr title="Expanded Polystyrene">EPS</abbr>)</i> na mas kilala
-          sa pangalang <i lang="en">“styrofoam box”</i> o “syrobox” ang angkop na materyales
+          sa pangalang <i lang="en">“styrofoam box”</i> o “styrobox” ang angkop na materyales
           para sa <i lang="en">grow box</i> (o <i lang="en">“growing box”</i>). Ang rekomendadong
           laki para sa <i lang="en"><abbr title="Simple Nutrient Addition Program">SNAP</abbr> Hydroponics</i> ay 20”×16”×6”. Ang mga kahong ito
           ay kayang maglaman ng sampu (10) hanggang labingdalawang (12) litro ng <i lang="en">
@@ -202,7 +202,7 @@ function Manual({match}) {
         <h3 id="lining-material"><i lang="en">Lining Material</i></h3>
 
         <p>Ang mga <i lang="en" styrofoam="">boxes</i> ay may mga <i lang="en">ventilation holes</i>{' '}
-          na sa kanilang mga gilid. Upang makapanglaman ng <i lang="en">nutrient solution</i>{' '}
+          na sa kanilang mga gilid. Upang makapaglaman ng <i lang="en">nutrient solution</i>{' '}
           ang ibabang bahagi ng kahon kailangan itong latagan ng matibay na <i lang="en">waterproofing
             sheet</i>. Sa manual na ito, gagamit ng 20 ✕ 30 <i lang="en">inch polyethylene (<abbr title="Polyethylene">PE</abbr>)
             plastic bags</i>.</p>
@@ -210,7 +210,7 @@ function Manual({match}) {
         <figure className="figure">
           <LazyLoadImage src={pePlasticBag} width="1280" height="427" className="figure-img img-fluid" alt="Isang bag ng polyethylene plastic (PE) bag kung saan ang sukat at bilang ng laman ay nakatala." />
 
-          <figcaption className="figure-caption">Isang pangkariwang tatak ng 20 ✕ 30 pulgadang <abbr title="Polyethylene">PE</abbr> plastic bags.</figcaption>
+          <figcaption className="figure-caption">Isang pangkaraniwang tatak ng 20 ✕ 30 pulgadang <abbr title="Polyethylene">PE</abbr> plastic bags.</figcaption>
 
         </figure>
 
@@ -246,8 +246,8 @@ function Manual({match}) {
 
           <li>
             Gumuhit ng mga linyang gabay na pinagdudugsong ang mga <i lang="en">ventilation holes</i>{' '}
-            mula sa magkasalungat na panig ng kahon gaya nakararawan sa ibaba. Gagawa ng butas
-            nakagitna kung saan nagtatagpo ang mga linya.
+            mula sa magkasalungat na panig ng kahon gaya nakalarawan sa ibaba. Gagawa ng butas
+            na nakagitna kung saan nagtatagpo ang mga linya.
 
 
 
@@ -260,7 +260,7 @@ function Manual({match}) {
             </figure>
           </li>
 
-          <li>Upang gumawa ng mga butas, ipatong ang matalas na dulog ng pambutas ng <i lang="en">styfoam puncher</i>{' '}
+          <li>Upang gumawa ng mga butas, ipatong ang matalas na dulo ng pambutas ng <i lang="en">styfoam puncher</i>{' '}
             sa <i lang="en">styrofoam</i> at idiin ito upang lagyan ng marka ang ibabaw.
             Hawakan ang pambutas sa mga hawakan at idiin ito habang iniiikot ng pakanan at
             pakaliwa. Sa ganitong paraaan, lalong lalalim ang pambutas sa <i lang="en">foam</i>.
@@ -289,7 +289,7 @@ function Manual({match}) {
           </li>
 
           <li>Madiing minumungkahing gamitin ang <i lang="en">packing tape</i> upang takpan
-            ang mga <i lang="en">ventilation holes</i> sa bagahing ito ng <i lang="en">styrobox</i>{' '}
+            ang mga <i lang="en">ventilation holes</i> sa bahaging ito ng <i lang="en">styrobox</i>{' '}
             kung ang iyong lugar na pagpapatubuan ay walang proteksiyon sa lamok. Sa ganitong
             paraan, mapipigilang maabot ng mga lamok ang <i lang="en">nutrient solution</i>{' '}
             at hindi sila makakapangitlog sa loob ng <i lang="en">grow box</i>.
@@ -321,7 +321,7 @@ function Manual({match}) {
           na nakalarawan sa baba.</p>
 
         <figure className="figure">
-          <LazyLoadImage src={styroCup} width="1280" height="853" className="figure-img img-fluid" alt="Styro cups na nakataob at nakatikhaya." />
+          <LazyLoadImage src={styroCup} width="1280" height="853" className="figure-img img-fluid" alt="Styro cups na nakataob at nakatihaya." />
 
           <figcaption className="figure-caption">Isang tipikal na 8 oz. na basong yari sa styrofoam.</figcaption>
 
@@ -331,7 +331,7 @@ function Manual({match}) {
 
         <p>Gagamitin ito upang gumawa ng mga hiwa sa ilalim ng mga <i lang="en">styro cup</i>.</p>
 
-        <h3 id="panatubong-mga-binhi">Panatubong mga Binhi</h3>
+        <h3 id="pinatubong-mga-binhi">Pinatubong mga Binhi</h3>
 
         <p>Magyaring basahin ang <a href="#magpatubo-ng-binhi">seksiyon sa pagpapatubo ng mga binhi</a>.</p>
 
@@ -485,7 +485,7 @@ function Manual({match}) {
             <p>Maglagay ng <i lang="en">seedling plug</i> sa bawat butas sa itaas na bahagi ng{' '}
               <i lang="en">grow box</i>. Siguraduhing ang ilalim ng mga baso ay nakalubog sa{' '}
               <i lang="en">solution</i> ng hindi bababa sa isang sentimetro (1 cm) ang sukat.
-              Kung hindi pa, dagdagan ng <strong>malinis na tubig</strong> hanggang ang maabot tamang taas
+              Kung hindi pa, dagdagan ng <strong>malinis na tubig</strong> hanggang maabot ang tamang taas
               ng <i lang="en">solution</i>.</p>
           </li>
 
@@ -503,7 +503,7 @@ function Manual({match}) {
           </li>
           <li>
             <p>Asahan ang mabagal na paglaki ng mga binhi sa unang dalawang linggo pagkatapos
-              silang <i lang="en">transplant</i>, lalo na kung ang mga punla ay hindi
+              silang i-<i lang="en">transplant</i>, lalo na kung ang mga punla ay hindi
               dumaan sa pagpapatibay. Sa unang dalawang linggo, ang halaman ay nagsasanay na
               lumaki ng nakababad sa tubig.</p>
           </li>
@@ -523,7 +523,7 @@ function Manual({match}) {
               <strong>huwag</strong> itong hayaang maabot ang ilalim ng mga baso at ilubog ang lahat ng mga
               ugat. Ang itaas na bahagi ng mga ugat ng mga halaman ay dapat laging nakalantad
               sa hangin kaya hindi dapat ito nakalubog sa tubig. Palagian itong tandaan kapag
-              dinadagdagan ng laman ng <i lang="en">grow box</i>.</p>
+              dinadagdagan ng laman ang <i lang="en">grow box</i>.</p>
           </li>
           <li>
             <p>Ang mga pananim na kailangang ng dagdagan ngunit malapit ng anihin ay dapat
