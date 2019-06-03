@@ -48,7 +48,7 @@ class Feedback extends React.Component {
           <h1 id="content">{
             lang === 'en' ?
               <span>Send Feedback</span> :
-              <span>Pagpadala ng <i lang="en">Feedback</i></span>
+              <span>Magpadala ng <i lang="en">Feedback</i></span>
           }</h1>
         <p className="lead">{
           lang === 'en' ? 
