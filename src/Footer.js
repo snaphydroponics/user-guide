@@ -8,7 +8,7 @@ function Footer(props) {
           <p className="text-muted">
             <Switch>
               <Route path="/en">
-                <strong>SNAP Hydroponics Users’ Guide</strong> by <a href="https://snaphydroponics.info">snaphydroponics.info</a>. The source code is licensed <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+                <strong>SNAP Hydroponics Users Guide</strong> by <a href="https://snaphydroponics.info">snaphydroponics.info</a>. The source code is licensed <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
                 is licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
               </Route>
               <Route path="/">

@@ -98,7 +98,7 @@ function Manual({match}) {
 
         <p>Pinakamainam na itabi ang takip dahil maari itong gamitin para panatilihin ang
           halumigmig at makatulong sa pag-usbong ng mga buto. Kung balak itong gamitin gaya
-          ng nabaggit, lagyan din ito ng butas upang hayaang lumabas ang hangin at hayaan
+          ng nabanggit, lagyan din ito ng butas upang hayaang lumabas ang hangin at hayaan
           itong umikot.</p>
 
         <figure className="figure">
@@ -143,8 +143,8 @@ function Manual({match}) {
           <li>Dasigin at pantayin ang <i lang="en">coco peat</i>.</li>
 
           <li>
-            <p>Ibudbod ang mga buto ang manipis at patay-pantay sa ibabaw ng <i lang="en">
-                coco peat</i>. Bilang batayan, a maliit na kurot ng maliliit na buto (letsugas
+            <p>Ibudbod ang mga buto ng manipis at pantay-pantay sa ibabaw ng <i lang="en">
+                coco peat</i>. Bilang batayan, ang maliit na kurot ng maliliit na buto (letsugas
               bilang halibawa) ay katumbas ng dalawampu (20) hanggang limampung (50) piraso
               ng buto. Mangyaring isaalang-alang ang <i lang="en">germination rate</i> ng mga
               buto na malimit ay nakasulat sa pakete ng buto.</p>
@@ -449,7 +449,7 @@ function Manual({match}) {
             paglaki ng mga halaman.
           </li>
 
-          <li>Lagyan ang bawat isang grow box sampung litrong (10L) tubig.
+          <li>Lagyan ang bawat isang grow box ng sampung litrong (10L) tubig.
 
 
 
@@ -681,7 +681,7 @@ function Manual({match}) {
           <li>Water liberally. How long the seed will take to germinate is usually indicated
             on the sowing instructions printed on the seed packet. There are a number of
             factors that can affect how long the seeds will take to germinate and the
-            germination rate. Depending on the freshness of the seeds first signs of
+            germination rate. Depending on the freshness of the seeds, first signs of
             germination usually appear within the next twenty-four (24) to seventy-two (72)
             hours with most of the seeds germinating one (1) to two (2) weeks.</li>
 
@@ -731,7 +731,7 @@ function Manual({match}) {
 
         <h3 id="styrofoam-puncher">Styrofoam Puncher</h3>
 
-        <p>A styroform puncher is required to make holes on the upper half of the grow box
+        <p>A styrofoam puncher is required to make holes on the upper half of the grow box
           for the <a href="#prepare-seedling-plugs">seedling plugs</a>. A tin can of the appropriate diameter
           for the seedling plug can be made into such a tool.</p>
 
@@ -829,7 +829,7 @@ function Manual({match}) {
 
         <h3 id="small-hand-saw-or-similar">Small Hand Saw or Similar</h3>
 
-        <p>This is used this to cut slits at the bottom of the styro cups.</p>
+        <p>This is used to cut slits at the bottom of the styro cups.</p>
 
         <h3 id="established-seedlings">Established Seedlings</h3>
 
@@ -842,13 +842,13 @@ function Manual({match}) {
 
         <h3 id="plastic-spoon-bbq-stick-or-similar-implements">Plastic Spoon, BBQ Stick or Similar Implements</h3>
 
-        <p>This is used to uproot seedlings from the sowing tray. This is also used to digging
+        <p>This is used to uproot seedlings from the sowing tray. This is also used as digging
           implement when transferring the seedlings to the seedling plugs.</p>
 
         <h3 id="procedure-2">Procedure</h3>
 
         <ol>
-          <li>Using a handsaw make four (4) to six (6) vertical slits on the side of the cup
+          <li>Using a handsaw, make four (4) to six (6) vertical slits on the side of the cup
             starting from the bottom. It should run two-thirds (2/3) along the side of the cup
             and about one-third (1/3) the radius of the bottom of the cup.
 
