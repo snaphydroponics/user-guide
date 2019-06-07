@@ -10,7 +10,7 @@ function Faq({match}) {
       <div className="container">
         <header className="my-5">
           <h1 id="content">Mga Madalas na Tanong</h1>
-          <p className="lead">Sa pahinang matatagpuan ang ilan sa mga pinaka madalas na tanong tungkol sa SNAP Hydroponics
+          <p className="lead">Sa pahinang ito matatagpuan ang ilan sa mga pinaka madalas na tanong tungkol sa SNAP Hydroponics
           </p>
       </header>
 
@@ -43,7 +43,7 @@ function Faq({match}) {
 
       </figure>
 
-      <h2 id="saan-mabibi-ang-snap-nutrient-solution-for-hydroponics">Saan mabibi ang <i lang="en"><abbr title="Simple Nutrient Addition Program">SNAP</abbr> Nutrient Solution for Hydroponics</i>?</h2>
+      <h2 id="saan-mabibili-ang-snap-nutrient-solution-for-hydroponics">Saan mabibili ang <i lang="en"><abbr title="Simple Nutrient Addition Program">SNAP</abbr> Nutrient Solution for Hydroponics</i>?</h2>
 
       <p>Ang mga ito ay mabibili sa Institute of Plant Breding (<abbr title="Institute of Plant Breeding">IPB</abbr>) at sa mga{' '}
       <Link to="/authorized-resellers"><i lang="en"><abbr title="Simple Nutrient Addition Program">SNAP</abbr> Authorized Resellers</i></Link>.
@@ -65,7 +65,7 @@ function Faq({match}) {
 
   <h2 id="ano-ang-maari-kong-gawin-sa-natitirang-solution-matapos-anihin">Ano ang maari kong gawin sa natitirang <i lang="en">solution</i> matapos anihin ang mga pananim?</h2>
 
-  <p>Maari itong gamiting pandilig sa mga regular na nakapasong halaman. Ito may naglalaman
+  <p>Maari itong gamiting pandilig sa mga regular na nakapasong halaman. Ito ay naglalaman
     pa ng kaunting sustansiya na makakapagpataba ng mga halaman.</p>
 
   <h2 id="ano-ang-nilalaman-ng-snap-nutrient-solution-for-hydroponics-a-at-b">Ano ang nilalaman ng <i lang="en"><abbr title="Simple Nutrient Addition Program">SNAP</abbr> Nutrient Solution for Hydroponics</i> A at B?</h2>
@@ -79,7 +79,7 @@ function Faq({match}) {
 
     <h2 id="lumilipas-ba-ang-snap-nutrient-solution-for-hydroponics">Lumilipas ba ang <i lang="en"><abbr title="Simple Nutrient Addition Program">SNAP</abbr> Nutrient Solution for Hydroponics</i>?</h2>
 
-    <p>Hanggat ang mga ito ay mahigpit ang pagkakatakip at nakalagay sa malimig at
+    <p>Hanggat ang mga ito ay mahigpit ang pagkakatakip at nakalagay sa malamig at
       tuyong lugar, ang mga ito ay hindi lilipas.</p>
 
     <p>Para sa iba pang mga katanungan mangyaring makipag-ugnayan sa <abbr title="Institute of Plant Breeding">IPB</abbr>:</p>

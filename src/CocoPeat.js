@@ -10,14 +10,14 @@ function CocoPeat({match}) {
       <div className="container">
         <header className="my-5">
           <h1 id="content">Gabay sa Coco Peat</h1>
-          <p className="lead">Alamin kung saan mabibili ang kung paano gamitin ang coco peat.
+          <p className="lead">Alamin kung saan mabibili at kung paano gamitin ang coco peat.
           </p>
       </header>
 
-      <p>Ang <i lang="en">coco peat</i> na kilalarin sa tawag na <i lang="en">coco coir dust</i>,
+      <p>Ang <i lang="en">coco peat</i> na kilala rin sa tawag na <i lang="en">coco coir dust</i>,
         ay isang natural na mala-isponghang materyal na nagmula sa mga bunot ng niyog.
-        Ito ay isang <i lang="en">by-product</i> ng industriya ng niyog. Isa mga marami
-        nitong pinaggagamitan ay pakinabang nito nito sa hortikultura kung saan ito ay
+        Ito ay isang <i lang="en">by-product</i> ng industriya ng niyog. Isa sa mga marami
+        nitong pinaggagamitan ay ang pakinabang nito sa hortikultura kung saan ito ay
         ginagamit bilang pangkondisyon ng lupa o bilang isang <i lang="en">soilless growing
           medium</i>.</p>
 
@@ -28,10 +28,10 @@ function CocoPeat({match}) {
 
       </figure>
 
-      <p>Ang mga ito ay karaniwang mabibili sa mga <i lang="en">gardren</i> o <i lang="en">
+      <p>Ang mga ito ay karaniwang mabibili sa mga <i lang="en">garden</i> o <i lang="en">
           agri-vet centers</i> kung saan sila ay itinitinda bilang tuyong pulbos na nasa
         supot o kaya ay tuyo at siksik na bloke o <i lang="en">bricks</i>. Dahil sila ay
-        dumaan sa pagpoproseso ang nakasupot na <i lang="en">coco peat</i> at {' '}
+        dumaan sa pagpoproseso, ang nakasupot na <i lang="en">coco peat</i> at {' '}
       <i lang="en">coco peat blocks</i> o <i lang="en"> coco peat bricks</i> ay karaniwang{' '}
       <i lang="en">sterile</i>.</p>
 
@@ -42,7 +42,7 @@ function CocoPeat({match}) {
 
       </figure>
 
-      <p>Ang coco peat ay mabibi din bilang materyales na hindi pa napoproseso na binebenta
+      <p>Ang coco peat ay mabibili din bilang materyales na hindi pa napoproseso na binebenta
         ng bultuhan. Di tulad ng naprosesong <i lang="en">coco peat</i>, ang mga ito ay
         maaring kontaminado ng mikrobyo at dagta na parehong nakasasama sa paglaki ng
         halaman.</p>
@@ -75,7 +75,7 @@ function CocoPeat({match}) {
 
       <p>Coco peat also known as coco coir dust, is a natural spongy material extracted
         from coconut husks. It is a by-product of the coconut industry. Among its many
-        applications is its use in horticulture where it is used as soil a conditioner
+        applications is its use in horticulture where it is used as soil conditioner
         or as a soilless growing medium.</p>
 
       <figure className="figure">
@@ -85,7 +85,7 @@ function CocoPeat({match}) {
 
       </figure>
 
-      <p>They are generally available in garden or agri-vet centers where there are sold as
+      <p>They are generally available in garden or agri-vet centers where they are sold as
         dehydrated dust in bags or as compressed dehydrated blocks or bricks. Because they have
         gone through processing bagged coco peat and coco peat blocks or bricks are
         generally sterile.</p>
@@ -98,7 +98,7 @@ function CocoPeat({match}) {
       </figure>
 
       <p>Coco peat are also available as unprocessed material that are sold in bulk.
-        Unlike processed coco peat these can possibly contain pathogens and sap which
+        Unlike processed coco peat, these can possibly contain pathogens and sap which
         are both detrimental to plant development.</p>
 
       <p>Sap is present in fresh coco peat. The sap contains plant hormones that stunt

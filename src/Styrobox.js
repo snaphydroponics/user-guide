@@ -9,7 +9,7 @@ function Styrobox({match}) {
       <div className="container">
         <header className="my-5">
           <h1 id="content">Gabay sa mga Styrofoam Box</h1>
-          <p className="lead">Mga impormasyon tunkol sa kahong yari sa styrofoam na ginagamit sa paggawa ng mga grow boxes para sa SNAP Hydroponics.
+          <p className="lead">Mga impormasyon tungkol sa kahong yari sa styrofoam na ginagamit sa paggawa ng mga grow boxes para sa SNAP Hydroponics.
           </p>
       </header>
 
@@ -17,19 +17,19 @@ function Styrobox({match}) {
         mga <i lang="en">grow boxes</i> ay iba’t-iba ang laki. Ang nirerekomendang sukat
         para sa SNAP Hydroponics ay 20” ✕ 16” ✕ 6”. Ang mga <i lang="en">styrobox</i> na
         may ganitong laki ay ginagamit para sa transportasyon ng mga inaangkat na ubas
-        galing sa Estados Unidos at sila ay nagmumula sa dalawang maypabrika: Styrotek
-        LLC at Aptco. LLC. Mayroon din silang iba’t-ibang desenyo kaya nararapat na
+        galing sa Estados Unidos at sila ay nagmumula sa dalawang may pabrika: Styrotek
+        LLC at Aptco. LLC. Mayroon din silang iba’t-ibang disenyo kaya nararapat na
         tandaan na bagamat magkakapareho sila ng sukat, ang kanilang itaas at ibabang
-        bahagi ay hindi magkakasya sa ibang desenyo.</p>
+        bahagi ay hindi magkakasya sa ibang disenyo.</p>
 
-      <p>May panahon din ang pagpasok ang mga kahong <i lang="en">styrofoam</i> para sa
+      <p>May panahon din ang pagpasok ng mga kahong <i lang="en">styrofoam</i> para sa
         mga ubas na inaangkat. Malimit sila ay karaniwang madaling makita sa mga buwan
         ng Setyembre hanggang Enero dahil sa mga buwang ito inaangkat ng merkado ng
         Pilipinas para sa panahon ng kapaskuhan. Ang kanilang dami ay pinakamataas sa
         mga huling araw ng Disyembre at mga unang araw ng Enero. Sobrang dami ng mga ito,
         na sila ay karaniwang makikitang basurang tinatapon sa ilang lugar. Ito ang
         magandang panahon upang sila ay hanapin at kolektahin. Sa labas ng mga buwan na
-        ito tipikal na mas mahirap na ang mga itong makita.</p>
+        ito, tipikal na mas mahirap na ang mga itong makita.</p>
 
       <p>Ang mga kahong <i lang="en">styrofoam</i> na ito ay maaring isaayos para magkasya
         sa kwadradong may sukat na 1m ✕ 1.2m. Ito ang batayang sukat ng <i lang="en">
@@ -58,7 +58,7 @@ function Styrobox({match}) {
         boxes of these sizes are used to transport imported grapes from the United States
         and come from two manufacturers: Styrotek LLC and Aptco. LLC. They also come
         in different designs which means that one has to remember that although their
-        sizes are similar their upper and lower halves are does not fit upper and lower
+        sizes are similar their upper and lower halves does not fit with the upper and lower
         halves of other designs.</p>
 
       <p>There is also a seasonal influx of styrofoam boxes for imported grapes. They are

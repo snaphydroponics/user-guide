@@ -33,7 +33,7 @@ function StyrofoamPuncher({match}) {
 <i lang="en">grow box</i> upang paglamnan ng <i lang="en">nutrient solution</i>{' '}
 at ilagay sa lugar ang mga <i lang="en">seedling plugs</i>. Isa sa mga hakbang
 sa paggawa ng mga <i lang="en">grow box</i> ay ang paglalagay ng butas sa itaas
-na parte ng <i lang="en">styrobox</i> kung saan isusoksok ang mga <i lang="en">
+na parte ng <i lang="en">styrobox</i> kung saan isusuksok ang mga <i lang="en">
 seedling plugs</i>. Isa sa mga paraan upang gawin ito ay gamit ang sariling
 gawang gamit na yari sa bakanteng lata.</p>
 
@@ -42,7 +42,7 @@ gawang gamit na yari sa bakanteng lata.</p>
 <h3 id="bakanteng-lata">Bakanteng Lata</h3>
 
 <p>Lata na may tatlong pulgadang <i lang="en">diameter</i>. Ang mga ito ay pangkaraniwan
-dahil sala ay ginagawa alinsunod sa mga pamantayang laki. Upang matiyak kung ang
+dahil sila ay ginagawa alinsunod sa mga pamantayang laki. Upang matiyak kung ang
 butas na magagawa ng lata ay mapagkakasya ang <i lang="en">styro cup</i>, isuksok
 sila sa lata mismo gaya ng makikita sa baba.</p>
 
@@ -53,7 +53,7 @@ sila sa lata mismo gaya ng makikita sa baba.</p>
   
 </figure>
 
-<p>Ang paggamit ng lata na may <i lang="en">ribbing</i> ay nirerecomenda. Ang{' '}
+<p>Ang paggamit ng lata na may <i lang="en">ribbing</i> ay nirerekomenda. Ang{' '}
 <i lang="en">ribbing</i> ay nagpapatibay sa lata at binibigyang lakas itong
 mapanatili ang bilog nitong hugis kahit na ang labi nito ay putulin upang palalasin
 ang dulo ng pambutas.</p>
@@ -64,7 +64,7 @@ ang dulo ng pambutas.</p>
 hawakan para sa gamit. Para sa kawayang patpat, nirerekomenda na gumawa ng 
 pares nito sa pamamagitan ng paghati ng isang pirasong may kalahating pulgadang
 kapal upang gumawa ng isang pares na isang kapat na pulgada ang kapal. Gawin
-ito sa pamamagitan ng paghati sa patpat na nakayon sa himaymay. Dapat ito ay
+ito sa pamamagitan ng paghati sa patpat na nakaayon sa himaymay. Dapat ito ay
 may sapat na haba upang tumahak sa <i lang="en">diameter</i> ng lata at may
 tatlong pulgadang nakalampas sa tigkabilang tabi ng lata. Siguraduhing makinis
 ang mga gilid at mga putol na dulo ng mga patpat na kawayan upang alisin ang 
@@ -124,7 +124,7 @@ kumpletong buksan ang isang dulo ng lata ay kailangan din.</p>
 <p>Magsimula sa pamamagitan ng pagbukas ng isang dulo ng lata gamit ang pambukas ng
 lata.</p>
 
-<p>Gamit nag kutsilyo o itak, gumawa ng hugis “T” na hiwa sa isang tabi ng lata
+<p>Gamit ang kutsilyo o itak, gumawa ng hugis “T” na hiwa sa isang tabi ng lata
 malapit sa saradong dulo ng lata. Ang hugis “T” na ito ay maggagarantiya na ang
 butas ay mananatiling nakagitna kahit na ito ay palakihin gamit ang maliit na
 patpat na may matulis na dulo.</p>
@@ -136,7 +136,7 @@ patpat na may matulis na dulo.</p>
   
 </figure>
 
-<p>Sa pamamagitan ng gamit na yari sa kawayan, pakalihin ang hugis “T”  na hiwa upang
+<p>Sa pamamagitan ng gamit na yari sa kawayan, palakihin ang hugis “T”  na hiwa upang
 makagawa ng mas malaking butas. Maaring gumamit ng kahit anong kasangkapan na may
 tamang laki upang pukpukin ang gamit patagos sa lata.</p>
 
@@ -172,11 +172,11 @@ ang tali o lastiko.</p>
 
 <p>Pinakahuli, kung nanaisin, ang talim ng kasangkapang ito ay maaring mapatalas sa
 pamamagitan ng pagupit ng labi ng lata sa bukas na dulo nito. Bagamat ang hakbang
-na ito ay maaring gawin bago ang ibang mga hakbang, nimumunkahi na kahulihan
+na ito ay maaring gawin bago ang ibang mga hakbang, nimumungkahi na kahulihan
 itong gawin dahil ang ginupit na gilid ay talagang matalim. Sapat ang talas nito
 upang makahiwa ng balat. Ang ibang mga hakbang na gagawin sa lata ay magkakaroon
-ng panganib na mabigyan ang isang tao ang hiwa kung ang mga ito ay gagawin na
-naalis na labi ng lata at mayroon nag matalas na gilid.</p>
+ng panganib na mabigyan ang isang tao ng hiwa kung ang mga ito ay gagawin na
+naalis na labi ng lata at mayroon nang matalas na gilid.</p>
       </div>
     );
   } else {
@@ -219,7 +219,7 @@ the styro cup, fit them to the can itself as demonstrated in the picture below.<
 
 <p>The use of tin cans with ribbing along the side is recommended. The ribbing
 adds lateral stiffness of the can and allows it to hold its circular structure
-even when the lip of the cut has been cut off to sharpen the cutting edge.</p>
+even when the lip of the can has been cut off to sharpen the cutting edge.</p>
 
 <h3 id="bamboo-sticks">Bamboo Sticks</h3>
 

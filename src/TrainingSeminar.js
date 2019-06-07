@@ -14,7 +14,7 @@ function TrainingSeminar({match})
 
       <p>Ang Institute of Plant Breeding (<abbr title="Institute of Plant Breeding">IPB</abbr>) ay may maiksing kursong pagsasanay na may
         pamagat na <i lang="en">“Training on Hydroponics Vegetable Production with Emphasis on <abbr title="Simple Nutrient Addition Program">SNAP</abbr> Hydroponics.”</i>{' '}
-        Ang mga kalahok na nakatapos ng making kursong pagsasanay na ito
+        Ang mga kalahok na nakatapos ng maikling kursong pagsasanay na ito
         ay ginagawaran ng sertipiko ng pagkumpleto.</p>
 
       <h2 id="deskripsyon">Deskripsyon</h2>
@@ -43,7 +43,7 @@ function TrainingSeminar({match})
 
     <h2 id="pagpapalista">Pagpapalista</h2>
 
-    <p>Upang magpalista piliin ang “Hydroponics Vegetable Production with Emphasis on
+    <p>Upang magpalista, piliin ang “Hydroponics Vegetable Production with Emphasis on{' '}
       <abbr title="Simple Nutrient Addition Program">SNAP</abbr> Hydroponics” sa <i lang="en">online registration form</i>.</p>
 
     <p><a className="btn btn-primary btn-block" href="https://docs.google.com/forms/d/e/1FAIpQLSdHg6eiugsj3zhh2XYykY_NywBSVKCY5McfVb6__IXqHxncGQ/viewform">

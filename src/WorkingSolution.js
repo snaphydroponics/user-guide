@@ -30,7 +30,7 @@ ang mga hakbang kung paano ito gawin.</p>
 <h2 id="maghanda-ng-malinis-na-tubig">Maghanda ng Malinis na Tubig</h2>
 
 <p>Magsimula sa sampung litro (10L) ng malinis na tubig. Ang mga tubig sa mga 
-regular na pinagkukunan gaya ng tubig sa gripo balon ay maaring gamitin. Ang
+regular na pinagkukunan gaya ng tubig sa gripo o balon ay maaring gamitin. Ang
 paggamit ng purong tubig ulan o purong <i lang="en">distilled water (reverse osmosis)</i>{' '}
 ay hindi nirerekomenda dahil ang purong tubig ulan at ang purong <i lang="en">
 distilled water</i> ay may <i lang="en">neutral pH</i> at ang pagtimpla ng 
@@ -76,7 +76,7 @@ ng bisa ang resultang <i lang="en">solution</i>.</p>
 </figure>
 
 <p>The mixture of water and SNAP Hydroponics Nutrient Solution for Hydroponics A
-at SNAP Hydroponics Nutrient Solution for Hydroponics B is called the working
+and SNAP Hydroponics Nutrient Solution for Hydroponics B is called the working
 solution. Below are the steps on how to to prepare it.</p>
 
 <h2 id="prepare-clean-water">Prepare Clean Water</h2>
@@ -96,7 +96,7 @@ the pH.</strong></p>
 <p>Add 25mL of SNAP A and <strong>mix well</strong>. Add 25mL of SNAP B <strong>mix well</strong>.
 The order by which SNAP A and SNAP B is added does not matter. However, it is
 important to mix the solution well before adding the next SNAP solution. <strong>Do not</strong>{' '}
-not to mix SNAP A and SNAP B together before adding them to water. Mixing SNAP A
+mix SNAP A and SNAP B together before adding them to water. Mixing SNAP A
 and SNAP B will cause them to react with each other which will render the solution
 ineffective.</p>
 

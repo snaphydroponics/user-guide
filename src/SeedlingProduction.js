@@ -1,6 +1,6 @@
 import React from 'react';
 import lettuceSeedlings from './images/lettuce-seedlings.jpg';
-import seedFloatationTest from './images/seed-flotation-test.jpg';
+import seedFlotationTest from './images/seed-flotation-test.jpg';
 import mustasaSeedlings from './images/mustasa-seedlings.jpg';
 import seedPacketLabel from './images/seed-packet-label.jpg';
 import diseases from './images/seed-borne-diseases.jpg';
@@ -27,7 +27,7 @@ function SeedlingProduction({match}) {
   
 </figure>
 
-<p>Isa sa mga pinaka-importanteng kadahilan na nagdedetermina ng masaganang ani sa
+<p>Isa sa mga pinaka-importanteng dahilan na nagdedetermina ng masaganang ani sa
 ilalim ng angkop na kondisyon ay ang mga buto at ang mga binhing pinalaki mula
 sa mga ito.</p>
 
@@ -41,25 +41,25 @@ mga buto ay nakalista sa baba:</p>
 
 <p>Ang mga mainam na buto ay sumisibol ng maayos. Ang mga buto sa mga maasahang
 mapagkukunan ay malimit sinusulat ang sukatan na ito bilang <i lang="en">germination
-rate percentage</i>. Mas mataas ang ponsyento, mas maraming buto ang sisibol.
+rate percentage</i>. Mas mataas ang porsyento, mas maraming buto ang sisibol.
 Halimbawa, ang pakete na naglalaman ng isang libong (1,000) buto, at ang nakasulat
 na <i lang="en">germination rate</i> ay 90%, umasa na 900 na buto mula sa pakete
 ang uusbong.</p>
 
-<p>Bukod pa sa ponsiyentong nakasulat sa pakete ng mga buto, ang <i lang="en">germination
+<p>Bukod pa sa porsiyentong nakasulat sa pakete ng mga buto, ang <i lang="en">germination
 rates</i> ay maari ring madetermina sa pamamagitan ng <i lang="en">germination test</i>{' '}
-at ng <i lang="en">floatation test</i>.</p>
+at ng <i lang="en">flotation test</i>.</p>
 
 <p>Ginagawa ang <i lang="en">germination test</i> sa pamamagitan ng pagpapasibol ng
 bilang na <i lang="en">sample</i> mula sa koleksiyon ng mga buto at pagdetermina
-ng posiyento ng buto na aktuwal na sumibol.</p>
+ng porsiyento ng buto na aktuwal na sumibol.</p>
 
 <p>Malimit, ang mga butong sumisibol ay lumulubog sa tubig. Ang pagpapalitaw ay 
 nagsisilbing paraan upang paghiwalayin ang mga butong sisibol at mga butong
 mababa ang kalidad.</p>
 
 <figure className="figure">
-  <LazyLoadImage src={seedFloatationTest} width="1280" height="960" className="figure-img img-fluid" alt="Lagagyan ng tubig na may mga buto. May ilan na lumulutang sa tubig. May ilan din na lumulobog." />
+  <LazyLoadImage src={seedFlotationTest} width="1280" height="960" className="figure-img img-fluid" alt="Lagagyan ng tubig na may mga buto. May ilan na lumulutang sa tubig. May ilan din na lumulubog." />
   
   <figcaption className="figure-caption">Pagpapalitaw. Ang mga butong sisibol ang lumulobog at ang mga butong patay ay lumulutang.</figcaption>
   
@@ -87,10 +87,10 @@ bubot, basag, bansot, tuyo, may sakit at pinamumugarang mga buto.</p>
 
 <p>Ang mainam na mga buto ay galing sa mga halaman na pinalahi upang mapreserba
 ang mga kanais-nais na katangian para sa isang partikular na pananim. Ang mga
-buto na may mataas na <i lang="en">genetic purity</i> maasahang laging ipapakita
+buto na may mataas na <i lang="en">genetic purity</i> ay maasahang laging ipapakita
 ang mga katangiang ito.</p>
 
-<h3 id="tamang-moisture-content-para-sa-pag-iimbak">Tamang <i lang="en">Moisture Content</i> para sa Pag-Iimbak</h3>
+<h3 id="tamang-moisture-content-para-sa-pag-imbak">Tamang <i lang="en">Moisture Content</i> para sa Pag-imbak</h3>
 
 <p>Ang mainam na mga buto ay hindi masyadong basa na maari silang tubuan ng mga{' '}
 <i lang="en">pathogens</i> at hindi sila masyadong tuyo na ang mga buto ay
@@ -143,8 +143,8 @@ ay angkop dito.</p>
 dalawa hanggang tatlong sentimetro ang kapal (2-3 cm). Dasikin at pantayin ang{' '}
 <i lang="en">growing medium</i></li>
 
-<li>Ibodbod ang mga maliit na buto ng manipis at pantay-pantay. Kung gaano karami
-ay nakadepende kung ilan ang kakailanganin. Isaalang-alang na maglaan ng karagdagang
+<li>Ibudbod ang mga maliit na buto ng manipis at pantay-pantay. Kung gaano karami
+ay nakadepende kung ilan ang kakailanganin. Maglaan ng karagdagang
 mga buto na mga labinglimang porsyento (15%) ng dami ng kakailanganin upang masagot
 ang <i lang="en">germination rate</i> at iba pang mga sanhi na maaring ikabawas
 ng mga binhi.</li>
@@ -160,7 +160,7 @@ pag-usbong ng mga buto sa loob ng tatlo hanggang limang araw.</li>
 <figure className="figure">
   <LazyLoadImage src={lettuce} width="1280" height="853" className="figure-img img-fluid" alt="Lalagyan na may lumaking binhi at isapang lalagyan na may kakapunla lang na buto ng letsugas." />
   
-  <figcaption className="figure-caption">Kaliwa: Mga binhi na handa ng ipunla; kanan: Mga butong kakapunla lamang.</figcaption>
+  <figcaption className="figure-caption">Kaliwa: Mga binhi na handa nang ipunla; kanan: Mga butong kapupunla lamang.</figcaption>
   
 </figure>
 </li>
@@ -211,7 +211,7 @@ Properties of good seeds are listed below:</p>
 <h3 id="high-viability">High Viability</h3>
 
 <p>Good seeds germinate well. Seeds from reliable sources often list this metric
-as the germination rate percentage. The higher the percentage the more of the
+as the germination rate percentage. The higher the percentage, the more of the
 seeds will germinate. For example, in a packet containing 1,000 seeds that list
 the germination rate as 90%, we can expect to germinate 900 seeds from the packet.</p>
 
@@ -225,7 +225,7 @@ from a lot of seed and determining the percentage of seeds that actually germina
 viable seeds from seeds of poor quality.</p>
 
 <figure className="figure">
-  <LazyLoadImage src={seedFloatationTest} width="1280" height="960" className="figure-img img-fluid" alt="A tub of water with seeds in it. Some are seeds float. Some seeds sink." />
+  <LazyLoadImage src={seedFlotationTest} width="1280" height="960" className="figure-img img-fluid" alt="A tub of water with seeds in it. Some are seeds float. Some seeds sink." />
   
   <figcaption className="figure-caption">Seed flotation test. Viable seeds sink and bad seeds float.</figcaption>
   

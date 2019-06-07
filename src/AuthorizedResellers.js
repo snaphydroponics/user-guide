@@ -13,7 +13,7 @@ function AuthorizedResellers({match}) {
           </p>
         </header>
 
-        <p>Ang SNAP Nutrient Solution for Hydroponics ay dini-<i lang="en">distribute</i>
+        <p>Ang SNAP Nutrient Solution for Hydroponics ay dini-<i lang="en">distribute</i>{' '}
           ng mga <i lang="en">SNAP Hydroponics Authorized Resellers</i>. Ang mga {' '}
           <i lang="en">authorized resellers</i> ay nakilahok at nakumpleto ang {' '}
           <Link to="/training-seminar"><i lang="en">short training course on SNAP Hydroponics</i></Link>.
@@ -47,7 +47,7 @@ function AuthorizedResellers({match}) {
           They are authorized to acquire SNAP Hydroponics nutrient solutions from <abbr title="Institute of Plant Breeding, University of the Philippines Los Baños">IPB-UPLB</abbr>{' '}
           for resell purposes. They are trained in the theoretical and practical aspects
           of hydroponics with emphasis on setting-up and running a SNAP Hydroponics system;
-          identification of different nutrient deficiency and toxicity symptoms;
+          identification of different nutrient deficiency and toxicity symptoms; and
           basic concepts in plant nutrition relevant to hydroponics vegetable production.</p>
 
         <p>SNAP Nutrient Solution for Hydroponics is developed, manufactured and sold at <abbr title="Institute of Plant Breeding, University of the Philippines Los Baños">IPB-UPLB</abbr>.</p>

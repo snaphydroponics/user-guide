@@ -27,14 +27,14 @@ function Replenishment({match}) {
 
       <p>Sa inisyal na <i lang="en">set up</i>, ang ibabang mahagi ng <i lang="en">
           seedling plugs</i> ay nakatubog sa <i lang="en">working solution</i> sa lalim
-        isa hanggang dalawang sentimentro (1-2cm). The <i lang="en">working solution</i>{' '}
+        isa hanggang dalawang sentimentro (1-2cm). Ang <i lang="en">working solution</i>{' '}
         ay tatagos sa mga hiwa at papasok sa baso at babasain ng lubos ang <i lang="en">
           growing medium</i>. Dahil dito, ang mga binhi ay lalaki ng nakababad sa tubig.</p>
 
       <figure className="figure">
         <LazyLoadImage src={replenish1} width="1280" height="720" className="figure-img img-fluid" alt="Ilustrasyon: ang mga ibabang bahagi ng seedling plugs ay nakatubog sa working solution. Wala pang ugat na nalabas." />
 
-        <figcaption className="figure-caption">Sa simula, ang ibabang bahagi ng seeling plugs ay nakatubog sa working solution na may lalim na 1-2cm.</figcaption>
+        <figcaption className="figure-caption">Sa simula, ang ibabang bahagi ng seedling plugs ay nakatubog sa working solution na may lalim na 1-2cm.</figcaption>
 
       </figure>
 
@@ -73,7 +73,7 @@ function Replenishment({match}) {
       <figure className="figure">
         <LazyLoadImage src={replenish4} width="1280" height="720" className="figure-img img-fluid" alt="Ilustrasyon: mas marami pang ugat ang tubugo papalabas ng seeling plug at ang lebel ng working solution ay napakababa na ngayon." />
 
-        <figcaption className="figure-caption">Ang lebel nag working solution ay mababa na at kailangan nang dagdagan.</figcaption>
+        <figcaption className="figure-caption">Ang lebel ng working solution ay mababa na at kailangan nang dagdagan.</figcaption>
 
       </figure>
 
@@ -177,7 +177,7 @@ function Replenishment({match}) {
 
       </figure>
 
-      <p>To replenish the working solution add fresh working solution or plain water
+      <p>To replenish the working solution, add fresh working solution or plain water
         (details below) to increase the working solution level so that it is just below
         the bottoms of the seedling plugs. <strong>DO NOT</strong> return the working solution level to
         its initial level because this will very likely submerge a majority of the 
@@ -192,7 +192,7 @@ function Replenishment({match}) {
 
       <p>Leafy vegetables generally reaches marketable size by around three to four weeks
         after transplant and normally doesn’t require replenishment. In cases that they
-        must be kept beyond a month or if the working solution level has gone down faster
+        must be kept beyond a month, or if the working solution level has gone down faster
         than normal (specially in the summer months) and the working solution level must
         be replenished, they should be replenished with plain water. This is because the
         working solution still has enough nutrients to fuel the plant’s growth.</p>
