@@ -1,6 +1,6 @@
 import React from 'react';
-import workSol from './images/working-solution.jpg';
-import measuringCup from './images/measuring-cup.jpg';
+import workSol from './images/working-solution.webp';
+import measuringCup from './images/measuring-cup.webp';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function WorkingSolution({match}) {

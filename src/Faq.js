@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import snapAandB from './images/snap-a-and-b.jpg';
+import snapAandB from './images/snap-a-and-b.webp';
 import IPBAddress from './IPBAddress';
 
 function Faq({match}) {

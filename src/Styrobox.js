@@ -1,6 +1,6 @@
 import React from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-import styroboxArragement from './images/styrobox-arrangement.jpg';
+import styroboxArragement from './images/styrobox-arrangement.webp';
 
 function Styrobox({match}) {
   const lang = match.params.lang || 'fil';

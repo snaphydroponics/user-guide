@@ -1,22 +1,22 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-import growBox from './images/grow-box.jpg';
-import plasticBag from './images/pe-plastic-bag-20-by-30.jpg';
-import styrofoamPunchers from './images/styrofoam-punchers.jpg';
-import packingTape from './images/packing-tape.jpg';
-import guideLines from './images/guide-lines.jpg';
-import upperGrowBox from './images/upper-grow-box-with-holes.jpg';
-import upperGrowBoxSealed from './images/upper-grow-box-sealed-with-packing-tape.jpg';
-import linerOverGrowBox from './images/plastic-liner-over-lower-grow-box.jpg';
-import linerEndsFolded from './images/plastic-liner-with-ends-folded.jpg';
-import linerSidesFolded from './images/plastic-liner-with-sides-folded.jpg';
-import linerSidesTaped from './images/plastic-liner-with-sides-taped.jpg';
-import linerCornerTaped from './images/plastic-liner-with-corner-taped.jpg';
-import linerAllCornersTaped from './images/plastic-liner-with-all-corners-taped.jpg';
-import linerEndPositioned from './images/plastic-liner-end-positioned.jpg';
-import linedGrowBox from './images/lined-grow-box-lower-half.jpg';
-import lockingTabs from './images/locking-tabs.jpg';
+import growBox from './images/grow-box.webp';
+import plasticBag from './images/pe-plastic-bag-20-by-30.webp';
+import styrofoamPunchers from './images/styrofoam-punchers.webp';
+import packingTape from './images/packing-tape.webp';
+import guideLines from './images/guide-lines.webp';
+import upperGrowBox from './images/upper-grow-box-with-holes.webp';
+import upperGrowBoxSealed from './images/upper-grow-box-sealed-with-packing-tape.webp';
+import linerOverGrowBox from './images/plastic-liner-over-lower-grow-box.webp';
+import linerEndsFolded from './images/plastic-liner-with-ends-folded.webp';
+import linerSidesFolded from './images/plastic-liner-with-sides-folded.webp';
+import linerSidesTaped from './images/plastic-liner-with-sides-taped.webp';
+import linerCornerTaped from './images/plastic-liner-with-corner-taped.webp';
+import linerAllCornersTaped from './images/plastic-liner-with-all-corners-taped.webp';
+import linerEndPositioned from './images/plastic-liner-end-positioned.webp';
+import linedGrowBox from './images/lined-grow-box-lower-half.webp';
+import lockingTabs from './images/locking-tabs.webp';
 
 function GrowBox({match}) {
   const lang = match.params.lang || 'fil';

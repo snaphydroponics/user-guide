@@ -5,7 +5,7 @@ function Footer(props) {
     return (
       <footer className="footer mt-auto py-3">
         <div className="container">
-          <p className="text-muted">
+          <p>
             <Switch>
               <Route path="/en">
                 <strong>SNAP Hydroponics Users Guide</strong> by <a href="https://snaphydroponics.info">snaphydroponics.info</a>. The source code is licensed <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
