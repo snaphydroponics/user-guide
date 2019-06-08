@@ -6,7 +6,8 @@ class EnSelector extends React.Component {
 
   render() {
     const pathname = this.props.location.pathname;
-    const label = pathname.match(/^\/en/) ? 'English' : 'Ingles';
+    //const label = pathname.match(/^\/en/) ? 'English' : 'Ingles';
+    const label = 'English';
     const url = (label === 'English') ? pathname : ('/en' + pathname);
 
     return (
