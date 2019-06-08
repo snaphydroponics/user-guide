@@ -1,9 +1,9 @@
 import React from 'react';
-import replenish1 from './images/replenishment-1.webp';
-import replenish2 from './images/replenishment-2.webp';
-import replenish3 from './images/replenishment-3.webp';
-import replenish4 from './images/replenishment-4.webp';
-import replenish5 from './images/replenishment-5.webp';
+import replenish1 from './images/replenishment-1.png';
+import replenish2 from './images/replenishment-2.png';
+import replenish3 from './images/replenishment-3.png';
+import replenish4 from './images/replenishment-4.png';
+import replenish5 from './images/replenishment-5.png';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function Replenishment({match}) {

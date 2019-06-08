@@ -1,21 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-import snapAandB from './images/snap-a-and-b.webp';
-import suitableSNAPLocation from './images/suitable-snap-location.webp';
-import sowingTray from './images/sowing-tray.webp';
-import cocoPeat from './images/coco-peat.webp';
-import seedPacketLabel from './images/seed-packet-label.webp';
-import germinatedSeeds from './images/germinated-seeds.webp';
-import pePlasticBag from './images/pe-plastic-bag-20-by-30.webp';
-import guideLines from './images/guide-lines.webp';
-import growboxTopBottomView from './images/grow-box-top-bottom-view.webp';
-import linedGrowBoxLowerHalf from './images/lined-grow-box-lower-half.webp';
-import styroCup from './images/styro-cup.webp';
-import seedlingPlugBottom from './images/seedling-plug-bottom.webp';
-import hardeningOff from './images/hardening-off.webp';
-import addingWater from './images/adding-water.webp';
-import workingSolution from './images/working-solution.webp';
+import snapAandB from './images/snap-a-and-b.jpg';
+import suitableSNAPLocation from './images/suitable-snap-location.jpg';
+import sowingTray from './images/sowing-tray.jpg';
+import cocoPeat from './images/coco-peat.jpg';
+import seedPacketLabel from './images/seed-packet-label.jpg';
+import germinatedSeeds from './images/germinated-seeds.jpg';
+import pePlasticBag from './images/pe-plastic-bag-20-by-30.jpg';
+import guideLines from './images/guide-lines.jpg';
+import growboxTopBottomView from './images/grow-box-top-bottom-view.jpg';
+import linedGrowBoxLowerHalf from './images/lined-grow-box-lower-half.jpg';
+import styroCup from './images/styro-cup.jpg';
+import seedlingPlugBottom from './images/seedling-plug-bottom.jpg';
+import hardeningOff from './images/hardening-off.jpg';
+import addingWater from './images/adding-water.jpg';
+import workingSolution from './images/working-solution.jpg';
 
 function Manual({match}) {
   const lang = match.params.lang || 'fil';

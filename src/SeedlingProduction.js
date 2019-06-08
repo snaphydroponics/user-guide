@@ -1,11 +1,11 @@
 import React from 'react';
-import lettuceSeedlings from './images/lettuce-seedlings.webp';
-import seedFlotationTest from './images/seed-flotation-test.webp';
-import mustasaSeedlings from './images/mustasa-seedlings.webp';
-import seedPacketLabel from './images/seed-packet-label.webp';
-import diseases from './images/seed-borne-diseases.webp';
-import sowingTray from './images/sowing-tray.webp';
-import lettuce from './images/lettuce-seedlings-and-seeds.webp';
+import lettuceSeedlings from './images/lettuce-seedlings.jpg';
+import seedFlotationTest from './images/seed-flotation-test.jpg';
+import mustasaSeedlings from './images/mustasa-seedlings.jpg';
+import seedPacketLabel from './images/seed-packet-label.jpg';
+import diseases from './images/seed-borne-diseases.jpg';
+import sowingTray from './images/sowing-tray.jpg';
+import lettuce from './images/lettuce-seedlings-and-seeds.jpg';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function SeedlingProduction({match}) {

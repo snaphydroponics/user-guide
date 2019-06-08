@@ -1,13 +1,13 @@
 import React from 'react';
-import styrofoamPunchers from './images/styrofoam-punchers.webp';
-import tinCan from './images/tin-can-styro-cup-fit.webp';
-import bambooSticks from './images/bamboo-stick-pair.webp';
-import tinSnips from './images/tin-snips.webp';
-import pointedBamboo from './images/bamboo-stick-with-pointed-end.webp';
-import tCut from './images/t-shaped-cut.webp';
-import enlargedHole from './images/enlarged-hole.webp';
-import bambooToolCentered from './images/bamboo-tool-centered.webp';
-import puncherInterior from './images/styrofoam-puncher-interior-view.webp';
+import styrofoamPunchers from './images/styrofoam-punchers.jpg';
+import tinCan from './images/tin-can-styro-cup-fit.jpg';
+import bambooSticks from './images/bamboo-stick-pair.jpg';
+import tinSnips from './images/tin-snips.jpg';
+import pointedBamboo from './images/bamboo-stick-with-pointed-end.jpg';
+import tCut from './images/t-shaped-cut.jpg';
+import enlargedHole from './images/enlarged-hole.jpg';
+import bambooToolCentered from './images/bamboo-tool-centered.jpg';
+import puncherInterior from './images/styrofoam-puncher-interior-view.jpg';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function StyrofoamPuncher({match}) {

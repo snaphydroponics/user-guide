@@ -1,6 +1,6 @@
 import React from 'react';
-import cocoPeat from './images/coco-peat.webp';
-import cocoCoirDust from './images/coco-coir-dust.webp';
+import cocoPeat from './images/coco-peat.jpg';
+import cocoCoirDust from './images/coco-coir-dust.jpg';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function CocoPeat({match}) {
