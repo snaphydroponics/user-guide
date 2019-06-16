@@ -6,8 +6,8 @@ function IPBAddress() {
       <div className="card-body">
         <address>
           Plant Physiology Laboratory-<abbr title="Institute of Plant Breeding">IPB</abbr><br />
-          Telephone: (049) 576-3189<br />
-          Email: pasantos3@up.edu.ph<br/ >
+          Contact Person: Ms. Janice Apolinario<br />
+          Phone: 0917-513-1427<br />
           </address>
         </div>
       </div>
