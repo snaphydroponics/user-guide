@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://app.snaphydroponics.info"
+  to = "https://manual.snaphydroponics.info"
+  status = 301
+  force = true
